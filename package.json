@@ -32,10 +32,11 @@
   },
   "homepage": "https://github.com/Bjerkio/tripletexjs#readme",
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "request": "^2.81.0",
     "@types/bluebird": "*",
-    "@types/request": "*"
+    "@types/request": "*",
+    "bluebird": "^3.5.0",
+    "camelcase": "^5.3.1",
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "@types/node": "^12.7.1",
