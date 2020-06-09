@@ -10,3 +10,4 @@ tsconfig.json
 .swagger-codegen/
 .npmrc
 .idea
+out
