@@ -11,6 +11,656 @@
   },
   "host": "tripletex.no",
   "basePath": "/v2",
+  "tags": [
+    {
+      "name": "event"
+    },
+    {
+      "name": "timesheetsettings"
+    },
+    {
+      "name": "timesheet/settings"
+    },
+    {
+      "name": "projecthourlyRatesprojectSpecificRates"
+    },
+    {
+      "name": "project/hourlyRates/projectSpecificRates"
+    },
+    {
+      "name": "projecthourlyRates"
+    },
+    {
+      "name": "project/hourlyRates"
+    },
+    {
+      "name": "timesheetsalaryTypeSpecification"
+    },
+    {
+      "name": "timesheet/salaryTypeSpecification"
+    },
+    {
+      "name": "ledgeraccount"
+    },
+    {
+      "name": "ledger/account"
+    },
+    {
+      "name": "travelExpenserateCategoryGroup"
+    },
+    {
+      "name": "travelExpense/rateCategoryGroup"
+    },
+    {
+      "name": "projecttask"
+    },
+    {
+      "name": "project/task"
+    },
+    {
+      "name": "ledgervoucherType"
+    },
+    {
+      "name": "ledger/voucherType"
+    },
+    {
+      "name": "order"
+    },
+    {
+      "name": "salarytype"
+    },
+    {
+      "name": "salary/type"
+    },
+    {
+      "name": "projectcategory"
+    },
+    {
+      "name": "project/category"
+    },
+    {
+      "name": "deliveryAddress"
+    },
+    {
+      "name": "travelExpenseaccommodationAllowance"
+    },
+    {
+      "name": "travelExpense/accommodationAllowance"
+    },
+    {
+      "name": "salarysettings"
+    },
+    {
+      "name": "salary/settings"
+    },
+    {
+      "name": "bankreconciliationpaymentType"
+    },
+    {
+      "name": "bank/reconciliation/paymentType"
+    },
+    {
+      "name": "companysettingsaltinn"
+    },
+    {
+      "name": "company/altinn"
+    },
+    {
+      "name": "orderoffer"
+    },
+    {
+      "name": "tripletexAccountsalesForceUser"
+    },
+    {
+      "name": "project"
+    },
+    {
+      "name": "salarypayslip"
+    },
+    {
+      "name": "salary/payslip"
+    },
+    {
+      "name": "projectcontrolForm"
+    },
+    {
+      "name": "project/controlForm"
+    },
+    {
+      "name": "timesheetweek"
+    },
+    {
+      "name": "timesheet/week"
+    },
+    {
+      "name": "bankstatementtransaction"
+    },
+    {
+      "name": "bank/statement/transaction"
+    },
+    {
+      "name": "employee"
+    },
+    {
+      "name": "project{id}period"
+    },
+    {
+      "name": "project/period"
+    },
+    {
+      "name": "openid"
+    },
+    {
+      "name": "productexternal"
+    },
+    {
+      "name": "product/external"
+    },
+    {
+      "name": "employeeemploymentdetails"
+    },
+    {
+      "name": "employee/employment/details"
+    },
+    {
+      "name": "employeeemploymentremunerationType"
+    },
+    {
+      "name": "employee/employment/remunerationType"
+    },
+    {
+      "name": "timesheetmonth"
+    },
+    {
+      "name": "timesheet/month"
+    },
+    {
+      "name": "travelExpense"
+    },
+    {
+      "name": "bankpayment"
+    },
+    {
+      "name": "ledgeraccountingPeriod"
+    },
+    {
+      "name": "ledger/accountingPeriod"
+    },
+    {
+      "name": "inventoryinventories"
+    },
+    {
+      "name": "inventory/inventories"
+    },
+    {
+      "name": "tokensession"
+    },
+    {
+      "name": "token/session"
+    },
+    {
+      "name": "eventsubscription"
+    },
+    {
+      "name": "event/subscription"
+    },
+    {
+      "name": "tripletexAccount"
+    },
+    {
+      "name": "ledgerannualAccount"
+    },
+    {
+      "name": "ledger/annualAccount"
+    },
+    {
+      "name": "mobileapp"
+    },
+    {
+      "name": "integrationmaventastatus"
+    },
+    {
+      "name": "purchaseOrdergoodsReceipt"
+    },
+    {
+      "name": "purchaseOrder/goodsReceipt"
+    },
+    {
+      "name": "company"
+    },
+    {
+      "name": "tripletexAccountsalesForceOpportunity"
+    },
+    {
+      "name": "tripletexAccountsalesForceEmployeeRole"
+    },
+    {
+      "name": "currency"
+    },
+    {
+      "name": "purchaseOrderdeviation"
+    },
+    {
+      "name": "purchaseOrder/deviation"
+    },
+    {
+      "name": "country"
+    },
+    {
+      "name": "inventory"
+    },
+    {
+      "name": "invoicepaymentType"
+    },
+    {
+      "name": "invoice/paymentType"
+    },
+    {
+      "name": "optionspage"
+    },
+    {
+      "name": "productgroupRelation"
+    },
+    {
+      "name": "product/groupRelation"
+    },
+    {
+      "name": "projectparticipant"
+    },
+    {
+      "name": "project/participant"
+    },
+    {
+      "name": "department"
+    },
+    {
+      "name": "employeehourlyCostAndRate"
+    },
+    {
+      "name": "employee/hourlyCostAndRate"
+    },
+    {
+      "name": "travelExpensecost"
+    },
+    {
+      "name": "travelExpense/cost"
+    },
+    {
+      "name": "ledgervoucher"
+    },
+    {
+      "name": "ledger/voucher"
+    },
+    {
+      "name": "activity"
+    },
+    {
+      "name": "ledgervatType"
+    },
+    {
+      "name": "ledger/vatType"
+    },
+    {
+      "name": "purchaseOrderorderline"
+    },
+    {
+      "name": "purchaseOrder/orderline"
+    },
+    {
+      "name": "orderorderline"
+    },
+    {
+      "name": "order/orderline"
+    },
+    {
+      "name": "bank"
+    },
+    {
+      "name": "travelExpensesettings"
+    },
+    {
+      "name": "travelExpense/settings"
+    },
+    {
+      "name": "customercategory"
+    },
+    {
+      "name": "customer/category"
+    },
+    {
+      "name": "salaryspecification"
+    },
+    {
+      "name": "tokenconsumer"
+    },
+    {
+      "name": "token/consumer"
+    },
+    {
+      "name": "crmprospect"
+    },
+    {
+      "name": "crm/prospect"
+    },
+    {
+      "name": "eventbanner"
+    },
+    {
+      "name": "address"
+    },
+    {
+      "name": "internalscheduling"
+    },
+    {
+      "name": "ledgerpaymentTypeOut"
+    },
+    {
+      "name": "ledger/paymentTypeOut"
+    },
+    {
+      "name": "tokenlogin"
+    },
+    {
+      "name": "employeenextOfKin"
+    },
+    {
+      "name": "employee/nextOfKin"
+    },
+    {
+      "name": "inventorystocktaking"
+    },
+    {
+      "name": "inventory/stocktaking"
+    },
+    {
+      "name": "companybrreg"
+    },
+    {
+      "name": "integrationvntcstatus"
+    },
+    {
+      "name": "projectorderline"
+    },
+    {
+      "name": "project/orderline"
+    },
+    {
+      "name": "municipality"
+    },
+    {
+      "name": "supplier"
+    },
+    {
+      "name": "employeeemployment"
+    },
+    {
+      "name": "employee/employment"
+    },
+    {
+      "name": "dashboard"
+    },
+    {
+      "name": "travelExpensecostCategory"
+    },
+    {
+      "name": "travelExpense/costCategory"
+    },
+    {
+      "name": "employeeemploymentleaveOfAbsence"
+    },
+    {
+      "name": "employee/employment/leaveOfAbsence"
+    },
+    {
+      "name": "lookup"
+    },
+    {
+      "name": "product"
+    },
+    {
+      "name": "companymodules"
+    },
+    {
+      "name": "ledgercloseGroup"
+    },
+    {
+      "name": "ledger/closeGroup"
+    },
+    {
+      "name": "inventorystocktakingproductline"
+    },
+    {
+      "name": "inventory/stocktaking/productline"
+    },
+    {
+      "name": "productgroup"
+    },
+    {
+      "name": "product/group"
+    },
+    {
+      "name": "travelExpenserateCategory"
+    },
+    {
+      "name": "travelExpense/rateCategory"
+    },
+    {
+      "name": "customer"
+    },
+    {
+      "name": "employeeemploymentemploymentType"
+    },
+    {
+      "name": "employee/employment/employmentType"
+    },
+    {
+      "name": "banner"
+    },
+    {
+      "name": "apiConsumer"
+    },
+    {
+      "name": "exceptiontest"
+    },
+    {
+      "name": "division"
+    },
+    {
+      "name": "employeeemploymentworkingHoursScheme"
+    },
+    {
+      "name": "employee/employment/workingHoursScheme"
+    },
+    {
+      "name": "eventnotification"
+    },
+    {
+      "name": "reminder"
+    },
+    {
+      "name": "invoicedetails"
+    },
+    {
+      "name": "invoice/details"
+    },
+    {
+      "name": "integrationfactoringaprila"
+    },
+    {
+      "name": "integrationpg2callback"
+    },
+    {
+      "name": "timesheetentry"
+    },
+    {
+      "name": "timesheet/entry"
+    },
+    {
+      "name": "purchaseOrdergoodsReceiptLine"
+    },
+    {
+      "name": "purchaseOrder/goodsReceiptLine"
+    },
+    {
+      "name": "document"
+    },
+    {
+      "name": "travelExpenseperDiemCompensation"
+    },
+    {
+      "name": "travelExpense/perDiemCompensation"
+    },
+    {
+      "name": "internalsystemMessage"
+    },
+    {
+      "name": "companysalesmodules"
+    },
+    {
+      "name": "company/salesmodules"
+    },
+    {
+      "name": "travelExpensezone"
+    },
+    {
+      "name": "tokenemployee"
+    },
+    {
+      "name": "token/employee"
+    },
+    {
+      "name": "purchaseOrder"
+    },
+    {
+      "name": "travelExpenserate"
+    },
+    {
+      "name": "travelExpense/rate"
+    },
+    {
+      "name": "productunit"
+    },
+    {
+      "name": "product/unit"
+    },
+    {
+      "name": "supplierInvoice"
+    },
+    {
+      "name": "travelExpensepassenger"
+    },
+    {
+      "name": "travelExpense/passenger"
+    },
+    {
+      "name": "employeeentitlement"
+    },
+    {
+      "name": "employee/entitlement"
+    },
+    {
+      "name": "salarytransaction"
+    },
+    {
+      "name": "salary/transaction"
+    },
+    {
+      "name": "projectprojectActivity"
+    },
+    {
+      "name": "project/projectActivity"
+    },
+    {
+      "name": "employeestandardTime"
+    },
+    {
+      "name": "employee/standardTime"
+    },
+    {
+      "name": "travelExpensemileageAllowance"
+    },
+    {
+      "name": "travelExpense/mileageAllowance"
+    },
+    {
+      "name": "salarysettingsholiday"
+    },
+    {
+      "name": "salary/settings/holiday"
+    },
+    {
+      "name": "employeeemploymentoccupationCode"
+    },
+    {
+      "name": "employee/employment/occupationCode"
+    },
+    {
+      "name": "employeeemploymentleaveOfAbsenceType"
+    },
+    {
+      "name": "employee/employment/leaveOfAbsenceType"
+    },
+    {
+      "name": "bankreconciliation"
+    },
+    {
+      "name": "bank/reconciliation"
+    },
+    {
+      "name": "documentArchive"
+    },
+    {
+      "name": "contact"
+    },
+    {
+      "name": "integrationautopaymessages"
+    },
+    {
+      "name": "salarycompilation"
+    },
+    {
+      "name": "salary/compilation"
+    },
+    {
+      "name": "bankreconciliationmatch"
+    },
+    {
+      "name": "bank/reconciliation/match"
+    },
+    {
+      "name": "bankstatement"
+    },
+    {
+      "name": "bank/statement"
+    },
+    {
+      "name": "ledger"
+    },
+    {
+      "name": "timesheettimeClock"
+    },
+    {
+      "name": "timesheet/timeClock"
+    },
+    {
+      "name": "travelExpensepaymentType"
+    },
+    {
+      "name": "travelExpense/paymentType"
+    },
+    {
+      "name": "tripletexAccountsalesForceAccountInfo"
+    },
+    {
+      "name": "ledgerposting"
+    },
+    {
+      "name": "ledger/posting"
+    },
+    {
+      "name": "invoice"
+    }
+  ],
   "schemes": [
     "https"
   ],
@@ -262,7 +912,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Activity"
               }
@@ -1053,7 +1702,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/BankReconciliationAdjustment"
               }
@@ -2820,7 +3468,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Customer"
               }
@@ -2859,7 +3506,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Customer"
               }
@@ -3281,7 +3927,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Department"
               }
@@ -3320,7 +3965,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Department"
               }
@@ -3562,7 +4206,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Division"
               }
@@ -3601,7 +4244,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Division"
               }
@@ -5406,7 +6048,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/LeaveOfAbsence"
               }
@@ -6319,7 +6960,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Employee"
               }
@@ -8785,7 +9425,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Account"
               }
@@ -8824,7 +9463,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Account"
               }
@@ -9613,7 +10251,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/PaymentTypeOut"
               }
@@ -9652,7 +10289,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/PaymentTypeOut"
               }
@@ -10541,7 +11177,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Voucher"
               }
@@ -11439,7 +12074,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/OrderLine"
               }
@@ -11810,7 +12444,6 @@
             "description": "List of valid product numbers",
             "required": false,
             "type": "array",
-"maxItems": 2,
             "items": {
               "type": "string"
             },
@@ -12289,7 +12922,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProductGroup"
               }
@@ -12328,7 +12960,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProductGroup"
               }
@@ -12618,7 +13249,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProductGroupRelation"
               }
@@ -12754,7 +13384,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Product"
               }
@@ -12793,7 +13422,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Product"
               }
@@ -13254,7 +13882,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Project"
               }
@@ -13803,7 +14430,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProjectHourlyRate"
               }
@@ -13842,7 +14468,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProjectHourlyRate"
               }
@@ -14028,7 +14653,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProjectSpecificRate"
               }
@@ -14067,7 +14691,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProjectSpecificRate"
               }
@@ -14357,7 +14980,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Project"
               }
@@ -14396,7 +15018,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Project"
               }
@@ -14562,7 +15183,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProjectOrderLine"
               }
@@ -14751,7 +15371,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/ProjectParticipant"
               }
@@ -15762,7 +16381,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Deviation"
               }
@@ -15801,7 +16419,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Deviation"
               }
@@ -16184,7 +16801,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/GoodsReceipt"
               }
@@ -16607,7 +17223,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/GoodsReceiptLine"
               }
@@ -17727,7 +18342,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/CompanyHoliday"
               }
@@ -17766,7 +18380,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/CompanyHoliday"
               }
@@ -18297,7 +18910,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Supplier"
               }
@@ -18336,7 +18948,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/Supplier"
               }
@@ -18968,7 +19579,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/TimesheetEntry"
               }
@@ -19007,7 +19617,6 @@
             "required": false,
             "schema": {
               "type": "array",
-"maxItems": 2,
               "items": {
                 "$ref": "#/definitions/TimesheetEntry"
               }
@@ -23441,7 +24050,6 @@
         },
         "reasons": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "type": "string"
           }
@@ -23480,7 +24088,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -23540,7 +24147,6 @@
         },
         "bankAccounts": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "type": "string"
           }
@@ -23629,7 +24235,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -23726,10 +24331,117 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TimeClock"
           }
+        }
+      }
+    },
+    "PG2CallbackDTO": {
+      "type": "object",
+      "required": [
+        "ODPCompanyID",
+        "ODPCustomerID",
+        "autoPayKey",
+        "autoPayKeyLastGeneratedDate",
+        "pgRequestId",
+        "tenantId"
+      ],
+      "properties": {
+        "odpcustomerID": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "odpcompanyID": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pgRequestId": {
+          "type": "string"
+        },
+        "tenantId": {
+          "type": "string"
+        },
+        "ODPCustomerID": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ODPCompanyID": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "autoPayKey": {
+          "type": "string"
+        },
+        "autoPayKeyLastGeneratedDate": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "ResponseWrapperCompanyAuthorityDTO": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/CompanyAuthorityDTO"
+        }
+      }
+    },
+    "SearchCompletionDTO": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "alternateName": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "postalArea": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        },
+        "score": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "SEARCH1881",
+              "TRIPLETEX",
+              "NICKNAME",
+              "EMPLOYEE",
+              "CONTACT",
+              "ACTIVITY",
+              "PROJECT",
+              "ORDER",
+              "OFFER",
+              "CUSTOMER",
+              "COMPANY",
+              "CONTROLSCHEMA",
+              "HOUR",
+              "TRAVELEXPENSE"
+            ]
+          }
+        },
+        "id": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
         }
       }
     },
@@ -23753,7 +24465,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/EmploymentDetails"
           }
@@ -23788,10 +24499,61 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Payslip"
           }
+        }
+      }
+    },
+    "MobileAppLogin": {
+      "type": "object",
+      "required": [
+        "appSecret",
+        "expirationDate",
+        "password",
+        "username"
+      ],
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "appSecret": {
+          "type": "string"
+        },
+        "mfaCode": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "expirationDate": {
+          "type": "string"
+        },
+        "employeeId": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "ResponseWrapperPayment": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/Payment"
+        }
+      }
+    },
+    "EmployeeEmail": {
+      "type": "object",
+      "required": [
+        "email"
+      ],
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email",
+          "minLength": 1
         }
       }
     },
@@ -23812,7 +24574,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -23863,7 +24624,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -23965,13 +24725,85 @@
         },
         "employments": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Employment"
           }
         },
         "holidayAllowanceEarned": {
           "$ref": "#/definitions/HolidayAllowanceEarned"
+        }
+      }
+    },
+    "ResponseWrapperSystemMessage": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/SystemMessage"
+        }
+      }
+    },
+    "ListResponsePayment": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Payment"
+          }
+        }
+      }
+    },
+    "ResponseWrapperSalesForceOpportunity": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/SalesForceOpportunity"
+        }
+      }
+    },
+    "ApiError": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string"
+        },
+        "developerMessage": {
+          "type": "string"
+        },
+        "validationMessages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ApiValidationMessage"
+          }
+        },
+        "requestId": {
+          "type": "string"
         }
       }
     },
@@ -23988,7 +24820,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24001,7 +24832,6 @@
         },
         "timesheetEntries": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TimesheetEntry"
           }
@@ -24070,9 +24900,34 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankReconciliationMatch"
+          }
+        }
+      }
+    },
+    "ListResponsePerDiemCompensationTransientDTO": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/PerDiemCompensationTransientDTO"
           }
         }
       }
@@ -24090,7 +24945,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24107,6 +24961,122 @@
         },
         "end": {
           "type": "string"
+        }
+      }
+    },
+    "CustomerTripletexAccount": {
+      "type": "object",
+      "required": [
+        "accountType",
+        "modules",
+        "numberOfVouchers",
+        "type"
+      ],
+      "properties": {
+        "administrator": {
+          "$ref": "#/definitions/Employee"
+        },
+        "customerId": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": 1
+        },
+        "accountType": {
+          "type": "string",
+          "enum": [
+            "TEST",
+            "PAYING"
+          ]
+        },
+        "modules": {
+          "$ref": "#/definitions/Modules"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "NONE",
+            "ENK",
+            "AS",
+            "NUF",
+            "ANS",
+            "DA",
+            "PRE",
+            "KS",
+            "ASA",
+            "BBL",
+            "BRL",
+            "GFS",
+            "SPA",
+            "SF",
+            "IKS",
+            "KF_FKF",
+            "FCD",
+            "EOFG",
+            "BA",
+            "STI",
+            "ORG",
+            "ESEK",
+            "SA",
+            "SAM",
+            "BO",
+            "VPFO",
+            "OS",
+            "Other"
+          ]
+        },
+        "sendEmails": {
+          "type": "boolean",
+          "default": false
+        },
+        "autoValidateUserLogin": {
+          "type": "boolean",
+          "default": false
+        },
+        "createApiToken": {
+          "type": "boolean",
+          "default": false
+        },
+        "sendInvoiceToCustomer": {
+          "type": "boolean",
+          "default": false
+        },
+        "customerInvoiceEmail": {
+          "type": "string"
+        },
+        "numberOfEmployees": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "numberOfVouchers": {
+          "type": "string",
+          "enum": [
+            "INTERVAL_0_100",
+            "INTERVAL_101_500",
+            "INTERVAL_0_500",
+            "INTERVAL_501_1000",
+            "INTERVAL_1001_2000",
+            "INTERVAL_2001_3500",
+            "INTERVAL_3501_5000",
+            "INTERVAL_5001_10000",
+            "INTERVAL_UNLIMITED"
+          ]
+        },
+        "administratorPassword": {
+          "type": "string"
+        },
+        "chartOfAccountsType": {
+          "type": "string",
+          "enum": [
+            "DEFAULT",
+            "MAMUT_STD_PAYROLL",
+            "MAMUT_NARF_PAYROLL",
+            "AGRO_FORRETNING_PAYROLL",
+            "AGRO_LANDBRUK_PAYROLL",
+            "AGRO_FISKE_PAYROLL",
+            "AGRO_FORSOKSRING_PAYROLL",
+            "AGRO_IDRETTSLAG_PAYROLL",
+            "AGRO_FORENING_PAYROLL"
+          ]
         }
       }
     },
@@ -24130,10 +25100,59 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Currency"
           }
+        }
+      }
+    },
+    "Notification": {
+      "type": "object",
+      "required": [
+        "date",
+        "message",
+        "title",
+        "type"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "message": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "type": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "category": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string",
+          "maxLength": 255
         }
       }
     },
@@ -24157,7 +25176,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Week"
           }
@@ -24184,7 +25202,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Activity"
           }
@@ -24211,7 +25228,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TimesheetEntry"
           }
@@ -24242,7 +25258,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Voucher"
           }
@@ -24265,7 +25280,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24350,10 +25364,100 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Cost"
           }
+        }
+      }
+    },
+    "SalesForceEmployee": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "lastName": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "email": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "phoneNumberMobile": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "phoneNumberHome": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "phoneNumberWork": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "userId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "companyId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "customerId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "phoneNumberSmsCertified": {
+          "type": "string"
+        },
+        "isUserAdministrator": {
+          "type": "boolean",
+          "default": false
+        },
+        "isAccountAdministrator": {
+          "type": "boolean",
+          "default": false
+        },
+        "allowLogin": {
+          "type": "boolean",
+          "default": false
+        },
+        "isExternal": {
+          "type": "boolean",
+          "default": false
+        },
+        "isTripletexCertified": {
+          "type": "boolean",
+          "default": false
+        },
+        "isDefaultLogin": {
+          "type": "boolean",
+          "default": false
+        },
+        "loginEndDate": {
+          "type": "string"
+        },
+        "address": {
+          "$ref": "#/definitions/SalesForceAddress"
         }
       }
     },
@@ -24374,7 +25478,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24414,6 +25517,14 @@
         }
       }
     },
+    "ResponseWrapperLegacyAddress": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/LegacyAddress"
+        }
+      }
+    },
     "ListResponseProjectParticipant": {
       "type": "object",
       "properties": {
@@ -24434,7 +25545,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectParticipant"
           }
@@ -24474,7 +25584,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24601,7 +25710,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProductGroup"
           }
@@ -24625,7 +25733,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24668,6 +25775,24 @@
         }
       }
     },
+    "DashboardDTO": {
+      "type": "object",
+      "required": [
+        "content",
+        "version"
+      ],
+      "properties": {
+        "version": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": 0
+        },
+        "content": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
     "BankReconciliation": {
       "type": "object",
       "required": [
@@ -24686,7 +25811,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24705,7 +25829,6 @@
         },
         "transactions": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankTransaction"
           }
@@ -24760,7 +25883,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24798,7 +25920,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24862,7 +25983,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/DeliveryAddress"
           }
@@ -24885,7 +26005,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -24995,28 +26114,24 @@
         },
         "perDiemCompensations": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/PerDiemCompensation"
           }
         },
         "mileageAllowances": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/MileageAllowance"
           }
         },
         "accommodationAllowances": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/AccommodationAllowance"
           }
         },
         "costs": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Cost"
           }
@@ -25039,7 +26154,6 @@
         },
         "actions": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Link"
           }
@@ -25090,7 +26204,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/GoodsReceiptLine"
           }
@@ -25113,13 +26226,15 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
         },
         "url": {
           "type": "string"
+        },
+        "purchaseOrder": {
+          "$ref": "#/definitions/PurchaseOrder"
         },
         "product": {
           "$ref": "#/definitions/Product"
@@ -25173,7 +26288,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Account"
           }
@@ -25200,7 +26314,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/PerDiemCompensation"
           }
@@ -25220,7 +26333,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25239,6 +26351,117 @@
         "percentage": {
           "type": "number",
           "format": "double"
+        }
+      }
+    },
+    "CustomerTripletexAccount2": {
+      "type": "object",
+      "required": [
+        "accountType",
+        "modules",
+        "type"
+      ],
+      "properties": {
+        "administrator": {
+          "$ref": "#/definitions/Employee"
+        },
+        "customerId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "accountType": {
+          "type": "string",
+          "enum": [
+            "TEST",
+            "PAYING"
+          ]
+        },
+        "modules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SalesModuleDTO"
+          }
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "NONE",
+            "ENK",
+            "AS",
+            "NUF",
+            "ANS",
+            "DA",
+            "PRE",
+            "KS",
+            "ASA",
+            "BBL",
+            "BRL",
+            "GFS",
+            "SPA",
+            "SF",
+            "IKS",
+            "KF_FKF",
+            "FCD",
+            "EOFG",
+            "BA",
+            "STI",
+            "ORG",
+            "ESEK",
+            "SA",
+            "SAM",
+            "BO",
+            "VPFO",
+            "OS",
+            "Other"
+          ]
+        },
+        "sendEmails": {
+          "type": "boolean",
+          "default": false
+        },
+        "autoValidateUserLogin": {
+          "type": "boolean",
+          "default": false
+        },
+        "createApiToken": {
+          "type": "boolean",
+          "default": false
+        },
+        "sendInvoiceToCustomer": {
+          "type": "boolean",
+          "default": false
+        },
+        "customerInvoiceEmail": {
+          "type": "string"
+        },
+        "numberOfEmployees": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "administratorPassword": {
+          "type": "string"
+        },
+        "chartOfAccountsType": {
+          "type": "string",
+          "enum": [
+            "DEFAULT",
+            "MAMUT_STD_PAYROLL",
+            "MAMUT_NARF_PAYROLL",
+            "AGRO_FORRETNING_PAYROLL",
+            "AGRO_LANDBRUK_PAYROLL",
+            "AGRO_FISKE_PAYROLL",
+            "AGRO_FORSOKSRING_PAYROLL",
+            "AGRO_IDRETTSLAG_PAYROLL",
+            "AGRO_FORENING_PAYROLL"
+          ]
+        },
+        "vatStatusType": {
+          "type": "string",
+          "enum": [
+            "VAT_REGISTERED",
+            "VAT_NOT_REGISTERED",
+            "VAT_APPLICANT"
+          ]
         }
       }
     },
@@ -25262,7 +26485,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/PaymentTypeOut"
           }
@@ -25296,7 +26518,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25329,6 +26550,14 @@
         }
       }
     },
+    "ResponseWrapperAutoLogin": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/AutoLogin"
+        }
+      }
+    },
     "SalaryCompilation": {
       "type": "object",
       "properties": {
@@ -25345,21 +26574,18 @@
         },
         "wages": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/SalaryCompilationLine"
           }
         },
         "expenses": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/SalaryCompilationLine"
           }
         },
         "deductions": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/SalaryCompilationLine"
           }
@@ -25401,7 +26627,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25427,6 +26652,61 @@
         "code": {
           "type": "string",
           "maxLength": 100
+        }
+      }
+    },
+    "SalesForceAccountInfo": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "customerId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "customerCompanyId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "isReseller": {
+          "type": "boolean",
+          "default": false
+        },
+        "isAccountant": {
+          "type": "boolean",
+          "default": false
+        },
+        "isAuditor": {
+          "type": "boolean",
+          "default": false
+        },
+        "isSuspended": {
+          "type": "boolean",
+          "default": false
+        },
+        "registerDate": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
         }
       }
     },
@@ -25480,7 +26760,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Supplier"
           }
@@ -25515,7 +26794,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Department"
           }
@@ -25527,6 +26805,14 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/Department"
+        }
+      }
+    },
+    "ResponseWrapperOrderOffer": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/OrderOffer"
         }
       }
     },
@@ -25550,7 +26836,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/AnnualAccount"
           }
@@ -25570,7 +26855,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25657,7 +26941,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25729,7 +27012,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Project"
           }
@@ -25749,7 +27031,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25776,6 +27057,92 @@
         }
       }
     },
+    "ResponseWrapperAppSpecific": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/AppSpecific"
+        }
+      }
+    },
+    "PersonAutoCompleteDTO": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "alternateName": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "postalArea": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        },
+        "score": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "SEARCH1881",
+              "TRIPLETEX",
+              "NICKNAME",
+              "EMPLOYEE",
+              "CONTACT",
+              "ACTIVITY",
+              "PROJECT",
+              "ORDER",
+              "OFFER",
+              "CUSTOMER",
+              "COMPANY",
+              "CONTROLSCHEMA",
+              "HOUR",
+              "TRAVELEXPENSE"
+            ]
+          }
+        },
+        "firstname": {
+          "type": "string"
+        },
+        "lastname": {
+          "type": "string"
+        },
+        "phoneNumber": {
+          "type": "string"
+        },
+        "phoneNumberMobile": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "countryId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "reserved": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
     "Posting": {
       "type": "object",
       "properties": {
@@ -25789,7 +27156,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25894,7 +27260,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Subscription"
           }
@@ -25922,7 +27287,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -25961,7 +27325,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26000,7 +27363,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26051,7 +27413,6 @@
         },
         "employmentDetails": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/EmploymentDetails"
           }
@@ -26078,7 +27439,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TravelExpenseZone"
           }
@@ -26102,7 +27462,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26151,14 +27510,12 @@
         },
         "orderLines": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/OrderLine"
           }
         },
         "payments": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
           }
@@ -26185,7 +27542,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectOrderLine"
           }
@@ -26212,7 +27568,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/LeaveOfAbsence"
           }
@@ -26239,7 +27594,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TravelExpenseRateCategory"
           }
@@ -26287,7 +27641,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankReconciliationPaymentType"
           }
@@ -26314,7 +27667,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/OrderLine"
           }
@@ -26349,7 +27701,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/LeaveOfAbsenceType"
           }
@@ -26373,7 +27724,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26452,7 +27802,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26465,7 +27814,6 @@
         },
         "timesheetEntries": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TimesheetEntry"
           }
@@ -26507,11 +27855,27 @@
         }
       }
     },
+    "ResponseWrapperSalesForceEmployee": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/SalesForceEmployee"
+        }
+      }
+    },
     "ResponseWrapperProjectPeriodHourlyReport": {
       "type": "object",
       "properties": {
         "value": {
           "$ref": "#/definitions/ProjectPeriodHourlyReport"
+        }
+      }
+    },
+    "ResponseWrapperSalarySpecification": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/SalarySpecification"
         }
       }
     },
@@ -26533,7 +27897,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26564,6 +27927,14 @@
         }
       }
     },
+    "ResponseWrapperSalesForceAccountInfo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/SalesForceAccountInfo"
+        }
+      }
+    },
     "Address": {
       "type": "object",
       "properties": {
@@ -26577,7 +27948,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26633,7 +28003,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Company"
           }
@@ -26653,7 +28022,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26706,7 +28074,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26757,7 +28124,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26805,7 +28171,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26818,7 +28183,6 @@
         },
         "postings": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
           }
@@ -26845,7 +28209,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/PaymentType"
           }
@@ -26869,7 +28232,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26911,7 +28273,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -26962,7 +28323,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27019,6 +28379,14 @@
         }
       }
     },
+    "ResponseWrapperString": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        }
+      }
+    },
     "CustomerCategory": {
       "type": "object",
       "required": [
@@ -27035,7 +28403,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27062,6 +28429,66 @@
         }
       }
     },
+    "TriggerDTO": {
+      "type": "object",
+      "properties": {
+        "calendarName": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nextFireTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "previousFireTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "state": {
+          "type": "string"
+        }
+      }
+    },
+    "OrderOffer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "department": {
+          "$ref": "#/definitions/Department"
+        },
+        "offerDate": {
+          "type": "string"
+        },
+        "customer": {
+          "$ref": "#/definitions/Customer"
+        }
+      }
+    },
     "NextOfKin": {
       "type": "object",
       "required": [
@@ -27079,7 +28506,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27134,7 +28560,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27190,7 +28615,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankReconciliation"
           }
@@ -27229,7 +28653,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27254,16 +28677,40 @@
         },
         "transactions": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankTransaction"
           }
         },
         "postings": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
+          }
+        }
+      }
+    },
+    "ListResponseOrderOffer": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrderOffer"
           }
         }
       }
@@ -27288,10 +28735,17 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TravelCostCategory"
           }
+        }
+      }
+    },
+    "ResponseWrapperNotification": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/Notification"
         }
       }
     },
@@ -27331,6 +28785,200 @@
         }
       }
     },
+    "SupplierBalance": {
+      "type": "object",
+      "properties": {
+        "supplier": {
+          "$ref": "#/definitions/Supplier"
+        },
+        "balanceIn": {
+          "type": "number"
+        },
+        "balanceChange": {
+          "type": "number"
+        },
+        "balanceOut": {
+          "type": "number"
+        },
+        "balanceInCurrencies": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Currency"
+          }
+        },
+        "sumAmountNegative": {
+          "type": "number"
+        }
+      }
+    },
+    "SalesForceAddress": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "addressLine1": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "addressLine2": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "postalCode": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "city": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "country": {
+          "$ref": "#/definitions/SalesForceCountry"
+        }
+      }
+    },
+    "LegacyAddress": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "employee": {
+          "$ref": "#/definitions/Employee"
+        },
+        "addressLine1": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "addressLine2": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "postalCode": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 100
+        },
+        "city": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 100
+        },
+        "country": {
+          "$ref": "#/definitions/Country"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 100
+        }
+      }
+    },
+    "CompanyAutoCompleteDTO": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "alternateName": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "postalArea": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        },
+        "score": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "SEARCH1881",
+              "TRIPLETEX",
+              "NICKNAME",
+              "EMPLOYEE",
+              "CONTACT",
+              "ACTIVITY",
+              "PROJECT",
+              "ORDER",
+              "OFFER",
+              "CUSTOMER",
+              "COMPANY",
+              "CONTROLSCHEMA",
+              "HOUR",
+              "TRAVELEXPENSE"
+            ]
+          }
+        },
+        "companyCode": {
+          "type": "string"
+        },
+        "companyType": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "phoneNumber": {
+          "type": "string"
+        },
+        "phoneNumberMobile": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "countryId": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
     "ResponseWrapperSupplierInvoice": {
       "type": "object",
       "properties": {
@@ -27359,7 +29007,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/WorkingHoursScheme"
           }
@@ -27386,7 +29033,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TravelExpenseRateCategoryGroup"
           }
@@ -27422,7 +29068,6 @@
         },
         "postings": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
           }
@@ -27453,7 +29098,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27497,7 +29141,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27541,7 +29184,6 @@
         },
         "bankAccounts": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "type": "string"
           }
@@ -27613,7 +29255,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27653,7 +29294,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ExternalProduct"
           }
@@ -27700,7 +29340,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/OccupationCode"
           }
@@ -27731,7 +29370,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27757,6 +29395,53 @@
         }
       }
     },
+    "Banner": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "bannerType": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "message": {
+          "type": "string"
+        },
+        "button": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "link": {
+          "type": "string"
+        },
+        "tag": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "done": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
     "ListResponseContact": {
       "type": "object",
       "properties": {
@@ -27777,7 +29462,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Contact"
           }
@@ -27805,7 +29489,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "type": "string"
             }
@@ -27840,7 +29523,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "$ref": "#/definitions/ParameterizedHeader"
             }
@@ -27866,7 +29548,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -27905,7 +29586,6 @@
         },
         "orderLines": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/PurchaseOrderline"
           }
@@ -27971,7 +29651,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28052,7 +29731,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "type": "string"
             }
@@ -28074,7 +29752,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "$ref": "#/definitions/ParameterizedHeader"
             }
@@ -28095,7 +29772,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28119,10 +29795,18 @@
         },
         "stock": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Stock"
           }
+        }
+      }
+    },
+    "ResponseWrapperBoolean": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "boolean",
+          "default": false
         }
       }
     },
@@ -28168,7 +29852,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28210,7 +29893,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28244,7 +29926,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28278,6 +29959,119 @@
         }
       }
     },
+    "BankStatementBalanceDTO": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "number"
+        },
+        "date": {
+          "type": "string"
+        }
+      }
+    },
+    "TripletexAccount2": {
+      "type": "object",
+      "required": [
+        "accountType",
+        "administratorPassword",
+        "company",
+        "modules",
+        "numberOfVouchers"
+      ],
+      "properties": {
+        "company": {
+          "$ref": "#/definitions/Company"
+        },
+        "administrator": {
+          "$ref": "#/definitions/Employee"
+        },
+        "accountType": {
+          "type": "string",
+          "enum": [
+            "TEST",
+            "PAYING"
+          ]
+        },
+        "modules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SalesModuleDTO"
+          }
+        },
+        "administratorPassword": {
+          "type": "string"
+        },
+        "sendEmails": {
+          "type": "boolean",
+          "default": false
+        },
+        "autoValidateUserLogin": {
+          "type": "boolean",
+          "default": false
+        },
+        "createAdministratorApiToken": {
+          "type": "boolean",
+          "default": false
+        },
+        "createCompanyOwnedApiToken": {
+          "type": "boolean",
+          "default": false
+        },
+        "mayCreateTripletexAccounts": {
+          "type": "boolean",
+          "default": false
+        },
+        "numberOfVouchers": {
+          "type": "string",
+          "enum": [
+            "INTERVAL_0_100",
+            "INTERVAL_101_500",
+            "INTERVAL_0_500",
+            "INTERVAL_501_1000",
+            "INTERVAL_1001_2000",
+            "INTERVAL_2001_3500",
+            "INTERVAL_3501_5000",
+            "INTERVAL_5001_10000",
+            "INTERVAL_UNLIMITED"
+          ]
+        },
+        "chartOfAccountsType": {
+          "type": "string",
+          "enum": [
+            "DEFAULT",
+            "MAMUT_STD_PAYROLL",
+            "MAMUT_NARF_PAYROLL",
+            "AGRO_FORRETNING_PAYROLL",
+            "AGRO_LANDBRUK_PAYROLL",
+            "AGRO_FISKE_PAYROLL",
+            "AGRO_FORSOKSRING_PAYROLL",
+            "AGRO_IDRETTSLAG_PAYROLL",
+            "AGRO_FORENING_PAYROLL"
+          ]
+        },
+        "vatStatusType": {
+          "type": "string",
+          "enum": [
+            "VAT_REGISTERED",
+            "VAT_NOT_REGISTERED",
+            "VAT_APPLICANT"
+          ]
+        },
+        "accountingOffice": {
+          "type": "boolean",
+          "default": false
+        },
+        "auditor": {
+          "type": "boolean",
+          "default": false
+        },
+        "reseller": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
     "StandardTime": {
       "type": "object",
       "required": [
@@ -28295,7 +30089,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28312,6 +30105,32 @@
         "hoursPerDay": {
           "type": "number",
           "format": "double"
+        }
+      }
+    },
+    "ListResponseNotification": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Notification"
+          }
         }
       }
     },
@@ -28337,7 +30156,6 @@
         },
         "examples": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/WebHookWrapper"
           }
@@ -28364,7 +30182,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Voucher"
           }
@@ -28372,6 +30189,14 @@
         "totalNumberOfPostings": {
           "type": "integer",
           "format": "int32"
+        }
+      }
+    },
+    "ResponseWrapperApiConsumer": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/ApiConsumer"
         }
       }
     },
@@ -28403,7 +30228,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Deviation"
           }
@@ -28415,6 +30239,23 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/SalaryTransaction"
+        }
+      }
+    },
+    "CompanyAuthorityDTO": {
+      "type": "object",
+      "properties": {
+        "hasCompanyAuthority": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "ResponseWrapperDashboardDTO": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/DashboardDTO"
         }
       }
     },
@@ -28434,7 +30275,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28461,7 +30301,6 @@
         },
         "specifications": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/SalarySpecification"
           }
@@ -28482,11 +30321,140 @@
         }
       }
     },
+    "MaventaEventDataDTO": {
+      "type": "object",
+      "required": [
+        "destination",
+        "invoice_id",
+        "invoice_number",
+        "recipient_bid",
+        "recipient_name"
+      ],
+      "properties": {
+        "invoice_id": {
+          "type": "string"
+        },
+        "invoice_number": {
+          "type": "string"
+        },
+        "destination": {
+          "type": "string"
+        },
+        "recipient_name": {
+          "type": "string"
+        },
+        "recipient_bid": {
+          "type": "string"
+        },
+        "error_message": {
+          "type": "string"
+        }
+      }
+    },
     "ResponseWrapperProductLine": {
       "type": "object",
       "properties": {
         "value": {
           "$ref": "#/definitions/ProductLine"
+        }
+      }
+    },
+    "Payment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "paymentDate": {
+          "type": "string"
+        },
+        "bookingDate": {
+          "type": "string"
+        },
+        "valueDate": {
+          "type": "string"
+        },
+        "amountCurrency": {
+          "type": "number"
+        },
+        "currency": {
+          "$ref": "#/definitions/Currency"
+        },
+        "creditorBankName": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "creditorBankAddress": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "creditorBankPostalCode": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "creditorBankPostalCity": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "NOT_APPROVED",
+            "APPROVED",
+            "SENT_TO_AUTOPAY",
+            "RECEIVED_BY_BANK",
+            "ACCEPTED_BY_BANK",
+            "FAILED",
+            "CANCELLED",
+            "SUCCESS"
+          ]
+        },
+        "isFinalStatus": {
+          "type": "boolean",
+          "default": false
+        },
+        "isForeignPayment": {
+          "type": "boolean",
+          "default": false
+        },
+        "isSalary": {
+          "type": "boolean",
+          "default": false
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "kid": {
+          "type": "string",
+          "maxLength": 25
+        },
+        "receiverReference": {
+          "type": "string",
+          "maxLength": 250
+        },
+        "sourceVoucher": {
+          "$ref": "#/definitions/Voucher"
+        },
+        "postings": {
+          "$ref": "#/definitions/Posting"
+        },
+        "account": {
+          "$ref": "#/definitions/Account"
         }
       }
     },
@@ -28510,10 +30478,22 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProductUnit"
           }
+        }
+      }
+    },
+    "UnreadCountDTO": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "readCursor": {
+          "type": "integer",
+          "format": "int32"
         }
       }
     },
@@ -28534,7 +30514,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28560,6 +30539,48 @@
         }
       }
     },
+    "SalesForceEmployeeRole": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "companyId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "employeeId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "roleId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "userId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "tripletexCustomerId": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
     "TravelExpenseSettings": {
       "type": "object",
       "properties": {
@@ -28573,7 +30594,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28631,7 +30651,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TravelExpense"
           }
@@ -28643,6 +30662,32 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/SalaryCompilation"
+        }
+      }
+    },
+    "ListResponseSupplierBalance": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SupplierBalance"
+          }
         }
       }
     },
@@ -28663,7 +30708,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28735,7 +30779,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28765,6 +30808,14 @@
         }
       }
     },
+    "ResponseWrapperPageOptions": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/PageOptions"
+        }
+      }
+    },
     "ResponseWrapperPosting": {
       "type": "object",
       "properties": {
@@ -28789,7 +30840,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28838,7 +30888,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/RemunerationType"
           }
@@ -28874,7 +30923,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -28919,7 +30967,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/DocumentArchive"
           }
@@ -28946,9 +30993,42 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Customer"
+          }
+        }
+      }
+    },
+    "ResponseWrapperTripletexAccountReturn": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/TripletexAccountReturn"
+        }
+      }
+    },
+    "ListResponseEmployeeCompanyDTO": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/EmployeeCompanyDTO"
           }
         }
       }
@@ -28981,7 +31061,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/HourlyCostAndRate"
           }
@@ -29024,7 +31103,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TravelPaymentType"
           }
@@ -29047,7 +31125,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29092,7 +31169,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProductGroupRelation"
           }
@@ -29120,7 +31196,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29193,7 +31268,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/NextOfKin"
           }
@@ -29220,7 +31294,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/SupplierInvoice"
           }
@@ -29243,7 +31316,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29299,7 +31371,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29362,9 +31433,34 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/GoodsReceipt"
+          }
+        }
+      }
+    },
+    "ListResponseSalarySpecification": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SalarySpecification"
           }
         }
       }
@@ -29382,7 +31478,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29459,7 +31554,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankStatement"
           }
@@ -29486,7 +31580,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Employee"
           }
@@ -29513,7 +31606,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/StandardTime"
           }
@@ -29540,7 +31632,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Bank"
           }
@@ -29568,7 +31659,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29615,7 +31705,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29643,7 +31732,6 @@
         },
         "projectSpecificRates": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectSpecificRate"
           }
@@ -29680,7 +31768,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29785,7 +31872,6 @@
         },
         "orderLines": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectOrderLine"
           }
@@ -29808,7 +31894,6 @@
         },
         "projectHourlyRates": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectHourlyRate"
           }
@@ -29819,7 +31904,6 @@
         },
         "participants": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectParticipant"
           }
@@ -29829,7 +31913,6 @@
         },
         "invoicingPlan": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Invoice"
           }
@@ -29843,7 +31926,6 @@
         },
         "projectActivities": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectActivity"
           }
@@ -29870,7 +31952,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/AccountingPeriod"
           }
@@ -29907,6 +31988,27 @@
         }
       }
     },
+    "TripletexAccountReturn": {
+      "type": "object",
+      "properties": {
+        "company": {
+          "$ref": "#/definitions/Company"
+        },
+        "administrator": {
+          "$ref": "#/definitions/Employee"
+        },
+        "administratorApiToken": {
+          "$ref": "#/definitions/EmployeeToken"
+        },
+        "companyOwnedApiToken": {
+          "$ref": "#/definitions/EmployeeToken"
+        },
+        "companyOwnedApiTokenRobotId": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
     "Inventory": {
       "type": "object",
       "required": [
@@ -29923,7 +32025,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -29997,7 +32098,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
           }
@@ -30031,7 +32131,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30045,7 +32144,6 @@
         },
         "bankStatementFileFormatSupport": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "type": "string",
             "enum": [
@@ -30065,7 +32163,6 @@
         },
         "registerNumbers": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "type": "integer",
             "format": "int32"
@@ -30086,7 +32183,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30114,7 +32210,6 @@
         },
         "transactions": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankTransaction"
           }
@@ -30126,6 +32221,14 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/ProductUnit"
+        }
+      }
+    },
+    "AutoLoginPayloadDTO": {
+      "type": "object",
+      "properties": {
+        "redirectPath": {
+          "type": "string"
         }
       }
     },
@@ -30142,7 +32245,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30201,6 +32303,24 @@
         }
       }
     },
+    "ApiValidationMessage": {
+      "type": "object",
+      "properties": {
+        "field": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "rootId": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
     "ListResponseReminder": {
       "type": "object",
       "properties": {
@@ -30221,7 +32341,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Reminder"
           }
@@ -30249,7 +32368,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "type": "string"
             }
@@ -30269,7 +32387,6 @@
         },
         "bodyParts": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BodyPart"
           }
@@ -30278,7 +32395,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "$ref": "#/definitions/FormDataBodyPart"
             }
@@ -30288,11 +32404,18 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "$ref": "#/definitions/ParameterizedHeader"
             }
           }
+        }
+      }
+    },
+    "ResponseWrapperBankStatementBalanceDTO": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/BankStatementBalanceDTO"
         }
       }
     },
@@ -30316,7 +32439,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectSpecificRate"
           }
@@ -30359,6 +32481,14 @@
         }
       }
     },
+    "ResponseWrapperTripDTO": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/TripDTO"
+        }
+      }
+    },
     "ListResponseEmploymentType": {
       "type": "object",
       "properties": {
@@ -30379,7 +32509,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/EmploymentType"
           }
@@ -30399,7 +32528,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30426,6 +32554,14 @@
         }
       }
     },
+    "ResponseWrapperSalesForceEmployeeRole": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/SalesForceEmployeeRole"
+        }
+      }
+    },
     "BankReconciliationAdjustment": {
       "type": "object",
       "required": [
@@ -30437,7 +32573,6 @@
         },
         "bankTransactions": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankTransaction"
           }
@@ -30451,7 +32586,6 @@
         },
         "postings": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
           }
@@ -30466,6 +32600,41 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/LoggedInUserInfoDTO"
+        }
+      }
+    },
+    "Credentials": {
+      "type": "object",
+      "required": [
+        "appSecret",
+        "password",
+        "username"
+      ],
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "appSecret": {
+          "type": "string"
+        },
+        "mfaCode": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "RestrictedEntitlementChangeDTO": {
+      "type": "object",
+      "properties": {
+        "change": {
+          "type": "string"
+        },
+        "customerId": {
+          "type": "integer",
+          "format": "int32"
         }
       }
     },
@@ -30485,7 +32654,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30575,7 +32743,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankTransaction"
           }
@@ -30602,10 +32769,106 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Invoice"
           }
+        }
+      }
+    },
+    "AppSpecific": {
+      "type": "object",
+      "properties": {
+        "hourRegistrationEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "projectEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAllowedToRegisterHours": {
+          "type": "boolean",
+          "default": false
+        },
+        "payrollAccountingEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAuthWageMenu": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAuthMySalary": {
+          "type": "boolean",
+          "default": false
+        },
+        "electronicVouchersEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "travelExpenseEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "documentArchiveEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "archiveReceptionEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsPayslipOnly": {
+          "type": "boolean",
+          "default": false
+        },
+        "travelExpenseRatesEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "taxFreeMileageRatesEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "approveTravelExpenseEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAuthProjectInfo": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAuthTravelAndExpenseApprove": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAuthEmployeeInfo": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAuthVoucherApprove": {
+          "type": "boolean",
+          "default": false
+        },
+        "userIsAuthRemitApprove": {
+          "type": "boolean",
+          "default": false
+        },
+        "vatOnForCompany": {
+          "type": "boolean",
+          "default": false
+        },
+        "taxFreeDietRatesEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "travelDietIgnorePostingEnabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "employeeEnabled": {
+          "type": "boolean",
+          "default": false
         }
       }
     },
@@ -30629,10 +32892,41 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Product"
           }
+        }
+      }
+    },
+    "MaventaStatusDTO": {
+      "type": "object",
+      "required": [
+        "company_id",
+        "event",
+        "event_data",
+        "event_timestamp"
+      ],
+      "properties": {
+        "event": {
+          "type": "string"
+        },
+        "company_id": {
+          "type": "string"
+        },
+        "event_timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "event_data": {
+          "$ref": "#/definitions/MaventaEventDataDTO"
+        }
+      }
+    },
+    "ResponseWrapperModules": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/Modules"
         }
       }
     },
@@ -30662,7 +32956,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30703,7 +32996,6 @@
         },
         "passengers": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Passenger"
           }
@@ -30732,7 +33024,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30791,7 +33082,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Employment"
           }
@@ -30818,7 +33108,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/PurchaseOrder"
           }
@@ -30845,7 +33134,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Task"
           }
@@ -30876,7 +33164,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30922,9 +33209,19 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Country"
+          }
+        }
+      }
+    },
+    "ResponseWrapperListJob": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Job"
           }
         }
       }
@@ -30950,7 +33247,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -30984,9 +33280,39 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Inventories"
+          }
+        }
+      }
+    },
+    "ResponseWrapperBanner": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/Banner"
+        }
+      }
+    },
+    "JobDetailDTO": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "group": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "jobclass": {
+          "type": "string"
+        },
+        "jobData": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object"
           }
         }
       }
@@ -31011,7 +33337,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/CustomerCategory"
           }
@@ -31035,7 +33360,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -31085,6 +33409,32 @@
         }
       }
     },
+    "ListResponseSalesForceAccountInfo": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SalesForceAccountInfo"
+          }
+        }
+      }
+    },
     "ResponseWrapperActivity": {
       "type": "object",
       "properties": {
@@ -31121,7 +33471,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/CompanyHoliday"
           }
@@ -31169,6 +33518,32 @@
         }
       }
     },
+    "ListResponsePersonAutoCompleteDTO": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/PersonAutoCompleteDTO"
+          }
+        }
+      }
+    },
     "ResponseWrapperDivision": {
       "type": "object",
       "properties": {
@@ -31211,7 +33586,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -31283,6 +33657,32 @@
         }
       }
     },
+    "ListResponseLegacyAddress": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/LegacyAddress"
+          }
+        }
+      }
+    },
     "ContentDisposition": {
       "type": "object",
       "properties": {
@@ -31333,7 +33733,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -31395,7 +33794,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -31452,7 +33850,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/VatType"
           }
@@ -31476,7 +33873,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -31595,7 +33991,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -31629,14 +34024,12 @@
         },
         "orders": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Order"
           }
         },
         "projectInvoiceDetails": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectInvoiceDetails"
           }
@@ -31691,14 +34084,12 @@
         },
         "postings": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
           }
         },
         "reminders": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Reminder"
           }
@@ -31782,7 +34173,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/LedgerAccount"
           }
@@ -31802,6 +34192,63 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/HourlyCostAndRate"
+        }
+      }
+    },
+    "Modules": {
+      "type": "object",
+      "properties": {
+        "accounting": {
+          "type": "boolean",
+          "default": false
+        },
+        "invoice": {
+          "type": "boolean",
+          "default": false
+        },
+        "salary": {
+          "type": "boolean",
+          "default": false
+        },
+        "salaryStartDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "project": {
+          "type": "boolean",
+          "default": false
+        },
+        "ocr": {
+          "type": "boolean",
+          "default": false
+        },
+        "remit": {
+          "type": "boolean",
+          "default": false
+        },
+        "electronicVouchers": {
+          "type": "boolean",
+          "default": false
+        },
+        "electro": {
+          "type": "boolean",
+          "default": false
+        },
+        "vvs": {
+          "type": "boolean",
+          "default": false
+        },
+        "agro": {
+          "type": "boolean",
+          "default": false
+        },
+        "mamut": {
+          "type": "boolean",
+          "default": false
+        },
+        "approveVoucher": {
+          "type": "boolean",
+          "default": false
         }
       }
     },
@@ -31825,7 +34272,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Prospect"
           }
@@ -31845,6 +34291,14 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/Company"
+        }
+      }
+    },
+    "ResponseWrapperUnreadCountDTO": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/definitions/UnreadCountDTO"
         }
       }
     },
@@ -31900,7 +34354,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -31964,7 +34417,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32012,7 +34464,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectInvoiceDetails"
           }
@@ -32032,7 +34483,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32073,7 +34523,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32115,9 +34564,75 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Inventory"
+          }
+        }
+      }
+    },
+    "ListResponseCompanyAutoCompleteDTO": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CompanyAutoCompleteDTO"
+          }
+        }
+      }
+    },
+    "EmployeeCompanyDTO": {
+      "type": "object",
+      "properties": {
+        "isDefault": {
+          "type": "boolean",
+          "default": false
+        },
+        "company": {
+          "$ref": "#/definitions/Company"
+        },
+        "employee": {
+          "$ref": "#/definitions/Employee"
+        }
+      }
+    },
+    "ListResponseSalaryTransaction": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SalaryTransaction"
           }
         }
       }
@@ -32139,7 +34654,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32244,7 +34758,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32295,7 +34808,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TimesheetSalaryTypeSpecification"
           }
@@ -32321,6 +34833,64 @@
         }
       }
     },
+    "PerDiemCompensationTransientDTO": {
+      "type": "object",
+      "properties": {
+        "travelExpense": {
+          "$ref": "#/definitions/TravelExpense"
+        },
+        "rateType": {
+          "$ref": "#/definitions/TravelExpenseRate"
+        },
+        "rateCategory": {
+          "$ref": "#/definitions/TravelExpenseRateCategory"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "travelExpenseZoneId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "overnightAccommodation": {
+          "type": "string",
+          "enum": [
+            "NONE",
+            "HOTEL",
+            "BOARDING_HOUSE_WITHOUT_COOKING",
+            "BOARDING_HOUSE_WITH_COOKING"
+          ]
+        },
+        "location": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "rate": {
+          "type": "number"
+        },
+        "amount": {
+          "type": "number"
+        },
+        "isDeductionForBreakfast": {
+          "type": "boolean",
+          "default": false
+        },
+        "isDeductionForLunch": {
+          "type": "boolean",
+          "default": false
+        },
+        "isDeductionForDinner": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
     "ListResponseMileageAllowance": {
       "type": "object",
       "properties": {
@@ -32341,7 +34911,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/MileageAllowance"
           }
@@ -32368,7 +34937,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectPeriodMonthlyStatus"
           }
@@ -32380,6 +34948,38 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/Order"
+        }
+      }
+    },
+    "VNTCStatusDTO": {
+      "type": "object",
+      "required": [
+        "ExternalMessageId",
+        "ExternalSenderId",
+        "MessageId",
+        "Operator",
+        "Status"
+      ],
+      "properties": {
+        "MessageId": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "ExternalSenderId": {
+          "type": "string"
+        },
+        "ExternalMessageId": {
+          "type": "string"
+        },
+        "PartCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Operator": {
+          "type": "string"
         }
       }
     },
@@ -32396,7 +34996,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32431,6 +35030,39 @@
         }
       }
     },
+    "TripDTO": {
+      "type": "object",
+      "properties": {
+        "distance": {
+          "type": "number"
+        },
+        "travelTimeInMinutes": {
+          "type": "number"
+        },
+        "sumTollNOK": {
+          "type": "number"
+        }
+      }
+    },
+    "AutoPayMessageDTO": {
+      "type": "object",
+      "required": [
+        "message",
+        "messageId",
+        "messageType"
+      ],
+      "properties": {
+        "messageId": {
+          "type": "string"
+        },
+        "messageType": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    },
     "Passenger": {
       "type": "object",
       "required": [
@@ -32447,7 +35079,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32461,6 +35092,32 @@
         },
         "mileageAllowance": {
           "$ref": "#/definitions/MileageAllowance"
+        }
+      }
+    },
+    "ListResponseSalesForceEmployee": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SalesForceEmployee"
+          }
         }
       }
     },
@@ -32484,7 +35141,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProductLine"
           }
@@ -32508,7 +35164,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32547,7 +35202,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Stocktaking"
           }
@@ -32574,7 +35228,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/CloseGroup"
           }
@@ -32601,7 +35254,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Division"
           }
@@ -32613,6 +35265,100 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/TimesheetSettings"
+        }
+      }
+    },
+    "SalesForceCountry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "isoAlpha2Code": {
+          "type": "string"
+        },
+        "isoAlpha3Code": {
+          "type": "string",
+          "maxLength": 3
+        },
+        "isoNumericCode": {
+          "type": "string"
+        }
+      }
+    },
+    "SalesForceOpportunity": {
+      "type": "object",
+      "properties": {
+        "allPrices": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        },
+        "sumStartupCategory1Users": {
+          "type": "number",
+          "format": "double"
+        },
+        "sumServiceCategory1Users": {
+          "type": "number",
+          "format": "double"
+        },
+        "listPriceCategory1UserStartup": {
+          "type": "number",
+          "format": "double"
+        },
+        "listPriceCategory1UserService": {
+          "type": "number",
+          "format": "double"
+        },
+        "sumStartup": {
+          "type": "number",
+          "format": "double"
+        },
+        "sumService": {
+          "type": "number",
+          "format": "double"
+        },
+        "sumAdditionalServices": {
+          "type": "number",
+          "format": "double"
+        },
+        "accountantStartupProvision": {
+          "type": "number",
+          "format": "double"
+        },
+        "accountantMonthlyProvision": {
+          "type": "number",
+          "format": "double"
+        },
+        "noOfUsersPrepaid": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "noOfUsersIncluded": {
+          "type": "integer",
+          "format": "int32"
         }
       }
     },
@@ -32636,7 +35382,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Order"
           }
@@ -32648,6 +35393,32 @@
       "properties": {
         "value": {
           "$ref": "#/definitions/AccountingPeriod"
+        }
+      }
+    },
+    "ListResponseSearchCompletionDTO": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SearchCompletionDTO"
+          }
         }
       }
     },
@@ -32687,7 +35458,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectCategory"
           }
@@ -32720,7 +35490,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -32797,6 +35566,47 @@
         }
       }
     },
+    "PageOptions": {
+      "type": "object",
+      "required": [
+        "data"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "version": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Change"
+          }
+        },
+        "url": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "IncomingInvoiceViewOptions"
+          ]
+        },
+        "data": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object"
+          }
+        }
+      }
+    },
     "ListResponseBankReconciliationAdjustment": {
       "type": "object",
       "properties": {
@@ -32817,7 +35627,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BankReconciliationAdjustment"
           }
@@ -32844,7 +35653,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Municipality"
           }
@@ -32895,9 +35703,36 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectHourlyRate"
+          }
+        }
+      }
+    },
+    "Job": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "group": {
+          "type": "string"
+        },
+        "stateful": {
+          "type": "boolean",
+          "default": false
+        },
+        "interruptable": {
+          "type": "boolean",
+          "default": false
+        },
+        "jobDetail": {
+          "$ref": "#/definitions/JobDetailDTO"
+        },
+        "triggers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TriggerDTO"
           }
         }
       }
@@ -32920,7 +35755,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33021,7 +35855,6 @@
         },
         "orderLines": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/OrderLine"
           }
@@ -33102,7 +35935,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33138,6 +35970,14 @@
         }
       }
     },
+    "AutoLogin": {
+      "type": "object",
+      "properties": {
+        "loginUrl": {
+          "type": "string"
+        }
+      }
+    },
     "ListResponseEntitlement": {
       "type": "object",
       "properties": {
@@ -33158,7 +35998,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Entitlement"
           }
@@ -33183,7 +36022,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33245,7 +36083,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33271,10 +36108,17 @@
         },
         "goodsReceiptLines": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/GoodsReceiptLine"
           }
+        }
+      }
+    },
+    "SystemMessage": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
         }
       }
     },
@@ -33298,10 +36142,18 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/MonthlyStatus"
           }
+        }
+      }
+    },
+    "ResponseWrapperInteger": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "integer",
+          "format": "int32"
         }
       }
     },
@@ -33325,7 +36177,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Passenger"
           }
@@ -33350,6 +36201,32 @@
         "vacationTakenThisYear": {
           "type": "number",
           "format": "double"
+        }
+      }
+    },
+    "ListResponseBanner": {
+      "type": "object",
+      "properties": {
+        "fullResultSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "from": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "versionDigest": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Banner"
+          }
         }
       }
     },
@@ -33383,7 +36260,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33413,7 +36289,6 @@
         },
         "timeClocks": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TimeClock"
           }
@@ -33471,7 +36346,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/SalesModuleDTO"
           }
@@ -33495,7 +36369,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33558,7 +36431,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "$ref": "#/definitions/Prediction"
             }
@@ -33586,7 +36458,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/SalaryType"
           }
@@ -33609,7 +36480,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33658,7 +36528,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TimesheetEntry"
           }
@@ -33682,7 +36551,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33732,7 +36600,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "type": "string"
             }
@@ -33752,7 +36619,6 @@
         },
         "bodyParts": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/BodyPart"
           }
@@ -33761,7 +36627,6 @@
           "type": "object",
           "additionalProperties": {
             "type": "array",
-"maxItems": 2,
             "items": {
               "$ref": "#/definitions/ParameterizedHeader"
             }
@@ -33787,7 +36652,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -33815,7 +36679,6 @@
         },
         "payslips": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Payslip"
           }
@@ -33882,7 +36745,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/ProjectControlForm"
           }
@@ -33909,7 +36771,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/TravelExpenseRate"
           }
@@ -33946,6 +36807,97 @@
         }
       }
     },
+    "TripletexAccount": {
+      "type": "object",
+      "required": [
+        "accountType",
+        "administratorPassword",
+        "company",
+        "modules",
+        "numberOfVouchers"
+      ],
+      "properties": {
+        "company": {
+          "$ref": "#/definitions/Company"
+        },
+        "administrator": {
+          "$ref": "#/definitions/Employee"
+        },
+        "accountType": {
+          "type": "string",
+          "enum": [
+            "TEST",
+            "PAYING"
+          ]
+        },
+        "modules": {
+          "$ref": "#/definitions/Modules"
+        },
+        "administratorPassword": {
+          "type": "string"
+        },
+        "sendEmails": {
+          "type": "boolean",
+          "default": false
+        },
+        "autoValidateUserLogin": {
+          "type": "boolean",
+          "default": false
+        },
+        "createAdministratorApiToken": {
+          "type": "boolean",
+          "default": false
+        },
+        "createCompanyOwnedApiToken": {
+          "type": "boolean",
+          "default": false
+        },
+        "mayCreateTripletexAccounts": {
+          "type": "boolean",
+          "default": false
+        },
+        "numberOfVouchers": {
+          "type": "string",
+          "enum": [
+            "INTERVAL_0_100",
+            "INTERVAL_101_500",
+            "INTERVAL_0_500",
+            "INTERVAL_501_1000",
+            "INTERVAL_1001_2000",
+            "INTERVAL_2001_3500",
+            "INTERVAL_3501_5000",
+            "INTERVAL_5001_10000",
+            "INTERVAL_UNLIMITED"
+          ]
+        },
+        "chartOfAccountsType": {
+          "type": "string",
+          "enum": [
+            "DEFAULT",
+            "MAMUT_STD_PAYROLL",
+            "MAMUT_NARF_PAYROLL",
+            "AGRO_FORRETNING_PAYROLL",
+            "AGRO_LANDBRUK_PAYROLL",
+            "AGRO_FISKE_PAYROLL",
+            "AGRO_FORSOKSRING_PAYROLL",
+            "AGRO_IDRETTSLAG_PAYROLL",
+            "AGRO_FORENING_PAYROLL"
+          ]
+        },
+        "accountingOffice": {
+          "type": "boolean",
+          "default": false
+        },
+        "auditor": {
+          "type": "boolean",
+          "default": false
+        },
+        "reseller": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
     "Contact": {
       "type": "object",
       "properties": {
@@ -33959,7 +36911,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -34013,7 +36964,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -34045,7 +36995,6 @@
         },
         "postings": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Posting"
           }
@@ -34081,7 +37030,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/VoucherType"
           }
@@ -34105,7 +37053,6 @@
         },
         "changes": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/Change"
           }
@@ -34149,7 +37096,6 @@
         },
         "values": {
           "type": "array",
-"maxItems": 2,
           "items": {
             "$ref": "#/definitions/AccommodationAllowance"
           }

@@ -50,18 +50,18 @@ const validate = async (swaggerFile) => {
 
   // console.log(JSON.stringify(warnings, null, 2));
   let validation;
-  for (let index = 0; index < 4; index++) {
-    validation = await validate(swaggerFile);
-    validation.warnings
-      .filter((warning) => warning.code === 'UNUSED_DEFINITION')
-      .map((warning) => {
-        if (warning.path[1] && swaggerFile.definitions[warning.path[1]]) {
-          delete swaggerFile.definitions[warning.path[1]];
-        } else {
-          console.log(warning.path);
-        }
-      });
-  }
+  // for (let index = 0; index < 4; index++) {
+  //   validation = await validate(swaggerFile);
+  //   validation.warnings
+  //     .filter((warning) => warning.code === 'UNUSED_DEFINITION')
+  //     .map((warning) => {
+  //       if (warning.path[1] && swaggerFile.definitions[warning.path[1]]) {
+  //         delete swaggerFile.definitions[warning.path[1]];
+  //       } else {
+  //         console.log(warning.path);
+  //       }
+  //     });
+  // }
 
   validation = await validate(swaggerFile);
   console.log(validation.warnings);
