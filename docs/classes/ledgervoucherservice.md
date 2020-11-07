@@ -49,7 +49,7 @@ Name | Type | Default | Description |
 `id` | number | - | ID of voucher containing the attachment to delete. |
 `sendToInbox` | boolean | false | Should the attachment be sent to inbox rather than deleted? |
 `split` | boolean | false | If sendToInbox is true, should the attachment be split into one voucher per page? |
-`version` | number | - | Version of voucher containing the attachment to delete. |
+`version` | undefined &#124; number | - | Version of voucher containing the attachment to delete. |
 
 **Returns:** *Promise‹any›*
 
@@ -116,7 +116,7 @@ Get voucher by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperVoucher](../interfaces/responsewrappervoucher.md)›*
@@ -139,7 +139,7 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`description` | string | - | Optional description to use for the voucher(s). If omitted the file name will be used. |
+`description` | undefined &#124; string | - | Optional description to use for the voucher(s). If omitted the file name will be used. |
 `file` | Buffer‹› &#124; ArrayBuffer &#124; ArrayBufferView | - | The file |
 `split` | boolean | false | If the document consists of several pages, should the document be split into one voucher per page? |
 
@@ -187,7 +187,7 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [Voucher](../interfaces/voucher.md)[] | - | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [Voucher](../interfaces/voucher.md)[] | - | JSON representing updates to object. Should have ID and version set. |
 `sendToLedger` | boolean | true | Should the voucher be sent to ledger? Requires the "Advanced Voucher" permission. |
 
 **Returns:** *Promise‹[ListResponseVoucher](../interfaces/listresponsevoucher.md)›*
@@ -210,14 +210,14 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`changedSince` | string | - | Only return elements that have changed since this date and time |
+`changedSince` | undefined &#124; string | - | Only return elements that have changed since this date and time |
 `count` | number | 1000 | Number of elements to return |
-`dateFrom` | string | - | From and including |
-`dateTo` | string | - | To and excluding |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`dateFrom` | undefined &#124; string | - | From and including |
+`dateTo` | undefined &#124; string | - | To and excluding |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `includeNonApproved` | boolean | false | Include non-approved vouchers in the result. |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseVoucher](../interfaces/listresponsevoucher.md)›*
 
@@ -239,7 +239,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperVoucherOptions](../interfaces/responsewrappervoucheroptions.md)›*
@@ -308,7 +308,7 @@ Add new voucher. IMPORTANT: Also creates postings. Only the gross amounts will b
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [Voucher](../interfaces/voucher.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Voucher](../interfaces/voucher.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
 `sendToLedger` | boolean | true | Should the voucher be sent to ledger? Requires the "Advanced Voucher" permission. |
 
 **Returns:** *Promise‹[ResponseWrapperVoucher](../interfaces/responsewrappervoucher.md)›*
@@ -331,7 +331,7 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [Voucher](../interfaces/voucher.md) | - | Partial object describing what should be updated |
+`body` | undefined &#124; [Voucher](../interfaces/voucher.md) | - | Partial object describing what should be updated |
 `id` | number | - | Element ID |
 `sendToLedger` | boolean | true | Should the voucher be sent to ledger? Requires the "Advanced Voucher" permission. |
 
@@ -381,14 +381,14 @@ Name | Type | Default | Description |
 `count` | number | 1000 | Number of elements to return |
 `dateFrom` | string | - | From and including |
 `dateTo` | string | - | To and excluding |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`number` | string | - | List of IDs |
-`numberFrom` | number | - | From and including |
-`numberTo` | number | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
-`typeId` | string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`number` | undefined &#124; string | - | List of IDs |
+`numberFrom` | undefined &#124; number | - | From and including |
+`numberTo` | undefined &#124; number | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`typeId` | undefined &#124; string | - | List of IDs |
 
 **Returns:** *Promise‹[VoucherSearchResponse](../interfaces/vouchersearchresponse.md)›*
 
@@ -410,9 +410,9 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`comment` | string | Description of why the voucher was rejected. This parameter is only used if the approval feature is enabled. |
+`comment` | undefined &#124; string | Description of why the voucher was rejected. This parameter is only used if the approval feature is enabled. |
 `id` | number | ID of voucher that should be sent to inbox. |
-`version` | number | Version of voucher that should be sent to inbox. |
+`version` | undefined &#124; number | Version of voucher that should be sent to inbox. |
 
 **Returns:** *Promise‹[ResponseWrapperVoucher](../interfaces/responsewrappervoucher.md)›*
 
@@ -435,7 +435,7 @@ ___
 Name | Type | Description |
 ------ | ------ | ------ |
 `id` | number | ID of voucher that should be sent to ledger. |
-`number` | number | Voucher number to use. If omitted or 0 the system will assign the number. |
-`version` | number | Version of voucher that should be sent to ledger. |
+`number` | undefined &#124; number | Voucher number to use. If omitted or 0 the system will assign the number. |
+`version` | undefined &#124; number | Version of voucher that should be sent to ledger. |
 
 **Returns:** *Promise‹[ResponseWrapperVoucher](../interfaces/responsewrappervoucher.md)›*

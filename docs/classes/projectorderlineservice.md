@@ -57,7 +57,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectOrderLine](../interfaces/responsewrapperprojectorderline.md)›*
@@ -80,7 +80,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectOrderLine](../interfaces/projectorderline.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectOrderLine](../interfaces/projectorderline.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProjectOrderLine](../interfaces/listresponseprojectorderline.md)›*
 
@@ -102,7 +102,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectOrderLine](../interfaces/projectorderline.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectOrderLine](../interfaces/projectorderline.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperProjectOrderLine](../interfaces/responsewrapperprojectorderline.md)›*
 
@@ -124,7 +124,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectOrderLine](../interfaces/projectorderline.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [ProjectOrderLine](../interfaces/projectorderline.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectOrderLine](../interfaces/responsewrapperprojectorderline.md)›*
@@ -148,9 +148,9 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `projectId` | number | - | Equals |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProjectOrderLine](../interfaces/listresponseprojectorderline.md)›*

@@ -38,31 +38,31 @@ ___
 
 ### `Optional` email
 
-• **email**? : *string*
+• **email**? : *undefined | string*
 
 ___
 
 ### `Optional` firstName
 
-• **firstName**? : *string*
+• **firstName**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` lastName
 
-• **lastName**? : *string*
+• **lastName**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumberMobile
 
-• **phoneNumberMobile**? : *string*
+• **phoneNumberMobile**? : *undefined | string*
 
 ___
 
@@ -76,16 +76,16 @@ ___
 
 ### `Optional` phoneNumberWork
 
-• **phoneNumberWork**? : *string*
+• **phoneNumberWork**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

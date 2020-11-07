@@ -27,7 +27,7 @@ ___
 
 ### `Optional` mfaCode
 
-• **mfaCode**? : *number*
+• **mfaCode**? : *undefined | number*
 
 Optional mfa auth code
 

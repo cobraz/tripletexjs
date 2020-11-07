@@ -16,4 +16,4 @@
 
 ### `Optional` message
 
-• **message**? : *string*
+• **message**? : *undefined | string*

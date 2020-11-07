@@ -40,7 +40,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`comment` | string | comment |
+`comment` | undefined &#124; string | comment |
 `employeeId` | number | ID of the elements |
 `invoiceId` | number | Invoice ID. |
 
@@ -64,9 +64,9 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`comment` | string | comment |
+`comment` | undefined &#124; string | comment |
 `employeeId` | number | Element ID |
-`invoiceIds` | string | ID of the elements |
+`invoiceIds` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseSupplierInvoice](../interfaces/listresponsesupplierinvoice.md)›*
 
@@ -88,7 +88,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`comment` | string | comment |
+`comment` | undefined &#124; string | comment |
 `invoiceId` | number | ID of the elements |
 
 **Returns:** *Promise‹[ResponseWrapperSupplierInvoice](../interfaces/responsewrappersupplierinvoice.md)›*
@@ -111,8 +111,8 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`comment` | string | comment |
-`invoiceIds` | string | ID of the elements |
+`comment` | undefined &#124; string | comment |
+`invoiceIds` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseSupplierInvoice](../interfaces/listresponsesupplierinvoice.md)›*
 
@@ -135,12 +135,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`employeeId` | number | - | Default is logged in employee |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`searchText` | string | - | Search for department, employee, project and more |
+`employeeId` | undefined &#124; number | - | Default is logged in employee |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`searchText` | undefined &#124; string | - | Search for department, employee, project and more |
 `showAll` | boolean | false | Show all or just your own |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseSupplierInvoice](../interfaces/listresponsesupplierinvoice.md)›*
 
@@ -162,7 +162,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperSupplierInvoice](../interfaces/responsewrappersupplierinvoice.md)›*
@@ -231,7 +231,7 @@ ___
 Name | Type | Description |
 ------ | ------ | ------ |
 `comment` | string | - |
-`invoiceIds` | string | ID of the elements |
+`invoiceIds` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseSupplierInvoice](../interfaces/listresponsesupplierinvoice.md)›*
 
@@ -254,16 +254,16 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
 `invoiceDateFrom` | string | - | From and including |
 `invoiceDateTo` | string | - | To and excluding |
-`invoiceNumber` | string | - | Equals |
-`kid` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`supplierId` | string | - | Equals |
-`voucherId` | string | - | Equals |
+`invoiceNumber` | undefined &#124; string | - | Equals |
+`kid` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`supplierId` | undefined &#124; string | - | Equals |
+`voucherId` | undefined &#124; string | - | Equals |
 
 **Returns:** *Promise‹[ListResponseSupplierInvoice](../interfaces/listresponsesupplierinvoice.md)›*
 
@@ -285,7 +285,7 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [OrderLinePostingDTO](../interfaces/orderlinepostingdto.md)[] | - | Postings |
+`body` | undefined &#124; [OrderLinePostingDTO](../interfaces/orderlinepostingdto.md)[] | - | Postings |
 `id` | number | - | Voucher id |
 `sendToLedger` | boolean | false | Equals |
 

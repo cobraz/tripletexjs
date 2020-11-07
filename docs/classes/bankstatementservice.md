@@ -55,7 +55,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperBankStatement](../interfaces/responsewrapperbankstatement.md)›*
@@ -80,7 +80,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `accountId` | number | Account ID |
 `bankId` | number | Bank ID |
-`externalId` | string | External ID |
+`externalId` | undefined &#124; string | External ID |
 `file` | Buffer‹› &#124; ArrayBuffer &#124; ArrayBufferView | The bank statement file |
 `fileFormat` | "DNB_CSV" &#124; "EIKA_TELEPAY" &#124; "SPAREBANK1_TELEPAY" &#124; "VISMA_ACCOUNT_STATEMENT" &#124; "HANDELSBANKEN_TELEPAY" &#124; "SPAREBANKEN_VEST_TELEPAY" &#124; "NORDEA_CSV" &#124; "TRANSFERWISE" &#124; "SPAREBANKEN_SOR_TELEPAY" &#124; "SPAREBANKEN_OST_TELEPAY" &#124; "DANSKE_BANK_CSV" &#124; "CULTURA_BANK_TELEPAY" | File format |
 `fromDate` | string | Format is yyyy-MM-dd (from and incl.). |
@@ -106,12 +106,12 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`accountId` | string | - | List of IDs |
+`accountId` | undefined &#124; string | - | List of IDs |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`fileFormat` | "DNB_CSV" &#124; "EIKA_TELEPAY" &#124; "SPAREBANK1_TELEPAY" &#124; "VISMA_ACCOUNT_STATEMENT" &#124; "HANDELSBANKEN_TELEPAY" &#124; "SPAREBANKEN_VEST_TELEPAY" &#124; "NORDEA_CSV" &#124; "TRANSFERWISE" &#124; "SPAREBANKEN_SOR_TELEPAY" &#124; "SPAREBANKEN_OST_TELEPAY" &#124; "DANSKE_BANK_CSV" &#124; "CULTURA_BANK_TELEPAY" | - | File format |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`fileFormat` | undefined &#124; "DNB_CSV" &#124; "EIKA_TELEPAY" &#124; "SPAREBANK1_TELEPAY" &#124; "VISMA_ACCOUNT_STATEMENT" &#124; "HANDELSBANKEN_TELEPAY" &#124; "SPAREBANKEN_VEST_TELEPAY" &#124; "NORDEA_CSV" &#124; "TRANSFERWISE" &#124; "SPAREBANKEN_SOR_TELEPAY" &#124; "SPAREBANKEN_OST_TELEPAY" &#124; "DANSKE_BANK_CSV" &#124; "CULTURA_BANK_TELEPAY" | - | File format |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseBankStatement](../interfaces/listresponsebankstatement.md)›*

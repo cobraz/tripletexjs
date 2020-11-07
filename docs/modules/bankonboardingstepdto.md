@@ -17,10 +17,10 @@
 
 ### `Optional` accessible
 
-• **accessible**? : *boolean*
+• **accessible**? : *undefined | false | true*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*

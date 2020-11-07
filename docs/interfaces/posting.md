@@ -46,25 +46,25 @@ ___
 
 ### `Optional` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
 ### `Optional` amountCurrency
 
-• **amountCurrency**? : *number*
+• **amountCurrency**? : *undefined | number*
 
 ___
 
 ### `Optional` amountGross
 
-• **amountGross**? : *number*
+• **amountGross**? : *undefined | number*
 
 ___
 
 ### `Optional` amountGrossCurrency
 
-• **amountGrossCurrency**? : *number*
+• **amountGrossCurrency**? : *undefined | number*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 ### `Optional` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
@@ -118,13 +118,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` invoiceNumber
 
-• **invoiceNumber**? : *string*
+• **invoiceNumber**? : *undefined | string*
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 ### `Optional` row
 
-• **row**? : *number*
+• **row**? : *undefined | number*
 
 ___
 
@@ -154,19 +154,19 @@ ___
 
 ### `Optional` `Readonly` systemGenerated
 
-• **systemGenerated**? : *boolean*
+• **systemGenerated**? : *undefined | false | true*
 
 ___
 
 ### `Optional` termOfPayment
 
-• **termOfPayment**? : *string*
+• **termOfPayment**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

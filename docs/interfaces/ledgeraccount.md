@@ -30,13 +30,13 @@ ___
 
 ### `Optional` `Readonly` closingBalance
 
-• **closingBalance**? : *number*
+• **closingBalance**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` closingBalanceCurrency
 
-• **closingBalanceCurrency**? : *number*
+• **closingBalanceCurrency**? : *undefined | number*
 
 ___
 
@@ -48,13 +48,13 @@ ___
 
 ### `Optional` `Readonly` openingBalance
 
-• **openingBalance**? : *number*
+• **openingBalance**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` openingBalanceCurrency
 
-• **openingBalanceCurrency**? : *number*
+• **openingBalanceCurrency**? : *undefined | number*
 
 ___
 
@@ -68,10 +68,10 @@ ___
 
 ### `Optional` `Readonly` sumAmount
 
-• **sumAmount**? : *number*
+• **sumAmount**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` sumAmountCurrency
 
-• **sumAmountCurrency**? : *number*
+• **sumAmountCurrency**? : *undefined | number*

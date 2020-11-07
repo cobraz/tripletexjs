@@ -58,7 +58,7 @@ Get product unit by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProductUnit](../interfaces/responsewrapperproductunit.md)›*
@@ -81,7 +81,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProductUnit](../interfaces/productunit.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProductUnit](../interfaces/productunit.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProductUnit](../interfaces/listresponseproductunit.md)›*
 
@@ -103,7 +103,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProductUnit](../interfaces/productunit.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [ProductUnit](../interfaces/productunit.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProductUnit](../interfaces/listresponseproductunit.md)›*
 
@@ -125,7 +125,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProductUnit](../interfaces/productunit.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProductUnit](../interfaces/productunit.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperProductUnit](../interfaces/responsewrapperproductunit.md)›*
 
@@ -147,7 +147,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProductUnit](../interfaces/productunit.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [ProductUnit](../interfaces/productunit.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProductUnit](../interfaces/responsewrapperproductunit.md)›*
@@ -170,13 +170,13 @@ Find product units corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`commonCode` | string | - | Common codes |
+`commonCode` | undefined &#124; string | - | Common codes |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`name` | string | - | Names |
-`nameShort` | string | - | Short names |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`name` | undefined &#124; string | - | Names |
+`nameShort` | undefined &#124; string | - | Short names |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProductUnit](../interfaces/listresponseproductunit.md)›*

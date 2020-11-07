@@ -30,19 +30,19 @@
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`accountNumberFrom` | number | - | From and including |
-`accountNumberTo` | number | - | To and excluding |
+`accountNumberFrom` | undefined &#124; number | - | From and including |
+`accountNumberTo` | undefined &#124; number | - | To and excluding |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | number | - | Element ID |
+`customerId` | undefined &#124; number | - | Element ID |
 `dateFrom` | string | - | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | - | Format is yyyy-MM-dd (to and excl.). |
-`departmentId` | number | - | Element ID |
-`employeeId` | number | - | Element ID |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`departmentId` | undefined &#124; number | - | Element ID |
+`employeeId` | undefined &#124; number | - | Element ID |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `includeActiveAccountsWithoutMovements` | boolean | false | Should active accounts with no movements be included |
 `includeSubProjects` | boolean | false | Should sub projects of the given project be included |
-`projectId` | number | - | Element ID |
-`sorting` | string | - | Sorting pattern |
+`projectId` | undefined &#124; number | - | Element ID |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseBalanceSheetAccount](../interfaces/listresponsebalancesheetaccount.md)›*

@@ -16,4 +16,4 @@
 
 ### `Optional` costStartDate
 
-• **costStartDate**? : *string*
+• **costStartDate**? : *undefined | string*

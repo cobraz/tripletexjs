@@ -30,7 +30,7 @@
 
 ### `Optional` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
@@ -66,13 +66,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` month
 
-• **month**? : *number*
+• **month**? : *undefined | number*
 
 ___
 
@@ -102,16 +102,16 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*

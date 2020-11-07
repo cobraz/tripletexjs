@@ -40,7 +40,7 @@ Delete timesheet entry by ID.
 Name | Type | Description |
 ------ | ------ | ------ |
 `id` | number | Element ID |
-`version` | number | Number of current version |
+`version` | undefined &#124; number | Number of current version |
 
 **Returns:** *Promise‹any›*
 
@@ -62,7 +62,7 @@ Find timesheet entry by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTimesheetEntry](../interfaces/responsewrappertimesheetentry.md)›*
@@ -85,7 +85,7 @@ Add new timesheet entry. Multiple objects for several users can be sent in the s
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TimesheetEntry](../interfaces/timesheetentry.md)[] | List of timesheet entry objects |
+`body` | undefined &#124; [TimesheetEntry](../interfaces/timesheetentry.md)[] | List of timesheet entry objects |
 
 **Returns:** *Promise‹[ListResponseTimesheetEntry](../interfaces/listresponsetimesheetentry.md)›*
 
@@ -107,7 +107,7 @@ Update timesheet entry. Multiple objects for different users can be sent in the 
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TimesheetEntry](../interfaces/timesheetentry.md)[] | List of timesheet entry objects to update |
+`body` | undefined &#124; [TimesheetEntry](../interfaces/timesheetentry.md)[] | List of timesheet entry objects to update |
 
 **Returns:** *Promise‹[ListResponseTimesheetEntry](../interfaces/listresponsetimesheetentry.md)›*
 
@@ -129,7 +129,7 @@ Add new timesheet entry. Only one entry per employee/date/activity/project combi
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TimesheetEntry](../interfaces/timesheetentry.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [TimesheetEntry](../interfaces/timesheetentry.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperTimesheetEntry](../interfaces/responsewrappertimesheetentry.md)›*
 
@@ -151,7 +151,7 @@ Update timesheet entry by ID. Note: Timesheet entry object fields which are pres
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TimesheetEntry](../interfaces/timesheetentry.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [TimesheetEntry](../interfaces/timesheetentry.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTimesheetEntry](../interfaces/responsewrappertimesheetentry.md)›*
@@ -175,11 +175,11 @@ Find recently used timesheet activities.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`employeeId` | number | - | ID of employee to find activities for. Defaults to ID of token owner. |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`employeeId` | undefined &#124; number | - | ID of employee to find activities for. Defaults to ID of token owner. |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `projectId` | number | - | ID of project to find activities for |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseActivity](../interfaces/listresponseactivity.md)›*
 
@@ -202,10 +202,10 @@ Find projects with recent activities (timesheet entry registered).
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`employeeId` | number | - | ID of employee with recent project hours Defaults to ID of token owner. |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`employeeId` | undefined &#124; number | - | ID of employee with recent project hours Defaults to ID of token owner. |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProject](../interfaces/listresponseproject.md)›*
 
@@ -227,17 +227,17 @@ Find timesheet entry corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`activityId` | string | - | List of IDs |
-`comment` | string | - | Containing |
+`activityId` | undefined &#124; string | - | List of IDs |
+`comment` | undefined &#124; string | - | Containing |
 `count` | number | 1000 | Number of elements to return |
 `dateFrom` | string | - | From and including |
 `dateTo` | string | - | To and excluding |
-`employeeId` | string | - | List of IDs |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`projectId` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`employeeId` | undefined &#124; string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`projectId` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[TimesheetEntrySearchResponse](../interfaces/timesheetentrysearchresponse.md)›*
 
@@ -259,9 +259,9 @@ Find total hours registered on an employee in a specific period.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeId` | number | ID of employee to find hours for. Defaults to ID of token owner. |
-`endDate` | string | Format is yyyy-MM-dd (to and excl.). Defaults to tomorrow. |
-`fields` | string | Fields filter pattern |
-`startDate` | string | Format is yyyy-MM-dd (from and incl.). Defaults to today. |
+`employeeId` | undefined &#124; number | ID of employee to find hours for. Defaults to ID of token owner. |
+`endDate` | undefined &#124; string | Format is yyyy-MM-dd (to and excl.). Defaults to tomorrow. |
+`fields` | undefined &#124; string | Fields filter pattern |
+`startDate` | undefined &#124; string | Format is yyyy-MM-dd (from and incl.). Defaults to today. |
 
 **Returns:** *Promise‹[ResponseWrapperBigDecimal](../interfaces/responsewrapperbigdecimal.md)›*

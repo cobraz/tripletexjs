@@ -58,7 +58,7 @@ Get department by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperDepartment](../interfaces/responsewrapperdepartment.md)›*
@@ -81,7 +81,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Department](../interfaces/department.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Department](../interfaces/department.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseDepartment](../interfaces/listresponsedepartment.md)›*
 
@@ -103,7 +103,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Department](../interfaces/department.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [Department](../interfaces/department.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseDepartment](../interfaces/listresponsedepartment.md)›*
 
@@ -125,7 +125,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Department](../interfaces/department.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Department](../interfaces/department.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperDepartment](../interfaces/responsewrapperdepartment.md)›*
 
@@ -147,7 +147,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Department](../interfaces/department.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Department](../interfaces/department.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperDepartment](../interfaces/responsewrapperdepartment.md)›*
@@ -171,12 +171,12 @@ Find department corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`departmentManagerId` | string | - | List of IDs |
-`departmentNumber` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`name` | string | - | Containing |
-`sorting` | string | - | Sorting pattern |
+`departmentManagerId` | undefined &#124; string | - | List of IDs |
+`departmentNumber` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`name` | undefined &#124; string | - | Containing |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDepartment](../interfaces/listresponsedepartment.md)›*

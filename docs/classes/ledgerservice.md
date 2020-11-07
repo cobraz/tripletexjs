@@ -31,18 +31,18 @@ Find open posts corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`accountId` | number | - | Element ID |
+`accountId` | undefined &#124; number | - | Element ID |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | number | - | Element ID |
+`customerId` | undefined &#124; number | - | Element ID |
 `date` | string | - | Invoice date. Format is yyyy-MM-dd (to and excl.). |
-`departmentId` | number | - | Element ID |
-`employeeId` | number | - | Element ID |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`productId` | number | - | Element ID |
-`projectId` | number | - | Element ID |
-`sorting` | string | - | Sorting pattern |
-`supplierId` | number | - | Element ID |
+`departmentId` | undefined &#124; number | - | Element ID |
+`employeeId` | undefined &#124; number | - | Element ID |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`productId` | undefined &#124; number | - | Element ID |
+`projectId` | undefined &#124; number | - | Element ID |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`supplierId` | undefined &#124; number | - | Element ID |
 
 **Returns:** *Promise‹[ListResponseLedgerAccount](../interfaces/listresponseledgeraccount.md)›*
 
@@ -64,19 +64,19 @@ Get ledger (hovedbok).
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`accountId` | number | - | Element ID |
+`accountId` | undefined &#124; number | - | Element ID |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | number | - | Element ID |
+`customerId` | undefined &#124; number | - | Element ID |
 `dateFrom` | string | - | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | - | Format is yyyy-MM-dd (to and excl.). |
-`departmentId` | number | - | Element ID |
-`employeeId` | number | - | Element ID |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`openPostings` | string | - | Deprecated |
-`productId` | number | - | Element ID |
-`projectId` | number | - | Element ID |
-`sorting` | string | - | Sorting pattern |
-`supplierId` | number | - | Element ID |
+`departmentId` | undefined &#124; number | - | Element ID |
+`employeeId` | undefined &#124; number | - | Element ID |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`openPostings` | undefined &#124; string | - | Deprecated |
+`productId` | undefined &#124; number | - | Element ID |
+`projectId` | undefined &#124; number | - | Element ID |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`supplierId` | undefined &#124; number | - | Element ID |
 
 **Returns:** *Promise‹[ListResponseLedgerAccount](../interfaces/listresponseledgeraccount.md)›*

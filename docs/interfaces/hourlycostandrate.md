@@ -24,7 +24,7 @@
 
 ### `Optional` budgetRate
 
-• **budgetRate**? : *number*
+• **budgetRate**? : *undefined | number*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 ### `Optional` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 ___
 
@@ -48,28 +48,28 @@ ___
 
 ### `Optional` hourCostRate
 
-• **hourCostRate**? : *number*
+• **hourCostRate**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` rate
 
-• **rate**? : *number*
+• **rate**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

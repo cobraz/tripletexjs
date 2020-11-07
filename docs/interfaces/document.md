@@ -36,13 +36,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` mimeType
 
-• **mimeType**? : *string*
+• **mimeType**? : *undefined | string*
 
 Type of the document
 
@@ -50,7 +50,7 @@ ___
 
 ### `Optional` `Readonly` size
 
-• **size**? : *number*
+• **size**? : *undefined | number*
 
 The size of the document in bytes.
 
@@ -58,10 +58,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

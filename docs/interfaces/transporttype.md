@@ -28,34 +28,34 @@ ___
 
 ### `Optional` `Readonly` code
 
-• **code**? : *string*
+• **code**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isPickUp
 
-• **isPickUp**? : *boolean*
+• **isPickUp**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` nameKey
 
-• **nameKey**? : *string*
+• **nameKey**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

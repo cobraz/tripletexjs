@@ -145,31 +145,31 @@
 
 ### `Optional` `Readonly` approvehourlists
 
-• **approvehourlists**? : *boolean*
+• **approvehourlists**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` approveinvoices
 
-• **approveinvoices**? : *boolean*
+• **approveinvoices**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` approvemonthlyhourlists
 
-• **approvemonthlyhourlists**? : *boolean*
+• **approvemonthlyhourlists**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` approvetravelreports
 
-• **approvetravelreports**? : *boolean*
+• **approvetravelreports**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` autoInvoicing
 
-• **autoInvoicing**? : *boolean*
+• **autoInvoicing**? : *undefined | false | true*
 
 ___
 
@@ -181,742 +181,742 @@ ___
 
 ### `Optional` `Readonly` companyId
 
-• **companyId**? : *number*
+• **companyId**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` completemonthlyhourlists
 
-• **completemonthlyhourlists**? : *boolean*
+• **completemonthlyhourlists**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` completeweeklyhourlists
 
-• **completeweeklyhourlists**? : *boolean*
+• **completeweeklyhourlists**? : *undefined | false | true*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` moduleAccountantConnectClient
 
-• **moduleAccountantConnectClient**? : *boolean*
+• **moduleAccountantConnectClient**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAccountingExternal
 
-• **moduleAccountingExternal**? : *boolean*
+• **moduleAccountingExternal**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAccountingReports
 
-• **moduleAccountingReports**? : *boolean*
+• **moduleAccountingReports**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleActivityHourlyWageWageCode
 
-• **moduleActivityHourlyWageWageCode**? : *boolean*
+• **moduleActivityHourlyWageWageCode**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAdditionProjectMarkup
 
-• **moduleAdditionProjectMarkup**? : *boolean*
+• **moduleAdditionProjectMarkup**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAgro
 
-• **moduleAgro**? : *boolean*
+• **moduleAgro**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAhlsellPartner
 
-• **moduleAhlsellPartner**? : *boolean*
+• **moduleAhlsellPartner**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAmortization
 
-• **moduleAmortization**? : *boolean*
+• **moduleAmortization**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleApi20
 
-• **moduleApi20**? : *boolean*
+• **moduleApi20**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleApproveDepartmentVoucher
 
-• **moduleApproveDepartmentVoucher**? : *boolean*
+• **moduleApproveDepartmentVoucher**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleApproveProjectVoucher
 
-• **moduleApproveProjectVoucher**? : *boolean*
+• **moduleApproveProjectVoucher**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleApproveVoucher
 
-• **moduleApproveVoucher**? : *boolean*
+• **moduleApproveVoucher**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleArchive
 
-• **moduleArchive**? : *boolean*
+• **moduleArchive**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAutoBankReconciliation
 
-• **moduleAutoBankReconciliation**? : *boolean*
+• **moduleAutoBankReconciliation**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAutoCustomerNumber
 
-• **moduleAutoCustomerNumber**? : *boolean*
+• **moduleAutoCustomerNumber**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAutoProjectNumber
 
-• **moduleAutoProjectNumber**? : *boolean*
+• **moduleAutoProjectNumber**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleAutoVendorNumber
 
-• **moduleAutoVendorNumber**? : *boolean*
+• **moduleAutoVendorNumber**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleBoligmappa
 
-• **moduleBoligmappa**? : *boolean*
+• **moduleBoligmappa**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleCRM
 
-• **moduleCRM**? : *boolean*
+• **moduleCRM**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleCashCreditAprila
 
-• **moduleCashCreditAprila**? : *boolean*
+• **moduleCashCreditAprila**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleChangeDebtCollector
 
-• **moduleChangeDebtCollector**? : *boolean*
+• **moduleChangeDebtCollector**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleContact
 
-• **moduleContact**? : *boolean*
+• **moduleContact**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleControlSchemaRequiredHourTracking
 
-• **moduleControlSchemaRequiredHourTracking**? : *boolean*
+• **moduleControlSchemaRequiredHourTracking**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleControlSchemaRequiredInvoicing
 
-• **moduleControlSchemaRequiredInvoicing**? : *boolean*
+• **moduleControlSchemaRequiredInvoicing**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleCurrency
 
-• **moduleCurrency**? : *boolean*
+• **moduleCurrency**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleCustomerCategories
 
-• **moduleCustomerCategories**? : *boolean*
+• **moduleCustomerCategories**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleCustomerCategory1
 
-• **moduleCustomerCategory1**? : *boolean*
+• **moduleCustomerCategory1**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleCustomerCategory2
 
-• **moduleCustomerCategory2**? : *boolean*
+• **moduleCustomerCategory2**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleCustomerCategory3
 
-• **moduleCustomerCategory3**? : *boolean*
+• **moduleCustomerCategory3**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleDepartmentAccounting
 
-• **moduleDepartmentAccounting**? : *boolean*
+• **moduleDepartmentAccounting**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleDivisions
 
-• **moduleDivisions**? : *boolean*
+• **moduleDivisions**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleEhf
 
-• **moduleEhf**? : *boolean*
+• **moduleEhf**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleElectro
 
-• **moduleElectro**? : *boolean*
+• **moduleElectro**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleElektroUnion
 
-• **moduleElektroUnion**? : *boolean*
+• **moduleElektroUnion**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleElproffen
 
-• **moduleElproffen**? : *boolean*
+• **moduleElproffen**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleEmail
 
-• **moduleEmail**? : *boolean*
+• **moduleEmail**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleEmployeeAccounting
 
-• **moduleEmployeeAccounting**? : *boolean*
+• **moduleEmployeeAccounting**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleEmployeeCategory
 
-• **moduleEmployeeCategory**? : *boolean*
+• **moduleEmployeeCategory**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleEncryptedPaySlip
 
-• **moduleEncryptedPaySlip**? : *boolean*
+• **moduleEncryptedPaySlip**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleFactoringAprila
 
-• **moduleFactoringAprila**? : *boolean*
+• **moduleFactoringAprila**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleFinanceTax
 
-• **moduleFinanceTax**? : *boolean*
+• **moduleFinanceTax**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleGtin
 
-• **moduleGtin**? : *boolean*
+• **moduleGtin**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleHolydayPlan
 
-• **moduleHolydayPlan**? : *boolean*
+• **moduleHolydayPlan**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoice
 
-• **moduleInvoice**? : *boolean*
+• **moduleInvoice**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceFeeComment
 
-• **moduleInvoiceFeeComment**? : *boolean*
+• **moduleInvoiceFeeComment**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceImport
 
-• **moduleInvoiceImport**? : *boolean*
+• **moduleInvoiceImport**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceOptionAutoinvoiceEhf
 
-• **moduleInvoiceOptionAutoinvoiceEhf**? : *boolean*
+• **moduleInvoiceOptionAutoinvoiceEhf**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceOptionAvtaleGiro
 
-• **moduleInvoiceOptionAvtaleGiro**? : *boolean*
+• **moduleInvoiceOptionAvtaleGiro**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceOptionEfaktura
 
-• **moduleInvoiceOptionEfaktura**? : *boolean*
+• **moduleInvoiceOptionEfaktura**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceOptionPaper
 
-• **moduleInvoiceOptionPaper**? : *boolean*
+• **moduleInvoiceOptionPaper**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceOptionVipps
 
-• **moduleInvoiceOptionVipps**? : *boolean*
+• **moduleInvoiceOptionVipps**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleInvoiceScanning
 
-• **moduleInvoiceScanning**? : *boolean*
+• **moduleInvoiceScanning**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleMamut
 
-• **moduleMamut**? : *boolean*
+• **moduleMamut**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleMesan
 
-• **moduleMesan**? : *boolean*
+• **moduleMesan**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleNetsEboks
 
-• **moduleNetsEboks**? : *boolean*
+• **moduleNetsEboks**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleNetsPrintInvoice
 
-• **moduleNetsPrintInvoice**? : *boolean*
+• **moduleNetsPrintInvoice**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleNetsPrintSalary
 
-• **moduleNetsPrintSalary**? : *boolean*
+• **moduleNetsPrintSalary**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleNrf
 
-• **moduleNrf**? : *boolean*
+• **moduleNrf**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOcr
 
-• **moduleOcr**? : *boolean*
+• **moduleOcr**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOcrAutoPay
 
-• **moduleOcrAutoPay**? : *boolean*
+• **moduleOcrAutoPay**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOffer
 
-• **moduleOffer**? : *boolean*
+• **moduleOffer**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOnninen123
 
-• **moduleOnninen123**? : *boolean*
+• **moduleOnninen123**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOrderDiscount
 
-• **moduleOrderDiscount**? : *boolean*
+• **moduleOrderDiscount**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOrderExt
 
-• **moduleOrderExt**? : *boolean*
+• **moduleOrderExt**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOrderLineCost
 
-• **moduleOrderLineCost**? : *boolean*
+• **moduleOrderLineCost**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOrderMarkup
 
-• **moduleOrderMarkup**? : *boolean*
+• **moduleOrderMarkup**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOrderNumber
 
-• **moduleOrderNumber**? : *boolean*
+• **moduleOrderNumber**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleOrderOut
 
-• **moduleOrderOut**? : *boolean*
+• **moduleOrderOut**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulePayrollAccounting
 
-• **modulePayrollAccounting**? : *boolean*
+• **modulePayrollAccounting**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulePensionreport
 
-• **modulePensionreport**? : *boolean*
+• **modulePensionreport**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleProductAccounting
 
-• **moduleProductAccounting**? : *boolean*
+• **moduleProductAccounting**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleProductInvoice
 
-• **moduleProductInvoice**? : *boolean*
+• **moduleProductInvoice**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleProjectAccounting
 
-• **moduleProjectAccounting**? : *boolean*
+• **moduleProjectAccounting**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleProjectBudget
 
-• **moduleProjectBudget**? : *boolean*
+• **moduleProjectBudget**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleProjectBudgetReferenceFee
 
-• **moduleProjectBudgetReferenceFee**? : *boolean*
+• **moduleProjectBudgetReferenceFee**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleProjectParticipants
 
-• **moduleProjectParticipants**? : *boolean*
+• **moduleProjectParticipants**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleProvisionSalary
 
-• **moduleProvisionSalary**? : *boolean*
+• **moduleProvisionSalary**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleResourceGroups
 
-• **moduleResourceGroups**? : *boolean*
+• **moduleResourceGroups**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleResultBudget
 
-• **moduleResultBudget**? : *boolean*
+• **moduleResultBudget**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleRorkjop
 
-• **moduleRorkjop**? : *boolean*
+• **moduleRorkjop**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleSmartScan
 
-• **moduleSmartScan**? : *boolean*
+• **moduleSmartScan**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleStopWatch
 
-• **moduleStopWatch**? : *boolean*
+• **moduleStopWatch**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleSubscriptionAddressList
 
-• **moduleSubscriptionAddressList**? : *boolean*
+• **moduleSubscriptionAddressList**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleSubscriptionsPeriodisation
 
-• **moduleSubscriptionsPeriodisation**? : *boolean*
+• **moduleSubscriptionsPeriodisation**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleSwedish
 
-• **moduleSwedish**? : *boolean*
+• **moduleSwedish**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleTimeBalance
 
-• **moduleTimeBalance**? : *boolean*
+• **moduleTimeBalance**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleTravelExpense
 
-• **moduleTravelExpense**? : *boolean*
+• **moduleTravelExpense**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleTravelExpenseRates
 
-• **moduleTravelExpenseRates**? : *boolean*
+• **moduleTravelExpenseRates**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleVacationBalance
 
-• **moduleVacationBalance**? : *boolean*
+• **moduleVacationBalance**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleVoucherAutomation
 
-• **moduleVoucherAutomation**? : *boolean*
+• **moduleVoucherAutomation**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleVoucherScanning
 
-• **moduleVoucherScanning**? : *boolean*
+• **moduleVoucherScanning**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleVoucherTypes
 
-• **moduleVoucherTypes**? : *boolean*
+• **moduleVoucherTypes**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleWageAmortization
 
-• **moduleWageAmortization**? : *boolean*
+• **moduleWageAmortization**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleWageExport
 
-• **moduleWageExport**? : *boolean*
+• **moduleWageExport**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleWageProjectAccounting
 
-• **moduleWageProjectAccounting**? : *boolean*
+• **moduleWageProjectAccounting**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleWarehouse
 
-• **moduleWarehouse**? : *boolean*
+• **moduleWarehouse**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleWorkingHours
 
-• **moduleWorkingHours**? : *boolean*
+• **moduleWorkingHours**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleaccountinginternal
 
-• **moduleaccountinginternal**? : *boolean*
+• **moduleaccountinginternal**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulebudget
 
-• **modulebudget**? : *boolean*
+• **modulebudget**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulebunches
 
-• **modulebunches**? : *boolean*
+• **modulebunches**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulecustomer
 
-• **modulecustomer**? : *boolean*
+• **modulecustomer**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduledepartment
 
-• **moduledepartment**? : *boolean*
+• **moduledepartment**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleemployee
 
-• **moduleemployee**? : *boolean*
+• **moduleemployee**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulehistorical
 
-• **modulehistorical**? : *boolean*
+• **modulehistorical**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulehourlist
 
-• **modulehourlist**? : *boolean*
+• **modulehourlist**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulenote
 
-• **modulenote**? : *boolean*
+• **modulenote**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleproduct
 
-• **moduleproduct**? : *boolean*
+• **moduleproduct**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleproject
 
-• **moduleproject**? : *boolean*
+• **moduleproject**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleprojectcategory
 
-• **moduleprojectcategory**? : *boolean*
+• **moduleprojectcategory**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleprojecteconomy
 
-• **moduleprojecteconomy**? : *boolean*
+• **moduleprojecteconomy**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleprojectlocation
 
-• **moduleprojectlocation**? : *boolean*
+• **moduleprojectlocation**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleprojectprognosis
 
-• **moduleprojectprognosis**? : *boolean*
+• **moduleprojectprognosis**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleprojectsubcontract
 
-• **moduleprojectsubcontract**? : *boolean*
+• **moduleprojectsubcontract**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulereferencefee
 
-• **modulereferencefee**? : *boolean*
+• **modulereferencefee**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduleresourceallocation
 
-• **moduleresourceallocation**? : *boolean*
+• **moduleresourceallocation**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` modulesubscription
 
-• **modulesubscription**? : *boolean*
+• **modulesubscription**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` moduletask
 
-• **moduletask**? : *boolean*
+• **moduletask**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` monthlyHourlistMinusTimeWarning
 
-• **monthlyHourlistMinusTimeWarning**? : *boolean*
+• **monthlyHourlistMinusTimeWarning**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

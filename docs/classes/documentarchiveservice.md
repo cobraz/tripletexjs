@@ -70,12 +70,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`periodDateFrom` | string | - | From and including |
-`periodDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`periodDateFrom` | undefined &#124; string | - | From and including |
+`periodDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDocumentArchive](../interfaces/listresponsedocumentarchive.md)›*
 
@@ -121,12 +121,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`periodDateFrom` | string | - | From and including |
-`periodDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`periodDateFrom` | undefined &#124; string | - | From and including |
+`periodDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDocumentArchive](../interfaces/listresponsedocumentarchive.md)›*
 
@@ -194,12 +194,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`periodDateFrom` | string | - | From and including |
-`periodDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`periodDateFrom` | undefined &#124; string | - | From and including |
+`periodDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDocumentArchive](../interfaces/listresponsedocumentarchive.md)›*
 
@@ -222,12 +222,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`periodDateFrom` | string | - | From and including |
-`periodDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`periodDateFrom` | undefined &#124; string | - | From and including |
+`periodDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDocumentArchive](../interfaces/listresponsedocumentarchive.md)›*
 
@@ -273,12 +273,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`periodDateFrom` | string | - | From and including |
-`periodDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`periodDateFrom` | undefined &#124; string | - | From and including |
+`periodDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDocumentArchive](../interfaces/listresponsedocumentarchive.md)›*
 
@@ -324,12 +324,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`periodDateFrom` | string | - | From and including |
-`periodDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`periodDateFrom` | undefined &#124; string | - | From and including |
+`periodDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDocumentArchive](../interfaces/listresponsedocumentarchive.md)›*
 
@@ -374,7 +374,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [DocumentArchive](../interfaces/documentarchive.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [DocumentArchive](../interfaces/documentarchive.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperDocumentArchive](../interfaces/responsewrapperdocumentarchive.md)›*
@@ -420,12 +420,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`periodDateFrom` | string | - | From and including |
-`periodDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`periodDateFrom` | undefined &#124; string | - | From and including |
+`periodDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDocumentArchive](../interfaces/listresponsedocumentarchive.md)›*
 

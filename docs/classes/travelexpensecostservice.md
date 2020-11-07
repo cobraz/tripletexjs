@@ -56,7 +56,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCost](../interfaces/responsewrappercost.md)›*
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Cost](../interfaces/cost.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Cost](../interfaces/cost.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperCost](../interfaces/responsewrappercost.md)›*
 
@@ -101,7 +101,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Cost](../interfaces/cost.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Cost](../interfaces/cost.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCost](../interfaces/responsewrappercost.md)›*
@@ -124,20 +124,20 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`address` | string | - | Containing |
-`amountFrom` | string | - | From and including |
-`amountTo` | string | - | To and excluding |
+`address` | undefined &#124; string | - | Containing |
+`amountFrom` | undefined &#124; string | - | From and including |
+`amountTo` | undefined &#124; string | - | To and excluding |
 `count` | number | 1000 | Number of elements to return |
-`countFrom` | number | - | From and including |
-`countTo` | number | - | To and excluding |
-`currencyId` | string | - | Equals |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`location` | string | - | Containing |
-`rateFrom` | string | - | From and including |
-`rateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
-`travelExpenseId` | string | - | Equals |
-`vatTypeId` | string | - | Equals |
+`countFrom` | undefined &#124; number | - | From and including |
+`countTo` | undefined &#124; number | - | To and excluding |
+`currencyId` | undefined &#124; string | - | Equals |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`location` | undefined &#124; string | - | Containing |
+`rateFrom` | undefined &#124; string | - | From and including |
+`rateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`travelExpenseId` | undefined &#124; string | - | Equals |
+`vatTypeId` | undefined &#124; string | - | Equals |
 
 **Returns:** *Promise‹[ListResponseCost](../interfaces/listresponsecost.md)›*

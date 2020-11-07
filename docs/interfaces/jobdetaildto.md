@@ -20,13 +20,13 @@
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` group
 
-• **group**? : *string*
+• **group**? : *undefined | string*
 
 ___
 
@@ -38,10 +38,10 @@ ___
 
 ### `Optional` jobclass
 
-• **jobclass**? : *string*
+• **jobclass**? : *undefined | string*
 
 ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*

@@ -16,4 +16,4 @@
 
 ### `Optional` `Readonly` loginUrl
 
-• **loginUrl**? : *string*
+• **loginUrl**? : *undefined | string*

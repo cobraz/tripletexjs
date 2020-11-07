@@ -59,7 +59,7 @@ Find project specific rate by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectSpecificRate](../interfaces/responsewrapperprojectspecificrate.md)›*
@@ -104,7 +104,7 @@ Create multiple new project specific rates.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectSpecificRate](../interfaces/projectspecificrate.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectSpecificRate](../interfaces/projectspecificrate.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProjectSpecificRate](../interfaces/listresponseprojectspecificrate.md)›*
 
@@ -126,7 +126,7 @@ Update multiple project specific rates.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectSpecificRate](../interfaces/projectspecificrate.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [ProjectSpecificRate](../interfaces/projectspecificrate.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProjectSpecificRate](../interfaces/listresponseprojectspecificrate.md)›*
 
@@ -148,7 +148,7 @@ Create new project specific rate.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectSpecificRate](../interfaces/projectspecificrate.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectSpecificRate](../interfaces/projectspecificrate.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperProjectSpecificRate](../interfaces/responsewrapperprojectspecificrate.md)›*
 
@@ -170,7 +170,7 @@ Update a project specific rate.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectSpecificRate](../interfaces/projectspecificrate.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [ProjectSpecificRate](../interfaces/projectspecificrate.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectSpecificRate](../interfaces/responsewrapperprojectspecificrate.md)›*
@@ -193,13 +193,13 @@ Find project specific rates corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`activityId` | string | - | List of IDs |
+`activityId` | undefined &#124; string | - | List of IDs |
 `count` | number | 1000 | Number of elements to return |
-`employeeId` | string | - | List of IDs |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`projectHourlyRateId` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`employeeId` | undefined &#124; string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`projectHourlyRateId` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProjectSpecificRate](../interfaces/listresponseprojectspecificrate.md)›*

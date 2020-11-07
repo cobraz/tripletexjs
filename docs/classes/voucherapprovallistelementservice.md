@@ -30,7 +30,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperVoucherApprovalListElement](../interfaces/responsewrappervoucherapprovallistelement.md)›*

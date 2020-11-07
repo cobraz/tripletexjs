@@ -38,7 +38,7 @@
 
 ### `Optional` `Readonly` amountOrderLinesAndReinvoicing
 
-• **amountOrderLinesAndReinvoicing**? : *number*
+• **amountOrderLinesAndReinvoicing**? : *undefined | number*
 
 The amount of chargeable manual order lines and vendor invoices on the project invoice.
 
@@ -46,7 +46,7 @@ ___
 
 ### `Optional` `Readonly` amountOrderLinesAndReinvoicingCurrency
 
-• **amountOrderLinesAndReinvoicingCurrency**? : *number*
+• **amountOrderLinesAndReinvoicingCurrency**? : *undefined | number*
 
 The amount of chargeable manual order lines and vendor invoices on the project invoice, in the invoice currency.
 
@@ -54,7 +54,7 @@ ___
 
 ### `Optional` `Readonly` amountTravelReportsAndExpenses
 
-• **amountTravelReportsAndExpenses**? : *number*
+• **amountTravelReportsAndExpenses**? : *undefined | number*
 
 The amount of travel costs and expenses on the project invoice.
 
@@ -62,7 +62,7 @@ ___
 
 ### `Optional` `Readonly` amountTravelReportsAndExpensesCurrency
 
-• **amountTravelReportsAndExpensesCurrency**? : *number*
+• **amountTravelReportsAndExpensesCurrency**? : *undefined | number*
 
 The amount of travel costs and expenses on the project invoice, in the invoice currency.
 
@@ -76,7 +76,7 @@ ___
 
 ### `Optional` `Readonly` feeAmount
 
-• **feeAmount**? : *number*
+• **feeAmount**? : *undefined | number*
 
 Fee amount of the project. For example: 100 NOK.
 
@@ -84,7 +84,7 @@ ___
 
 ### `Optional` `Readonly` feeAmountCurrency
 
-• **feeAmountCurrency**? : *number*
+• **feeAmountCurrency**? : *undefined | number*
 
 Fee amount of the project in the invoice currency.
 
@@ -92,7 +92,7 @@ ___
 
 ### `Optional` `Readonly` feeInvoiceText
 
-• **feeInvoiceText**? : *string*
+• **feeInvoiceText**? : *undefined | string*
 
 The fee comment on the project invoice.
 
@@ -100,13 +100,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` includeHours
 
-• **includeHours**? : *boolean*
+• **includeHours**? : *undefined | false | true*
 
 Determines if hours should be included on the project invoice.
 
@@ -114,7 +114,7 @@ ___
 
 ### `Optional` `Readonly` includeOnAccountBalance
 
-• **includeOnAccountBalance**? : *boolean*
+• **includeOnAccountBalance**? : *undefined | false | true*
 
 Determines if akonto should be included on the project invoice.
 
@@ -122,7 +122,7 @@ ___
 
 ### `Optional` `Readonly` includeOrderLinesAndReinvoicing
 
-• **includeOrderLinesAndReinvoicing**? : *boolean*
+• **includeOrderLinesAndReinvoicing**? : *undefined | false | true*
 
 Determines if extra costs should be included on the project invoice.
 
@@ -136,7 +136,7 @@ ___
 
 ### `Optional` `Readonly` invoiceText
 
-• **invoiceText**? : *string*
+• **invoiceText**? : *undefined | string*
 
 The comment on the project invoice.
 
@@ -144,7 +144,7 @@ ___
 
 ### `Optional` `Readonly` markupAmount
 
-• **markupAmount**? : *number*
+• **markupAmount**? : *undefined | number*
 
 The amount value of mark-up of amountFee on the project invoice. For example: 10 NOK.
 
@@ -152,7 +152,7 @@ ___
 
 ### `Optional` `Readonly` markupAmountCurrency
 
-• **markupAmountCurrency**? : *number*
+• **markupAmountCurrency**? : *undefined | number*
 
 The amount value of mark-up of amountFee on the project invoice, in the invoice currency.
 
@@ -160,7 +160,7 @@ ___
 
 ### `Optional` `Readonly` markupPercent
 
-• **markupPercent**? : *number*
+• **markupPercent**? : *undefined | number*
 
 The percentage value of mark-up of amountFee. For example: 10%.
 
@@ -168,7 +168,7 @@ ___
 
 ### `Optional` `Readonly` onAccountBalanceAmount
 
-• **onAccountBalanceAmount**? : *number*
+• **onAccountBalanceAmount**? : *undefined | number*
 
 The akonto amount on the project invoice.
 
@@ -176,7 +176,7 @@ ___
 
 ### `Optional` `Readonly` onAccountBalanceAmountCurrency
 
-• **onAccountBalanceAmountCurrency**? : *number*
+• **onAccountBalanceAmountCurrency**? : *undefined | number*
 
 The akonto amount on the project invoice in the invoice currency.
 
@@ -192,7 +192,7 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -206,4 +206,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

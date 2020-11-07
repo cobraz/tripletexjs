@@ -32,13 +32,13 @@ ___
 
 ### `Optional` `Readonly` deviation
 
-• **deviation**? : *number*
+• **deviation**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 ### `Optional` `Readonly` quantityOrdered
 
-• **quantityOrdered**? : *number*
+• **quantityOrdered**? : *undefined | number*
 
 ___
 
@@ -76,16 +76,16 @@ ___
 
 ### `Optional` `Readonly` quantityRest
 
-• **quantityRest**? : *number*
+• **quantityRest**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

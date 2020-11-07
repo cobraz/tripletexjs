@@ -17,7 +17,7 @@
 
 ### `Optional` `Readonly` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 Balance on the given date.
 
@@ -25,4 +25,4 @@ ___
 
 ### `Optional` `Readonly` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*

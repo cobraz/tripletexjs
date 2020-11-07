@@ -29,7 +29,7 @@
 
 ### `Optional` accountingOffice
 
-• **accountingOffice**? : *boolean*
+• **accountingOffice**? : *undefined | false | true*
 
 ___
 
@@ -51,13 +51,13 @@ ___
 
 ### `Optional` auditor
 
-• **auditor**? : *boolean*
+• **auditor**? : *undefined | false | true*
 
 ___
 
 ### `Optional` autoValidateUserLogin
 
-• **autoValidateUserLogin**? : *boolean*
+• **autoValidateUserLogin**? : *undefined | false | true*
 
 If true, the users created will be allowed to log in without validating their email address. ONLY USE THIS IF YOU ALREADY HAVE VALIDATED THE USER EMAILS.
 
@@ -73,7 +73,7 @@ ___
 
 ### `Optional` createAdministratorApiToken
 
-• **createAdministratorApiToken**? : *boolean*
+• **createAdministratorApiToken**? : *undefined | false | true*
 
 Create an API token for the administrator user for the consumer token used during this call. The token will be returned in the response.
 
@@ -81,7 +81,7 @@ ___
 
 ### `Optional` createCompanyOwnedApiToken
 
-• **createCompanyOwnedApiToken**? : *boolean*
+• **createCompanyOwnedApiToken**? : *undefined | false | true*
 
 Create an API token for the company to use to call their clients, only possible for accounting and auditor accounts. The token will be returned in the response.
 
@@ -89,7 +89,7 @@ ___
 
 ### `Optional` mayCreateTripletexAccounts
 
-• **mayCreateTripletexAccounts**? : *boolean*
+• **mayCreateTripletexAccounts**? : *undefined | false | true*
 
 Should the company we are creating be able to create new Tripletex accounts?
 
@@ -105,12 +105,12 @@ ___
 
 ### `Optional` reseller
 
-• **reseller**? : *boolean*
+• **reseller**? : *undefined | false | true*
 
 ___
 
 ### `Optional` sendEmails
 
-• **sendEmails**? : *boolean*
+• **sendEmails**? : *undefined | false | true*
 
 Should the regular creation emails be sent to the company created and its users? If false you probably want to set autoValidateUserLogin to true

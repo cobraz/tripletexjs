@@ -30,4 +30,4 @@ ___
 
 ### `Optional` isDefault
 
-• **isDefault**? : *boolean*
+• **isDefault**? : *undefined | false | true*

@@ -19,22 +19,22 @@
 
 ### `Optional` `Readonly` changesInPeriod
 
-• **changesInPeriod**? : *number*
+• **changesInPeriod**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` closingStock
 
-• **closingStock**? : *number*
+• **closingStock**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` inventory
 
-• **inventory**? : *string*
+• **inventory**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` openingStock
 
-• **openingStock**? : *number*
+• **openingStock**? : *undefined | number*

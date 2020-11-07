@@ -26,7 +26,7 @@ ___
 
 ### `Optional` companyId
 
-• **companyId**? : *number*
+• **companyId**? : *undefined | number*
 
 ___
 
@@ -38,10 +38,10 @@ ___
 
 ### `Optional` employeeId
 
-• **employeeId**? : *number*
+• **employeeId**? : *undefined | number*
 
 ___
 
 ### `Optional` language
 
-• **language**? : *string*
+• **language**? : *undefined | string*

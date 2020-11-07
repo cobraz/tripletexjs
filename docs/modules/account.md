@@ -42,25 +42,25 @@ ___
 
 ### `Optional` bankAccountIBAN
 
-• **bankAccountIBAN**? : *string*
+• **bankAccountIBAN**? : *undefined | string*
 
 ___
 
 ### `Optional` bankAccountNumber
 
-• **bankAccountNumber**? : *string*
+• **bankAccountNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` bankAccountSWIFT
 
-• **bankAccountSWIFT**? : *string*
+• **bankAccountSWIFT**? : *undefined | string*
 
 ___
 
 ### `Optional` bankName
 
-• **bankName**? : *string*
+• **bankName**? : *undefined | string*
 
 ___
 
@@ -80,19 +80,19 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isApplicableForSupplierInvoice
 
-• **isApplicableForSupplierInvoice**? : *boolean*
+• **isApplicableForSupplierInvoice**? : *undefined | false | true*
 
 True if this account is applicable for supplier invoice registration.
 
@@ -100,13 +100,13 @@ ___
 
 ### `Optional` isBankAccount
 
-• **isBankAccount**? : *boolean*
+• **isBankAccount**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isCloseable
 
-• **isCloseable**? : *boolean*
+• **isCloseable**? : *undefined | false | true*
 
 True if it should be possible to close entries on this account and it is possible to filter on open entries.
 
@@ -114,7 +114,7 @@ ___
 
 ### `Optional` isInactive
 
-• **isInactive**? : *boolean*
+• **isInactive**? : *undefined | false | true*
 
 Inactive accounts will not show up in UI lists.
 
@@ -122,7 +122,7 @@ ___
 
 ### `Optional` isInvoiceAccount
 
-• **isInvoiceAccount**? : *boolean*
+• **isInvoiceAccount**? : *undefined | false | true*
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 ### `Optional` requireReconciliation
 
-• **requireReconciliation**? : *boolean*
+• **requireReconciliation**? : *undefined | false | true*
 
 True if this account must be reconciled before the accounting period closure.
 
@@ -148,13 +148,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` vatLocked
 
-• **vatLocked**? : *boolean*
+• **vatLocked**? : *undefined | false | true*
 
 True if all entries on this account must have the vat type given by vatType.
 
@@ -170,4 +170,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -28,7 +28,7 @@
 
 ### `Optional` accounting
 
-• **accounting**? : *boolean*
+• **accounting**? : *undefined | false | true*
 
 Not readable. Only for input.
 
@@ -36,13 +36,13 @@ ___
 
 ### `Optional` agro
 
-• **agro**? : *boolean*
+• **agro**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` approveVoucher
 
-• **approveVoucher**? : *boolean*
+• **approveVoucher**? : *undefined | false | true*
 
 Only readable for now
 
@@ -50,7 +50,7 @@ ___
 
 ### `Optional` electro
 
-• **electro**? : *boolean*
+• **electro**? : *undefined | false | true*
 
 Not readable. Only for input.
 
@@ -58,7 +58,7 @@ ___
 
 ### `Optional` electronicVouchers
 
-• **electronicVouchers**? : *boolean*
+• **electronicVouchers**? : *undefined | false | true*
 
 Not readable. Only for input.
 
@@ -66,7 +66,7 @@ ___
 
 ### `Optional` invoice
 
-• **invoice**? : *boolean*
+• **invoice**? : *undefined | false | true*
 
 Not readable. Only for input.
 
@@ -74,19 +74,19 @@ ___
 
 ### `Optional` mamut
 
-• **mamut**? : *boolean*
+• **mamut**? : *undefined | false | true*
 
 ___
 
 ### `Optional` ocr
 
-• **ocr**? : *boolean*
+• **ocr**? : *undefined | false | true*
 
 ___
 
 ### `Optional` project
 
-• **project**? : *boolean*
+• **project**? : *undefined | false | true*
 
 Not readable. Only for input.
 
@@ -94,13 +94,13 @@ ___
 
 ### `Optional` remit
 
-• **remit**? : *boolean*
+• **remit**? : *undefined | false | true*
 
 ___
 
 ### `Optional` salary
 
-• **salary**? : *boolean*
+• **salary**? : *undefined | false | true*
 
 Not readable. Only for input.
 
@@ -108,12 +108,12 @@ ___
 
 ### `Optional` salaryStartDate
 
-• **salaryStartDate**? : *string*
+• **salaryStartDate**? : *undefined | string*
 
 ___
 
 ### `Optional` vvs
 
-• **vvs**? : *boolean*
+• **vvs**? : *undefined | false | true*
 
 Not readable. Only for input.

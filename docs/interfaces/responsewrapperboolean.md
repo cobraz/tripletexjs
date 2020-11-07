@@ -16,4 +16,4 @@
 
 ### `Optional` value
 
-• **value**? : *boolean*
+• **value**? : *undefined | false | true*

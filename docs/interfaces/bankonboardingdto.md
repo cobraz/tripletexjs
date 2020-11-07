@@ -26,13 +26,13 @@ ___
 
 ### `Optional` companyOrgnr
 
-• **companyOrgnr**? : *string*
+• **companyOrgnr**? : *undefined | string*
 
 ___
 
 ### `Optional` hasFullAccess
 
-• **hasFullAccess**? : *boolean*
+• **hasFullAccess**? : *undefined | false | true*
 
 ___
 

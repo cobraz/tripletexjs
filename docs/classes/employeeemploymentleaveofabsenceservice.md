@@ -33,7 +33,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperLeaveOfAbsence](../interfaces/responsewrapperleaveofabsence.md)›*
@@ -56,7 +56,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [LeaveOfAbsence](../modules/leaveofabsence.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [LeaveOfAbsence](../modules/leaveofabsence.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseLeaveOfAbsence](../interfaces/listresponseleaveofabsence.md)›*
 
@@ -78,7 +78,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [LeaveOfAbsence](../modules/leaveofabsence.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [LeaveOfAbsence](../modules/leaveofabsence.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperLeaveOfAbsence](../interfaces/responsewrapperleaveofabsence.md)›*
 
@@ -100,7 +100,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [LeaveOfAbsence](../modules/leaveofabsence.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [LeaveOfAbsence](../modules/leaveofabsence.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperLeaveOfAbsence](../interfaces/responsewrapperleaveofabsence.md)›*

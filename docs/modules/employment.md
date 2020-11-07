@@ -54,7 +54,7 @@ ___
 
 ### `Optional` employmentId
 
-• **employmentId**? : *string*
+• **employmentId**? : *undefined | string*
 
 Existing employment ID used by the current accounting system
 
@@ -62,19 +62,19 @@ ___
 
 ### `Optional` endDate
 
-• **endDate**? : *string*
+• **endDate**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isMainEmployer
 
-• **isMainEmployer**? : *boolean*
+• **isMainEmployer**? : *undefined | false | true*
 
 Determines if company is main employer for the employee. Default value is true.<br />Some values will be default set if not sent upon creation of employment: <br/> If isMainEmployer is NOT sent and tax deduction code loennFraHovedarbeidsgiver is sent, isMainEmployer will be set to true. <br /> If isMainEmployer is NOT sent and tax deduction code loennFraBiarbeidsgiver is sent, isMainEmployer will be set to false. <br /> If true and deduction code is NOT sent, value of tax deduction code will be set to loennFraHovedarbeidsgiver. <br /> If false and deduction code is NOT sent, value of tax deduction code will be set to loennFraBiarbeidsgiver. <br /> For other types of Tax Deduction Codes, isMainEmployer does not influence anything.
 
@@ -82,13 +82,13 @@ ___
 
 ### `Optional` lastSalaryChangeDate
 
-• **lastSalaryChangeDate**? : *string*
+• **lastSalaryChangeDate**? : *undefined | string*
 
 ___
 
 ### `Optional` noEmploymentRelationship
 
-• **noEmploymentRelationship**? : *boolean*
+• **noEmploymentRelationship**? : *undefined | false | true*
 
 Activate pensions and other benefits with no employment relationship.
 
@@ -102,10 +102,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

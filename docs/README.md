@@ -618,6 +618,7 @@
 ### Functions
 
 * [catchErrors](README.md#catcherrors)
+* [generateToken](README.md#generatetoken)
 * [getFormData](README.md#getformdata)
 * [getHeaders](README.md#getheaders)
 * [getQueryString](README.md#getquerystring)
@@ -626,11 +627,13 @@
 * [getResponseHeader](README.md#getresponseheader)
 * [getToken](README.md#gettoken)
 * [getUrl](README.md#geturl)
+* [invariant](README.md#invariant)
 * [isBinary](README.md#isbinary)
 * [isDefined](README.md#isdefined)
 * [isString](README.md#isstring)
 * [request](README.md#request)
 * [sendRequest](README.md#sendrequest)
+* [setUsername](README.md#setusername)
 
 ### Object literals
 
@@ -650,6 +653,36 @@ Name | Type |
 `result` | [ApiResult](interfaces/apiresult.md) |
 
 **Returns:** *void*
+
+___
+
+###  generateToken
+
+▸ **generateToken**(`__namedParameters`: object): *Promise‹undefined | false›*
+
+generateToken helps creating a token. It sets token for all requests.
+
+**`example`** 
+```typescript
+const expDate = new Date();
+expDate.setDate(expDate.getDate() + 1);
+await generateToken({
+  consumerToken: '000-000-000',
+  employeeToken: '100-100-100',
+  expirationDate: expDate,
+});
+```
+
+**Parameters:**
+
+▪ **__namedParameters**: *object*
+
+Name | Type | Description |
+------ | ------ | ------ |
+`expirationDate` | Date | Expiration date for the combined token |
+`tokenSessionArgs` | tokenSessionArgs | - |
+
+**Returns:** *Promise‹undefined | false›*
 
 ___
 
@@ -725,14 +758,14 @@ ___
 
 ###  getResponseHeader
 
-▸ **getResponseHeader**(`response`: Response, `responseHeader?`: string): *string | null*
+▸ **getResponseHeader**(`response`: Response, `responseHeader?`: undefined | string): *string | null*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `response` | Response |
-`responseHeader?` | string |
+`responseHeader?` | undefined &#124; string |
 
 **Returns:** *string | null*
 
@@ -757,6 +790,21 @@ Name | Type |
 `options` | [ApiRequestOptions](interfaces/apirequestoptions.md) |
 
 **Returns:** *string*
+
+___
+
+###  invariant
+
+▸ **invariant**(`condition`: unknown, `message?`: undefined | string): *asserts condition*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`condition` | unknown |
+`message?` | undefined &#124; string |
+
+**Returns:** *asserts condition*
 
 ___
 
@@ -839,6 +887,23 @@ Name | Type |
 
 **Returns:** *Promise‹Response›*
 
+___
+
+###  setUsername
+
+▸ **setUsername**(`username`: string | function): *Promise‹void›*
+
+0 or blank means the company of the employee.
+Any other value means accountant clients. Use /company/>withLoginAccess to get a list of those.
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`username` | string &#124; function | defaults to '0'  |
+
+**Returns:** *Promise‹void›*
+
 ## Object literals
 
 ### `Const` OpenAPI
@@ -852,6 +917,10 @@ Name | Type |
 ###  TOKEN
 
 • **TOKEN**: *string* = ""
+
+###  USERNAME
+
+• **USERNAME**: *string* = ""
 
 ###  VERSION
 

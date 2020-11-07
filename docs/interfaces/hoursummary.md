@@ -23,46 +23,46 @@
 
 ### `Optional` `Readonly` budgetChargeableHours
 
-• **budgetChargeableHours**? : *number*
+• **budgetChargeableHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` chargeableHours
 
-• **chargeableHours**? : *number*
+• **chargeableHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` hourlyWageHoursWithPay
 
-• **hourlyWageHoursWithPay**? : *number*
+• **hourlyWageHoursWithPay**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` hoursWithPay
 
-• **hoursWithPay**? : *number*
+• **hoursWithPay**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` nonChargeableHours
 
-• **nonChargeableHours**? : *number*
+• **nonChargeableHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` nonChargeableHoursWithPay
 
-• **nonChargeableHoursWithPay**? : *number*
+• **nonChargeableHoursWithPay**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` standardTime
 
-• **standardTime**? : *number*
+• **standardTime**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` sumHours
 
-• **sumHours**? : *number*
+• **sumHours**? : *undefined | number*

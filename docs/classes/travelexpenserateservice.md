@@ -31,7 +31,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTravelExpenseRate](../interfaces/responsewrappertravelexpenserate.md)›*
@@ -55,18 +55,18 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`dateFrom` | string | - | From and including |
-`dateTo` | string | - | To and excluding |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`isValidAccommodation` | boolean | - | Equals |
-`isValidDayTrip` | boolean | - | Equals |
-`isValidDomestic` | boolean | - | Equals |
-`isValidForeignTravel` | boolean | - | Equals |
-`rateCategoryId` | string | - | Equals |
-`requiresOvernightAccommodation` | boolean | - | Equals |
-`requiresZone` | boolean | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`type` | "PER_DIEM" &#124; "ACCOMMODATION_ALLOWANCE" &#124; "MILEAGE_ALLOWANCE" | - | Equals |
+`dateFrom` | undefined &#124; string | - | From and including |
+`dateTo` | undefined &#124; string | - | To and excluding |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`isValidAccommodation` | undefined &#124; false &#124; true | - | Equals |
+`isValidDayTrip` | undefined &#124; false &#124; true | - | Equals |
+`isValidDomestic` | undefined &#124; false &#124; true | - | Equals |
+`isValidForeignTravel` | undefined &#124; false &#124; true | - | Equals |
+`rateCategoryId` | undefined &#124; string | - | Equals |
+`requiresOvernightAccommodation` | undefined &#124; false &#124; true | - | Equals |
+`requiresZone` | undefined &#124; false &#124; true | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`type` | undefined &#124; "PER_DIEM" &#124; "ACCOMMODATION_ALLOWANCE" &#124; "MILEAGE_ALLOWANCE" | - | Equals |
 
 **Returns:** *Promise‹[ListResponseTravelExpenseRate](../interfaces/listresponsetravelexpenserate.md)›*

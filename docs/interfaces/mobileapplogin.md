@@ -29,7 +29,7 @@ ___
 
 ### `Optional` employeeId
 
-• **employeeId**? : *number*
+• **employeeId**? : *undefined | number*
 
 Optional employee ID. Default employee is used when null
 
@@ -45,7 +45,7 @@ ___
 
 ### `Optional` mfaCode
 
-• **mfaCode**? : *number*
+• **mfaCode**? : *undefined | number*
 
 Optional mfa auth code
 

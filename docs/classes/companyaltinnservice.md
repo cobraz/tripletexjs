@@ -31,7 +31,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [AltinnCompanyModule](../interfaces/altinncompanymodule.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [AltinnCompanyModule](../interfaces/altinncompanymodule.md) | Partial object describing what should be updated |
 
 **Returns:** *Promise‹[ResponseWrapperAltinnCompanyModule](../interfaces/responsewrapperaltinncompanymodule.md)›*
 
@@ -53,6 +53,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 
 **Returns:** *Promise‹[ResponseWrapperAltinnCompanyModule](../interfaces/responsewrapperaltinncompanymodule.md)›*

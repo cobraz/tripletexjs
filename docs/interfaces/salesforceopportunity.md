@@ -27,7 +27,7 @@
 
 ### `Optional` accountantMonthlyProvision
 
-• **accountantMonthlyProvision**? : *number*
+• **accountantMonthlyProvision**? : *undefined | number*
 
 The monthly provision for the accountant of the monthly price (percentage)
 
@@ -35,7 +35,7 @@ ___
 
 ### `Optional` accountantStartupProvision
 
-• **accountantStartupProvision**? : *number*
+• **accountantStartupProvision**? : *undefined | number*
 
 The initial provision for the accountant of the startup price (percentage)
 
@@ -51,7 +51,7 @@ ___
 
 ### `Optional` listPriceCategory1UserService
 
-• **listPriceCategory1UserService**? : *number*
+• **listPriceCategory1UserService**? : *undefined | number*
 
 The monthly list price per user.
 
@@ -59,7 +59,7 @@ ___
 
 ### `Optional` listPriceCategory1UserStartup
 
-• **listPriceCategory1UserStartup**? : *number*
+• **listPriceCategory1UserStartup**? : *undefined | number*
 
 The startup list price per user.
 
@@ -67,7 +67,7 @@ ___
 
 ### `Optional` noOfUsersIncluded
 
-• **noOfUsersIncluded**? : *number*
+• **noOfUsersIncluded**? : *undefined | number*
 
 The number of users included for free in the purchased module.
 
@@ -75,7 +75,7 @@ ___
 
 ### `Optional` noOfUsersPrepaid
 
-• **noOfUsersPrepaid**? : *number*
+• **noOfUsersPrepaid**? : *undefined | number*
 
 The number of users prepaid when creating the company.
 
@@ -83,7 +83,7 @@ ___
 
 ### `Optional` sumAdditionalServices
 
-• **sumAdditionalServices**? : *number*
+• **sumAdditionalServices**? : *undefined | number*
 
 The total startup price for additional services.
 
@@ -91,7 +91,7 @@ ___
 
 ### `Optional` sumService
 
-• **sumService**? : *number*
+• **sumService**? : *undefined | number*
 
 The monthly price for the company.
 
@@ -99,7 +99,7 @@ ___
 
 ### `Optional` sumServiceCategory1Users
 
-• **sumServiceCategory1Users**? : *number*
+• **sumServiceCategory1Users**? : *undefined | number*
 
 The total price per monthly price for users of category 1.
 
@@ -107,7 +107,7 @@ ___
 
 ### `Optional` sumStartup
 
-• **sumStartup**? : *number*
+• **sumStartup**? : *undefined | number*
 
 The startup price for the company.
 
@@ -115,6 +115,6 @@ ___
 
 ### `Optional` sumStartupCategory1Users
 
-• **sumStartupCategory1Users**? : *number*
+• **sumStartupCategory1Users**? : *undefined | number*
 
 The total startup price for users of category 1.

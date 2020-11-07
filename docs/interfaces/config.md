@@ -12,6 +12,7 @@
 
 * [BASE](config.md#base)
 * [TOKEN](config.md#token)
+* [USERNAME](config.md#username)
 * [VERSION](config.md#version)
 * [WITH_CREDENTIALS](config.md#with_credentials)
 
@@ -25,7 +26,13 @@ ___
 
 ###  TOKEN
 
-• **TOKEN**: *string | function*
+• **TOKEN**: *[SessionToken](sessiontoken.md) | string | function*
+
+___
+
+###  USERNAME
+
+• **USERNAME**: *string | function*
 
 ___
 

@@ -26,64 +26,64 @@
 
 ### `Optional` departureDate
 
-• **departureDate**? : *string*
+• **departureDate**? : *undefined | string*
 
 ___
 
 ### `Optional` departureFrom
 
-• **departureFrom**? : *string*
+• **departureFrom**? : *undefined | string*
 
 ___
 
 ### `Optional` departureTime
 
-• **departureTime**? : *string*
+• **departureTime**? : *undefined | string*
 
 ___
 
 ### `Optional` destination
 
-• **destination**? : *string*
+• **destination**? : *undefined | string*
 
 ___
 
 ### `Optional` detailedJourneyDescription
 
-• **detailedJourneyDescription**? : *string*
+• **detailedJourneyDescription**? : *undefined | string*
 
 ___
 
 ### `Optional` isCompensationFromRates
 
-• **isCompensationFromRates**? : *boolean*
+• **isCompensationFromRates**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isDayTrip
 
-• **isDayTrip**? : *boolean*
+• **isDayTrip**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isForeignTravel
 
-• **isForeignTravel**? : *boolean*
+• **isForeignTravel**? : *undefined | false | true*
 
 ___
 
 ### `Optional` purpose
 
-• **purpose**? : *string*
+• **purpose**? : *undefined | string*
 
 ___
 
 ### `Optional` returnDate
 
-• **returnDate**? : *string*
+• **returnDate**? : *undefined | string*
 
 ___
 
 ### `Optional` returnTime
 
-• **returnTime**? : *string*
+• **returnTime**? : *undefined | string*

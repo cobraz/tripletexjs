@@ -45,7 +45,7 @@ ___
 
 ### `Optional` `Readonly` costExcludingVatCurrency
 
-• **costExcludingVatCurrency**? : *number*
+• **costExcludingVatCurrency**? : *undefined | number*
 
 Price purchase (cost) excluding VAT in the product's currency
 
@@ -65,49 +65,49 @@ ___
 
 ### `Optional` `Readonly` discountPrice
 
-• **discountPrice**? : *number*
+• **discountPrice**? : *undefined | number*
 
 ___
 
 ### `Optional` elNumber
 
-• **elNumber**? : *string*
+• **elNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isInactive
 
-• **isInactive**? : *boolean*
+• **isInactive**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isStockItem
 
-• **isStockItem**? : *boolean*
+• **isStockItem**? : *undefined | false | true*
 
 ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` nrfNumber
 
-• **nrfNumber**? : *string*
+• **nrfNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` priceExcludingVatCurrency
 
-• **priceExcludingVatCurrency**? : *number*
+• **priceExcludingVatCurrency**? : *undefined | number*
 
 Price of purchase excluding VAT in the product's currency
 
@@ -115,7 +115,7 @@ ___
 
 ### `Optional` priceIncludingVatCurrency
 
-• **priceIncludingVatCurrency**? : *number*
+• **priceIncludingVatCurrency**? : *undefined | number*
 
 Price of purchase including VAT in the product's currency
 
@@ -129,7 +129,7 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -141,4 +141,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

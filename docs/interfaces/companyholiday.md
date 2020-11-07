@@ -30,46 +30,46 @@ ___
 
 ### `Optional` days
 
-• **days**? : *number*
+• **days**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isMaxPercentage2Amount6G
 
-• **isMaxPercentage2Amount6G**? : *boolean*
+• **isMaxPercentage2Amount6G**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` vacationPayPercentage1
 
-• **vacationPayPercentage1**? : *number*
+• **vacationPayPercentage1**? : *undefined | number*
 
 ___
 
 ### `Optional` vacationPayPercentage2
 
-• **vacationPayPercentage2**? : *number*
+• **vacationPayPercentage2**? : *undefined | number*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*

@@ -34,7 +34,7 @@ Get employee by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperEmployee](../interfaces/responsewrapperemployee.md)›*
@@ -57,7 +57,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Employee](../modules/employee.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Employee](../modules/employee.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseEmployee](../interfaces/listresponseemployee.md)›*
 
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Employee](../modules/employee.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Employee](../modules/employee.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperEmployee](../interfaces/responsewrapperemployee.md)›*
 
@@ -101,7 +101,7 @@ Update employee.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Employee](../modules/employee.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Employee](../modules/employee.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperEmployee](../interfaces/responsewrapperemployee.md)›*
@@ -124,20 +124,20 @@ Find employees corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`allowInformationRegistration` | boolean | - | Equals |
+`allowInformationRegistration` | undefined &#124; false &#124; true | - | Equals |
 `count` | number | 1000 | Number of elements to return |
-`departmentId` | string | - | List of IDs |
-`employeeNumber` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`firstName` | string | - | Containing |
-`from` | number | - | From index |
-`hasSystemAccess` | boolean | - | Equals |
-`id` | string | - | List of IDs |
+`departmentId` | undefined &#124; string | - | List of IDs |
+`employeeNumber` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`firstName` | undefined &#124; string | - | Containing |
+`from` | undefined &#124; number | - | From index |
+`hasSystemAccess` | undefined &#124; false &#124; true | - | Equals |
+`id` | undefined &#124; string | - | List of IDs |
 `includeContacts` | boolean | false | Equals |
-`lastName` | string | - | Containing |
-`onlyProjectManagers` | boolean | - | Equals |
-`periodEnd` | string | - | Equals |
-`periodStart` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
+`lastName` | undefined &#124; string | - | Containing |
+`onlyProjectManagers` | undefined &#124; false &#124; true | - | Equals |
+`periodEnd` | undefined &#124; string | - | Equals |
+`periodStart` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseEmployee](../interfaces/listresponseemployee.md)›*

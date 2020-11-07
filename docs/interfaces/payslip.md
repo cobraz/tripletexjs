@@ -29,7 +29,7 @@
 
 ### `Optional` `Readonly` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 ### `Optional` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 Voucher date.
 
@@ -55,25 +55,25 @@ ___
 
 ### `Optional` `Readonly` grossAmount
 
-• **grossAmount**? : *number*
+• **grossAmount**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` month
 
-• **month**? : *number*
+• **month**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` number
 
-• **number**? : *number*
+• **number**? : *undefined | number*
 
 ___
 
@@ -93,22 +93,22 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` vacationAllowanceAmount
 
-• **vacationAllowanceAmount**? : *number*
+• **vacationAllowanceAmount**? : *undefined | number*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*

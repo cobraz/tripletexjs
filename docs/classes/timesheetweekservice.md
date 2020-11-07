@@ -34,9 +34,9 @@ Approve week. By ID or (ISO-8601 week and employeeId combination).
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeId` | number | Equals |
-`id` | number | Equals |
-`weekYear` | string | ISO-8601 week-year |
+`employeeId` | undefined &#124; number | Equals |
+`id` | undefined &#124; number | Equals |
+`weekYear` | undefined &#124; string | ISO-8601 week-year |
 
 **Returns:** *Promise‹[ResponseWrapperWeek](../interfaces/responsewrapperweek.md)›*
 
@@ -58,9 +58,9 @@ Complete week. By ID or (ISO-8601 week and employeeId combination).
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeId` | number | Equals |
-`id` | number | Equals |
-`weekYear` | string | ISO-8601 week-year |
+`employeeId` | undefined &#124; number | Equals |
+`id` | undefined &#124; number | Equals |
+`weekYear` | undefined &#124; string | ISO-8601 week-year |
 
 **Returns:** *Promise‹[ResponseWrapperWeek](../interfaces/responsewrapperweek.md)›*
 
@@ -82,9 +82,9 @@ Reopen week. By ID or (ISO-8601 week and employeeId combination).
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeId` | number | Equals |
-`id` | number | Equals |
-`weekYear` | string | ISO-8601 week-year |
+`employeeId` | undefined &#124; number | Equals |
+`id` | undefined &#124; number | Equals |
+`weekYear` | undefined &#124; string | ISO-8601 week-year |
 
 **Returns:** *Promise‹[ResponseWrapperWeek](../interfaces/responsewrapperweek.md)›*
 
@@ -106,14 +106,14 @@ Find weekly status By ID, week/year combination, employeeId. or an approver
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`approvedBy` | number | - | Equals |
+`approvedBy` | undefined &#124; number | - | Equals |
 `count` | number | 1000 | Number of elements to return |
-`employeeIds` | string | - | List of IDs |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`ids` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
-`weekYear` | string | - | ISO-8601 week-year |
+`employeeIds` | undefined &#124; string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`ids` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`weekYear` | undefined &#124; string | - | ISO-8601 week-year |
 
 **Returns:** *Promise‹[ListResponseWeek](../interfaces/listresponseweek.md)›*
 
@@ -135,8 +135,8 @@ Unapprove week. By ID or (ISO-8601 week and employeeId combination).
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeId` | number | Equals |
-`id` | number | Equals |
-`weekYear` | string | ISO-8601 week-year |
+`employeeId` | undefined &#124; number | Equals |
+`id` | undefined &#124; number | Equals |
+`weekYear` | undefined &#124; string | ISO-8601 week-year |
 
 **Returns:** *Promise‹[ResponseWrapperWeek](../interfaces/responsewrapperweek.md)›*

@@ -26,13 +26,13 @@
 
 ### `Optional` addressLine1
 
-• **addressLine1**? : *string*
+• **addressLine1**? : *undefined | string*
 
 ___
 
 ### `Optional` addressLine2
 
-• **addressLine2**? : *string*
+• **addressLine2**? : *undefined | string*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 ### `Optional` city
 
-• **city**? : *string*
+• **city**? : *undefined | string*
 
 ___
 
@@ -62,28 +62,28 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` postalCode
 
-• **postalCode**? : *string*
+• **postalCode**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -17,10 +17,10 @@
 
 ### `Optional` count
 
-• **count**? : *number*
+• **count**? : *undefined | number*
 
 ___
 
 ### `Optional` readCursor
 
-• **readCursor**? : *number*
+• **readCursor**? : *undefined | number*

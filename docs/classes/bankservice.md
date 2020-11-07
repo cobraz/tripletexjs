@@ -31,7 +31,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperBank](../interfaces/responsewrapperbank.md)›*
@@ -55,12 +55,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isAutoPaySupported` | boolean | - | Equals |
-`isBankReconciliationSupport` | boolean | - | Equals |
-`registerNumbers` | string | - | Bank register number (four digits) |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isAutoPaySupported` | undefined &#124; false &#124; true | - | Equals |
+`isBankReconciliationSupport` | undefined &#124; false &#124; true | - | Equals |
+`registerNumbers` | undefined &#124; string | - | Bank register number (four digits) |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseBank](../interfaces/listresponsebank.md)›*

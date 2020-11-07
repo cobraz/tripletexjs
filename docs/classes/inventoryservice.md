@@ -56,7 +56,7 @@ Get inventory by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperInventory](../interfaces/responsewrapperinventory.md)›*
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Inventory](../interfaces/inventory.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Inventory](../interfaces/inventory.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperInventory](../interfaces/responsewrapperinventory.md)›*
 
@@ -101,7 +101,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Inventory](../interfaces/inventory.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Inventory](../interfaces/inventory.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperInventory](../interfaces/responsewrapperinventory.md)›*
@@ -125,12 +125,12 @@ Find inventory corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isInactive` | boolean | - | Equals |
-`isMainInventory` | boolean | - | Equals |
-`name` | string | - | Containing |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isInactive` | undefined &#124; false &#124; true | - | Equals |
+`isMainInventory` | undefined &#124; false &#124; true | - | Equals |
+`name` | undefined &#124; string | - | Containing |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseInventory](../interfaces/listresponseinventory.md)›*

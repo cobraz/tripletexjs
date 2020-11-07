@@ -44,7 +44,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`id` | string | ID of the elements |
+`id` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseTravelExpense](../interfaces/listresponsetravelexpense.md)›*
 
@@ -69,7 +69,7 @@ Name | Type | Default | Description |
 `sendToInbox` | boolean | false | Should the attachment be sent to inbox rather than deleted? |
 `split` | boolean | false | If sendToInbox is true, should the attachment be split into one voucher per page? |
 `travelExpenseId` | number | - | ID of attachment containing the attachment to delete. |
-`version` | number | - | Version of voucher containing the attachment to delete. |
+`version` | undefined &#124; number | - | Version of voucher containing the attachment to delete. |
 
 **Returns:** *Promise‹any›*
 
@@ -184,7 +184,7 @@ ___
 Name | Type | Description |
 ------ | ------ | ------ |
 `date` | string | yyyy-MM-dd. Defaults to today. |
-`id` | string | ID of the elements |
+`id` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseTravelExpense](../interfaces/listresponsetravelexpense.md)›*
 
@@ -228,7 +228,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`id` | string | ID of the elements |
+`id` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseTravelExpense](../interfaces/listresponsetravelexpense.md)›*
 
@@ -250,7 +250,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTravelExpense](../interfaces/responsewrappertravelexpense.md)›*
@@ -273,7 +273,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TravelExpense](../modules/travelexpense.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [TravelExpense](../modules/travelexpense.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperTravelExpense](../interfaces/responsewrappertravelexpense.md)›*
 
@@ -295,7 +295,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TravelExpense](../modules/travelexpense.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [TravelExpense](../modules/travelexpense.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTravelExpense](../interfaces/responsewrappertravelexpense.md)›*
@@ -319,15 +319,15 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`departmentId` | string | - | Equals |
-`departureDateFrom` | string | - | From and including |
-`employeeId` | string | - | Equals |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`projectId` | string | - | Equals |
-`projectManagerId` | string | - | Equals |
-`returnDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`departmentId` | undefined &#124; string | - | Equals |
+`departureDateFrom` | undefined &#124; string | - | From and including |
+`employeeId` | undefined &#124; string | - | Equals |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`projectId` | undefined &#124; string | - | Equals |
+`projectManagerId` | undefined &#124; string | - | Equals |
+`returnDateTo` | undefined &#124; string | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 `state` | "ALL" &#124; "OPEN" &#124; "APPROVED" &#124; "SALARY_PAID" &#124; "DELIVERED" | "ALL" | category |
 
 **Returns:** *Promise‹[ListResponseTravelExpense](../interfaces/listresponsetravelexpense.md)›*
@@ -350,7 +350,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`id` | string | ID of the elements |
+`id` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseTravelExpense](../interfaces/listresponsetravelexpense.md)›*
 
@@ -372,6 +372,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`id` | string | ID of the elements |
+`id` | undefined &#124; string | ID of the elements |
 
 **Returns:** *Promise‹[ListResponseTravelExpense](../interfaces/listresponsetravelexpense.md)›*

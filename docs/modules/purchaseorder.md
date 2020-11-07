@@ -53,7 +53,7 @@ ___
 
 ### `Optional` comments
 
-• **comments**? : *string*
+• **comments**? : *undefined | string*
 
 Delivery information and invoice comments
 
@@ -61,7 +61,7 @@ ___
 
 ### `Optional` creationDate
 
-• **creationDate**? : *string*
+• **creationDate**? : *undefined | string*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 ### `Optional` discount
 
-• **discount**? : *number*
+• **discount**? : *undefined | number*
 
 Discount Percentage
 
@@ -105,19 +105,19 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isClosed
 
-• **isClosed**? : *boolean*
+• **isClosed**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` number
 
-• **number**? : *string*
+• **number**? : *undefined | string*
 
 Purchase order number
 
@@ -139,7 +139,7 @@ ___
 
 ### `Optional` packingNoteMessage
 
-• **packingNoteMessage**? : *string*
+• **packingNoteMessage**? : *undefined | string*
 
 Message on packing note.Wholesaler specific.
 
@@ -155,7 +155,7 @@ ___
 
 ### `Optional` receiverEmail
 
-• **receiverEmail**? : *string*
+• **receiverEmail**? : *undefined | string*
 
 Email when purchase order is send by email.
 
@@ -191,7 +191,7 @@ ___
 
 ### `Optional` transporterMessage
 
-• **transporterMessage**? : *string*
+• **transporterMessage**? : *undefined | string*
 
 Message to transporter.Wholesaler specific.
 
@@ -199,10 +199,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

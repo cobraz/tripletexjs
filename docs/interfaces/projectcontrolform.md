@@ -37,31 +37,31 @@ ___
 
 ### `Optional` completed
 
-• **completed**? : *boolean*
+• **completed**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` controlForm
 
-• **controlForm**? : *string*
+• **controlForm**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` signatureRequired
 
-• **signatureRequired**? : *boolean*
+• **signatureRequired**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` signed
 
-• **signed**? : *boolean*
+• **signed**? : *undefined | false | true*
 
 ___
 
@@ -73,10 +73,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

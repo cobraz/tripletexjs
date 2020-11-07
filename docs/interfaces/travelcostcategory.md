@@ -44,37 +44,37 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isInactive
 
-• **isInactive**? : *boolean*
+• **isInactive**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isVatLocked
 
-• **isVatLocked**? : *boolean*
+• **isVatLocked**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` showOnEmployeeExpenses
 
-• **showOnEmployeeExpenses**? : *boolean*
+• **showOnEmployeeExpenses**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` showOnTravelExpenses
 
-• **showOnTravelExpenses**? : *boolean*
+• **showOnTravelExpenses**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -86,4 +86,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

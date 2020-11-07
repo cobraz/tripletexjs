@@ -46,7 +46,7 @@ ___
 
 ### `Optional` `Readonly` amountCurrency
 
-• **amountCurrency**? : *number*
+• **amountCurrency**? : *undefined | number*
 
 In the specified currency.
 
@@ -54,7 +54,7 @@ ___
 
 ### `Optional` `Readonly` amountInAccountCurrency
 
-• **amountInAccountCurrency**? : *number*
+• **amountInAccountCurrency**? : *undefined | number*
 
 Amount specified in the currency of the bank agreements account.
 
@@ -62,7 +62,7 @@ ___
 
 ### `Optional` `Readonly` bookingDate
 
-• **bookingDate**? : *string*
+• **bookingDate**? : *undefined | string*
 
 ___
 
@@ -74,25 +74,25 @@ ___
 
 ### `Optional` `Readonly` creditorBankAddress
 
-• **creditorBankAddress**? : *string*
+• **creditorBankAddress**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` creditorBankName
 
-• **creditorBankName**? : *string*
+• **creditorBankName**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` creditorBankPostalCity
 
-• **creditorBankPostalCity**? : *string*
+• **creditorBankPostalCity**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` creditorBankPostalCode
 
-• **creditorBankPostalCode**? : *string*
+• **creditorBankPostalCode**? : *undefined | string*
 
 ___
 
@@ -104,37 +104,37 @@ ___
 
 ### `Optional` `Readonly` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isFinalStatus
 
-• **isFinalStatus**? : *boolean*
+• **isFinalStatus**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isForeignPayment
 
-• **isForeignPayment**? : *boolean*
+• **isForeignPayment**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isSalary
 
-• **isSalary**? : *boolean*
+• **isSalary**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` kid
 
-• **kid**? : *string*
+• **kid**? : *undefined | string*
 
 KID - Kundeidentifikasjonsnummer.
 
@@ -142,7 +142,7 @@ ___
 
 ### `Optional` `Readonly` paymentDate
 
-• **paymentDate**? : *string*
+• **paymentDate**? : *undefined | string*
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 ### `Optional` `Readonly` receiverReference
 
-• **receiverReference**? : *string*
+• **receiverReference**? : *undefined | string*
 
 ___
 
@@ -170,16 +170,16 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` valueDate
 
-• **valueDate**? : *string*
+• **valueDate**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

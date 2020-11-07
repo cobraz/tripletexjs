@@ -31,7 +31,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTravelExpenseRateCategory](../interfaces/responsewrappertravelexpenseratecategory.md)›*
@@ -54,21 +54,21 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`ameldingWageCode` | string | - | Containing |
+`ameldingWageCode` | undefined &#124; string | - | Containing |
 `count` | number | 1000 | Number of elements to return |
-`dateFrom` | string | - | From and including |
-`dateTo` | string | - | To and excluding |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`isRequiresOvernightAccommodation` | boolean | - | Equals |
-`isValidAccommodation` | boolean | - | Equals |
-`isValidDayTrip` | boolean | - | Equals |
-`isValidDomestic` | boolean | - | Equals |
-`name` | string | - | Containing |
-`requiresZone` | boolean | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`travelReportRateCategoryGroupId` | number | - | Equals |
-`type` | "PER_DIEM" &#124; "ACCOMMODATION_ALLOWANCE" &#124; "MILEAGE_ALLOWANCE" | - | Equals |
-`wageCodeNumber` | string | - | Equals |
+`dateFrom` | undefined &#124; string | - | From and including |
+`dateTo` | undefined &#124; string | - | To and excluding |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`isRequiresOvernightAccommodation` | undefined &#124; false &#124; true | - | Equals |
+`isValidAccommodation` | undefined &#124; false &#124; true | - | Equals |
+`isValidDayTrip` | undefined &#124; false &#124; true | - | Equals |
+`isValidDomestic` | undefined &#124; false &#124; true | - | Equals |
+`name` | undefined &#124; string | - | Containing |
+`requiresZone` | undefined &#124; false &#124; true | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`travelReportRateCategoryGroupId` | undefined &#124; number | - | Equals |
+`type` | undefined &#124; "PER_DIEM" &#124; "ACCOMMODATION_ALLOWANCE" &#124; "MILEAGE_ALLOWANCE" | - | Equals |
+`wageCodeNumber` | undefined &#124; string | - | Equals |
 
 **Returns:** *Promise‹[ListResponseTravelExpenseRateCategory](../interfaces/listresponsetravelexpenseratecategory.md)›*

@@ -21,13 +21,13 @@
 
 ### `Optional` group
 
-• **group**? : *string*
+• **group**? : *undefined | string*
 
 ___
 
 ### `Optional` interruptable
 
-• **interruptable**? : *boolean*
+• **interruptable**? : *undefined | false | true*
 
 ___
 
@@ -39,13 +39,13 @@ ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` stateful
 
-• **stateful**? : *boolean*
+• **stateful**? : *undefined | false | true*
 
 ___
 

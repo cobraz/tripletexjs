@@ -25,7 +25,7 @@
 
 ### `Optional` category
 
-• **category**? : *string*
+• **category**? : *undefined | string*
 
 ___
 
@@ -43,13 +43,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` link
 
-• **link**? : *string*
+• **link**? : *undefined | string*
 
 ___
 
@@ -73,10 +73,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

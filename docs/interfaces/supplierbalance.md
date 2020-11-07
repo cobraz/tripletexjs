@@ -21,13 +21,13 @@
 
 ### `Optional` `Readonly` balanceChange
 
-• **balanceChange**? : *number*
+• **balanceChange**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` balanceIn
 
-• **balanceIn**? : *number*
+• **balanceIn**? : *undefined | number*
 
 ___
 
@@ -41,13 +41,13 @@ ___
 
 ### `Optional` `Readonly` balanceOut
 
-• **balanceOut**? : *number*
+• **balanceOut**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` sumAmountNegative
 
-• **sumAmountNegative**? : *number*
+• **sumAmountNegative**? : *undefined | number*
 
 ___
 

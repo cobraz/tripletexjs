@@ -31,7 +31,7 @@ ___
 
 ### `Optional` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 Voucher date.
 
@@ -39,13 +39,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isHistorical
 
-• **isHistorical**? : *boolean*
+• **isHistorical**? : *undefined | false | true*
 
 With historical wage vouchers you can update the wage system with information dated before the opening balance.
 
@@ -59,7 +59,7 @@ ___
 
 ### `Optional` paySlipsAvailableDate
 
-• **paySlipsAvailableDate**? : *string*
+• **paySlipsAvailableDate**? : *undefined | string*
 
 The date payslips are made available to the employee. Defaults to voucherDate.
 
@@ -75,13 +75,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

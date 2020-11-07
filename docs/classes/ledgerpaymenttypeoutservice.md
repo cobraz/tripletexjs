@@ -58,7 +58,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPaymentTypeOut](../interfaces/responsewrapperpaymenttypeout.md)›*
@@ -81,7 +81,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PaymentTypeOut](../interfaces/paymenttypeout.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [PaymentTypeOut](../interfaces/paymenttypeout.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponsePaymentTypeOut](../interfaces/listresponsepaymenttypeout.md)›*
 
@@ -103,7 +103,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PaymentTypeOut](../interfaces/paymenttypeout.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [PaymentTypeOut](../interfaces/paymenttypeout.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponsePaymentTypeOut](../interfaces/listresponsepaymenttypeout.md)›*
 
@@ -125,7 +125,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PaymentTypeOut](../interfaces/paymenttypeout.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [PaymentTypeOut](../interfaces/paymenttypeout.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperPaymentTypeOut](../interfaces/responsewrapperpaymenttypeout.md)›*
 
@@ -147,7 +147,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PaymentTypeOut](../interfaces/paymenttypeout.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [PaymentTypeOut](../interfaces/paymenttypeout.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPaymentTypeOut](../interfaces/responsewrapperpaymenttypeout.md)›*
@@ -172,11 +172,11 @@ This is an API endpoint for getting payment types for outgoing payments. This is
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`description` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isInactive` | boolean | - | Equals |
-`sorting` | string | - | Sorting pattern |
+`description` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isInactive` | undefined &#124; false &#124; true | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponsePaymentTypeOut](../interfaces/listresponsepaymenttypeout.md)›*

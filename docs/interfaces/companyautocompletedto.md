@@ -31,85 +31,85 @@
 
 ### `Optional` address
 
-• **address**? : *string*
+• **address**? : *undefined | string*
 
 ___
 
 ### `Optional` alternateName
 
-• **alternateName**? : *string*
+• **alternateName**? : *undefined | string*
 
 ___
 
 ### `Optional` companyCode
 
-• **companyCode**? : *string*
+• **companyCode**? : *undefined | string*
 
 ___
 
 ### `Optional` companyType
 
-• **companyType**? : *number*
+• **companyType**? : *undefined | number*
 
 ___
 
 ### `Optional` countryId
 
-• **countryId**? : *number*
+• **countryId**? : *undefined | number*
 
 ___
 
 ### `Optional` email
 
-• **email**? : *string*
+• **email**? : *undefined | string*
 
 ___
 
 ### `Optional` latitude
 
-• **latitude**? : *number*
+• **latitude**? : *undefined | number*
 
 ___
 
 ### `Optional` longitude
 
-• **longitude**? : *number*
+• **longitude**? : *undefined | number*
 
 ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumber
 
-• **phoneNumber**? : *string*
+• **phoneNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumberMobile
 
-• **phoneNumberMobile**? : *string*
+• **phoneNumberMobile**? : *undefined | string*
 
 ___
 
 ### `Optional` postalArea
 
-• **postalArea**? : *string*
+• **postalArea**? : *undefined | string*
 
 ___
 
 ### `Optional` postalCode
 
-• **postalCode**? : *string*
+• **postalCode**? : *undefined | string*
 
 ___
 
 ### `Optional` score
 
-• **score**? : *number*
+• **score**? : *undefined | number*
 
 ___
 
@@ -121,4 +121,4 @@ ___
 
 ### `Optional` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*

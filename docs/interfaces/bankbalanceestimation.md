@@ -29,7 +29,7 @@ ___
 
 ### `Optional` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 ### `Optional` isIncomingInvoice
 
-• **isIncomingInvoice**? : *boolean*
+• **isIncomingInvoice**? : *undefined | false | true*
 
 boolean
 
@@ -65,10 +65,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

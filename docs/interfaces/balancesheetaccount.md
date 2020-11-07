@@ -27,25 +27,25 @@ ___
 
 ### `Optional` `Readonly` balanceChange
 
-• **balanceChange**? : *number*
+• **balanceChange**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` balanceIn
 
-• **balanceIn**? : *number*
+• **balanceIn**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` balanceOut
 
-• **balanceOut**? : *number*
+• **balanceOut**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` endDate
 
-• **endDate**? : *string*
+• **endDate**? : *undefined | string*
 
 The end date for this period - exclusive.
 
@@ -53,6 +53,6 @@ ___
 
 ### `Optional` `Readonly` startDate
 
-• **startDate**? : *string*
+• **startDate**? : *undefined | string*
 
 The start date for this period - inclusive.

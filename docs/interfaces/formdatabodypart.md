@@ -63,7 +63,7 @@ ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
@@ -87,10 +87,10 @@ ___
 
 ### `Optional` simple
 
-• **simple**? : *boolean*
+• **simple**? : *undefined | false | true*
 
 ___
 
 ### `Optional` value
 
-• **value**? : *string*
+• **value**? : *undefined | string*

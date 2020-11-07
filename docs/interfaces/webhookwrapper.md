@@ -19,19 +19,19 @@
 
 ### `Optional` event
 
-• **event**? : *string*
+• **event**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` subscriptionId
 
-• **subscriptionId**? : *number*
+• **subscriptionId**? : *undefined | number*
 
 ___
 

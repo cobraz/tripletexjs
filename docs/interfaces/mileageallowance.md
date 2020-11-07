@@ -32,7 +32,7 @@
 
 ### `Optional` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
@@ -62,19 +62,19 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isCompanyCar
 
-• **isCompanyCar**? : *boolean*
+• **isCompanyCar**? : *undefined | false | true*
 
 ___
 
 ### `Optional` km
 
-• **km**? : *number*
+• **km**? : *undefined | number*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 ### `Optional` rate
 
-• **rate**? : *number*
+• **rate**? : *undefined | number*
 
 ___
 
@@ -128,10 +128,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -35,25 +35,25 @@
 
 ### `Optional` bank
 
-• **bank**? : *string*
+• **bank**? : *undefined | string*
 
 ___
 
 ### `Optional` bankAccountIBAN
 
-• **bankAccountIBAN**? : *string*
+• **bankAccountIBAN**? : *undefined | string*
 
 ___
 
 ### `Optional` bankAccountNumber
 
-• **bankAccountNumber**? : *string*
+• **bankAccountNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` bankAccountSWIFT
 
-• **bankAccountSWIFT**? : *string*
+• **bankAccountSWIFT**? : *undefined | string*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 ### `Optional` `Readonly` charge
 
-• **charge**? : *number*
+• **charge**? : *undefined | number*
 
 The fee part of the reminder, in the company's currency.
 
@@ -73,7 +73,7 @@ ___
 
 ### `Optional` `Readonly` chargeCurrency
 
-• **chargeCurrency**? : *number*
+• **chargeCurrency**? : *undefined | number*
 
 The fee part of the reminder, in the invoice currency.
 
@@ -81,7 +81,7 @@ ___
 
 ### `Optional` comment
 
-• **comment**? : *string*
+• **comment**? : *undefined | string*
 
 ___
 
@@ -95,13 +95,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` interestRate
 
-• **interestRate**? : *number*
+• **interestRate**? : *undefined | number*
 
 The reminder interest rate.
 
@@ -109,7 +109,7 @@ ___
 
 ### `Optional` `Readonly` interests
 
-• **interests**? : *number*
+• **interests**? : *undefined | number*
 
 The interests part of the reminder.
 
@@ -117,7 +117,7 @@ ___
 
 ### `Optional` kid
 
-• **kid**? : *string*
+• **kid**? : *undefined | string*
 
 KID - Kundeidentifikasjonsnummer.
 
@@ -125,7 +125,7 @@ ___
 
 ### `Optional` `Readonly` reminderDate
 
-• **reminderDate**? : *string*
+• **reminderDate**? : *undefined | string*
 
 Creation date of the invoice reminder.
 
@@ -141,7 +141,7 @@ ___
 
 ### `Optional` `Readonly` totalAmountCurrency
 
-• **totalAmountCurrency**? : *number*
+• **totalAmountCurrency**? : *undefined | number*
 
 The total amount to pay in reminder's currency.
 
@@ -149,7 +149,7 @@ ___
 
 ### `Optional` `Readonly` totalCharge
 
-• **totalCharge**? : *number*
+• **totalCharge**? : *undefined | number*
 
 The total fee part of all reminders, in the company's currency.
 
@@ -157,7 +157,7 @@ ___
 
 ### `Optional` `Readonly` totalChargeCurrency
 
-• **totalChargeCurrency**? : *number*
+• **totalChargeCurrency**? : *undefined | number*
 
 The total fee part of all reminders, in the invoice currency.
 
@@ -165,10 +165,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

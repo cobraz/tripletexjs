@@ -32,9 +32,9 @@
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseSalesModuleDTO](../interfaces/listresponsesalesmoduledto.md)›*
 
@@ -56,6 +56,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [SalesModuleDTO](../modules/salesmoduledto.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [SalesModuleDTO](../modules/salesmoduledto.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperSalesModuleDTO](../interfaces/responsewrappersalesmoduledto.md)›*

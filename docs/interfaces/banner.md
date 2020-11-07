@@ -27,19 +27,19 @@
 
 ### `Optional` `Readonly` bannerType
 
-• **bannerType**? : *string*
+• **bannerType**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` button
 
-• **button**? : *string*
+• **button**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` cancellable
 
-• **cancellable**? : *boolean*
+• **cancellable**? : *undefined | false | true*
 
 ___
 
@@ -51,46 +51,46 @@ ___
 
 ### `Optional` `Readonly` done
 
-• **done**? : *boolean*
+• **done**? : *undefined | false | true*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` link
 
-• **link**? : *string*
+• **link**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` message
 
-• **message**? : *string*
+• **message**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` tag
 
-• **tag**? : *string*
+• **tag**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` title
 
-• **title**? : *string*
+• **title**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

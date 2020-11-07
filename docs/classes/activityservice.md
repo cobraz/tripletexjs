@@ -35,12 +35,12 @@ Find applicable time sheet activities for an employee on a specific day.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`date` | string | - | yyyy-MM-dd. Defaults to today. |
-`employeeId` | number | - | Employee ID. Defaults to ID of token owner. |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`date` | undefined &#124; string | - | yyyy-MM-dd. Defaults to today. |
+`employeeId` | undefined &#124; number | - | Employee ID. Defaults to ID of token owner. |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `projectId` | number | - | Project ID |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseActivity](../interfaces/listresponseactivity.md)›*
 
@@ -62,7 +62,7 @@ Find activity by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperActivity](../interfaces/responsewrapperactivity.md)›*
@@ -85,7 +85,7 @@ Add multiple activities.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Activity](../modules/activity.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Activity](../modules/activity.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseActivity](../interfaces/listresponseactivity.md)›*
 
@@ -107,7 +107,7 @@ Add activity.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Activity](../modules/activity.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Activity](../modules/activity.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperActivity](../interfaces/responsewrapperactivity.md)›*
 
@@ -130,17 +130,17 @@ Find activities corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`description` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isChargeable` | boolean | - | Equals |
-`isGeneral` | boolean | - | Equals |
-`isInactive` | boolean | - | Equals |
-`isProjectActivity` | boolean | - | Equals |
-`isTask` | boolean | - | Equals |
-`name` | string | - | Containing |
-`number` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
+`description` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isChargeable` | undefined &#124; false &#124; true | - | Equals |
+`isGeneral` | undefined &#124; false &#124; true | - | Equals |
+`isInactive` | undefined &#124; false &#124; true | - | Equals |
+`isProjectActivity` | undefined &#124; false &#124; true | - | Equals |
+`isTask` | undefined &#124; false &#124; true | - | Equals |
+`name` | undefined &#124; string | - | Containing |
+`number` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseActivity](../interfaces/listresponseactivity.md)›*

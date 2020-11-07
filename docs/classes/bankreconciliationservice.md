@@ -36,7 +36,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [BankReconciliationAdjustment](../interfaces/bankreconciliationadjustment.md)[] | Adjustments |
+`body` | undefined &#124; [BankReconciliationAdjustment](../interfaces/bankreconciliationadjustment.md)[] | Adjustments |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ListResponseBankReconciliationAdjustment](../interfaces/listresponsebankreconciliationadjustment.md)›*
@@ -81,7 +81,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperBankReconciliation](../interfaces/responsewrapperbankreconciliation.md)›*
@@ -105,8 +105,8 @@ ___
 Name | Type | Description |
 ------ | ------ | ------ |
 `accountId` | number | Account ID |
-`after` | string | Format is yyyy-MM-dd |
-`fields` | string | Fields filter pattern |
+`after` | undefined &#124; string | Format is yyyy-MM-dd |
+`fields` | undefined &#124; string | Fields filter pattern |
 
 **Returns:** *Promise‹[ResponseWrapperBankReconciliation](../interfaces/responsewrapperbankreconciliation.md)›*
 
@@ -128,7 +128,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [BankReconciliation](../modules/bankreconciliation.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [BankReconciliation](../modules/bankreconciliation.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperBankReconciliation](../interfaces/responsewrapperbankreconciliation.md)›*
 
@@ -150,7 +150,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [BankReconciliation](../modules/bankreconciliation.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [BankReconciliation](../modules/bankreconciliation.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperBankReconciliation](../interfaces/responsewrapperbankreconciliation.md)›*
@@ -173,12 +173,12 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`accountId` | string | - | List of IDs |
-`accountingPeriodId` | string | - | List of IDs |
+`accountId` | undefined &#124; string | - | List of IDs |
+`accountingPeriodId` | undefined &#124; string | - | List of IDs |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseBankReconciliation](../interfaces/listresponsebankreconciliation.md)›*

@@ -29,40 +29,40 @@ ___
 
 ### `Optional` flexBalance
 
-• **flexBalance**? : *boolean*
+• **flexBalance**? : *undefined | false | true*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` timeClock
 
-• **timeClock**? : *boolean*
+• **timeClock**? : *undefined | false | true*
 
 ___
 
 ### `Optional` timesheetCompleted
 
-• **timesheetCompleted**? : *boolean*
+• **timesheetCompleted**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` vacationBalance
 
-• **vacationBalance**? : *boolean*
+• **vacationBalance**? : *undefined | false | true*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

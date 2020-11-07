@@ -17,10 +17,10 @@
 
 ### `Optional` href
 
-• **href**? : *string*
+• **href**? : *undefined | string*
 
 ___
 
 ### `Optional` rel
 
-• **rel**? : *string*
+• **rel**? : *undefined | string*

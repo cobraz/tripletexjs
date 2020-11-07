@@ -34,9 +34,9 @@
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseCompany](../interfaces/listresponsecompany.md)›*
 
@@ -58,7 +58,7 @@ Find company by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCompany](../interfaces/responsewrappercompany.md)›*
@@ -81,7 +81,7 @@ Update company information.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Company](../modules/company.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Company](../modules/company.md) | Partial object describing what should be updated |
 
 **Returns:** *Promise‹[ResponseWrapperCompany](../interfaces/responsewrappercompany.md)›*
 
@@ -104,8 +104,8 @@ Returns client customers (with accountant/auditor relation) where the current us
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseCompany](../interfaces/listresponsecompany.md)›*

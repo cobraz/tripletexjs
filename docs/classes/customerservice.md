@@ -58,7 +58,7 @@ Get customer by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCustomer](../interfaces/responsewrappercustomer.md)›*
@@ -81,7 +81,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Customer](../modules/customer.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Customer](../modules/customer.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseCustomer](../interfaces/listresponsecustomer.md)›*
 
@@ -103,7 +103,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Customer](../modules/customer.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [Customer](../modules/customer.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseCustomer](../interfaces/listresponsecustomer.md)›*
 
@@ -125,7 +125,7 @@ Create customer. Related customer addresses may also be created.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Customer](../modules/customer.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Customer](../modules/customer.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperCustomer](../interfaces/responsewrappercustomer.md)›*
 
@@ -147,7 +147,7 @@ Update customer.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Customer](../modules/customer.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Customer](../modules/customer.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCustomer](../interfaces/responsewrappercustomer.md)›*
@@ -170,16 +170,16 @@ Find customers corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`accountManagerId` | string | - | List of IDs |
+`accountManagerId` | undefined &#124; string | - | List of IDs |
 `count` | number | 1000 | Number of elements to return |
-`customerAccountNumber` | string | - | List of IDs |
-`email` | string | - | Equals |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`invoiceEmail` | string | - | Equals |
+`customerAccountNumber` | undefined &#124; string | - | List of IDs |
+`email` | undefined &#124; string | - | Equals |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`invoiceEmail` | undefined &#124; string | - | Equals |
 `isInactive` | boolean | false | Equals |
-`organizationNumber` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
+`organizationNumber` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseCustomer](../interfaces/listresponsecustomer.md)›*

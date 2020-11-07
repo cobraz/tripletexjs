@@ -68,13 +68,13 @@ ___
 
 ### `Optional` `Readonly` accountingPeriodClosed
 
-• **accountingPeriodClosed**? : *boolean*
+• **accountingPeriodClosed**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` accountingPeriodVATClosed
 
-• **accountingPeriodVATClosed**? : *boolean*
+• **accountingPeriodVATClosed**? : *undefined | false | true*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 ### `Optional` `Readonly` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 ### `Optional` `Readonly` approvedDate
 
-• **approvedDate**? : *string*
+• **approvedDate**? : *undefined | string*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 ### `Optional` `Readonly` attachmentCount
 
-• **attachmentCount**? : *number*
+• **attachmentCount**? : *undefined | number*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 ### `Optional` `Readonly` chargeableAmount
 
-• **chargeableAmount**? : *number*
+• **chargeableAmount**? : *undefined | number*
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 ### `Optional` `Readonly` completedDate
 
-• **completedDate**? : *string*
+• **completedDate**? : *undefined | string*
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 ### `Optional` `Readonly` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 ___
 
@@ -166,19 +166,19 @@ ___
 
 ### `Optional` fixedInvoicedAmount
 
-• **fixedInvoicedAmount**? : *number*
+• **fixedInvoicedAmount**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` highRateVAT
 
-• **highRateVAT**? : *number*
+• **highRateVAT**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -190,49 +190,49 @@ ___
 
 ### `Optional` `Readonly` isApproved
 
-• **isApproved**? : *boolean*
+• **isApproved**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isChargeable
 
-• **isChargeable**? : *boolean*
+• **isChargeable**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isCompleted
 
-• **isCompleted**? : *boolean*
+• **isCompleted**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isFixedInvoicedAmount
 
-• **isFixedInvoicedAmount**? : *boolean*
+• **isFixedInvoicedAmount**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isIncludeAttachedReceiptsWhenReinvoicing
 
-• **isIncludeAttachedReceiptsWhenReinvoicing**? : *boolean*
+• **isIncludeAttachedReceiptsWhenReinvoicing**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isSalaryAdmin
 
-• **isSalaryAdmin**? : *boolean*
+• **isSalaryAdmin**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` lowRateVAT
 
-• **lowRateVAT**? : *number*
+• **lowRateVAT**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` mediumRateVAT
 
-• **mediumRateVAT**? : *number*
+• **mediumRateVAT**? : *undefined | number*
 
 ___
 
@@ -246,19 +246,19 @@ ___
 
 ### `Optional` `Readonly` number
 
-• **number**? : *number*
+• **number**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` paymentAmount
 
-• **paymentAmount**? : *number*
+• **paymentAmount**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` paymentAmountCurrency
 
-• **paymentAmountCurrency**? : *number*
+• **paymentAmountCurrency**? : *undefined | number*
 
 ___
 
@@ -290,19 +290,19 @@ ___
 
 ### `Optional` `Readonly` showPayslip
 
-• **showPayslip**? : *boolean*
+• **showPayslip**? : *undefined | false | true*
 
 ___
 
 ### `Optional` title
 
-• **title**? : *string*
+• **title**? : *undefined | string*
 
 ___
 
 ### `Optional` travelAdvance
 
-• **travelAdvance**? : *number*
+• **travelAdvance**? : *undefined | number*
 
 ___
 
@@ -314,7 +314,7 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -326,7 +326,7 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

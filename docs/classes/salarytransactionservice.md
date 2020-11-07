@@ -54,7 +54,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperSalaryTransaction](../interfaces/responsewrappersalarytransaction.md)›*
@@ -77,7 +77,7 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [SalaryTransaction](../interfaces/salarytransaction.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [SalaryTransaction](../interfaces/salarytransaction.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
 `generateTaxDeduction` | boolean | false | Generate tax deduction |
 
 **Returns:** *Promise‹[ResponseWrapperSalaryTransaction](../interfaces/responsewrappersalarytransaction.md)›*

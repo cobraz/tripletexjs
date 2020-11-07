@@ -29,19 +29,19 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isInactive
 
-• **isInactive**? : *boolean*
+• **isInactive**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isMainInventory
 
-• **isMainInventory**? : *boolean*
+• **isMainInventory**? : *undefined | false | true*
 
 ___
 
@@ -53,16 +53,16 @@ ___
 
 ### `Optional` number
 
-• **number**? : *string*
+• **number**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

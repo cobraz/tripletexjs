@@ -56,7 +56,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTimesheetSalaryTypeSpecification](../interfaces/responsewrappertimesheetsalarytypespecification.md)›*
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TimesheetSalaryTypeSpecification](../interfaces/timesheetsalarytypespecification.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [TimesheetSalaryTypeSpecification](../interfaces/timesheetsalarytypespecification.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperTimesheetSalaryTypeSpecification](../interfaces/responsewrappertimesheetsalarytypespecification.md)›*
 
@@ -101,7 +101,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TimesheetSalaryTypeSpecification](../interfaces/timesheetsalarytypespecification.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [TimesheetSalaryTypeSpecification](../interfaces/timesheetsalarytypespecification.md) | JSON representing the new object to be created. Should not have ID and version set. |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTimesheetSalaryTypeSpecification](../interfaces/responsewrappertimesheetsalarytypespecification.md)›*
@@ -125,11 +125,11 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`dateFrom` | string | - | From and including |
-`dateTo` | string | - | To and excluding |
-`employeeId` | number | - | Equals |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`dateFrom` | undefined &#124; string | - | From and including |
+`dateTo` | undefined &#124; string | - | To and excluding |
+`employeeId` | undefined &#124; number | - | Equals |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseTimesheetSalaryTypeSpecification](../interfaces/listresponsetimesheetsalarytypespecification.md)›*

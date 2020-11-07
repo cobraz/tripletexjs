@@ -30,46 +30,46 @@ ___
 
 ### `Optional` companyId
 
-• **companyId**? : *number*
+• **companyId**? : *undefined | number*
 
 ___
 
 ### `Optional` employeeId
 
-• **employeeId**? : *number*
+• **employeeId**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` roleId
 
-• **roleId**? : *number*
+• **roleId**? : *undefined | number*
 
 ___
 
 ### `Optional` tripletexCustomerId
 
-• **tripletexCustomerId**? : *number*
+• **tripletexCustomerId**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` userId
 
-• **userId**? : *number*
+• **userId**? : *undefined | number*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

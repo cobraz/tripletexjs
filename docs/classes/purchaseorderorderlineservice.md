@@ -55,7 +55,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrderline](../interfaces/responsewrapperpurchaseorderline.md)›*
@@ -78,7 +78,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PurchaseOrderline](../interfaces/purchaseorderline.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [PurchaseOrderline](../interfaces/purchaseorderline.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrderline](../interfaces/responsewrapperpurchaseorderline.md)›*
 
@@ -100,7 +100,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PurchaseOrderline](../interfaces/purchaseorderline.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [PurchaseOrderline](../interfaces/purchaseorderline.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrderline](../interfaces/responsewrapperpurchaseorderline.md)›*

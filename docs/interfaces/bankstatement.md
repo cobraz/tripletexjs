@@ -40,7 +40,7 @@ ___
 
 ### `Optional` `Readonly` closingBalanceCurrency
 
-• **closingBalanceCurrency**? : *number*
+• **closingBalanceCurrency**? : *undefined | number*
 
 Closing balance on the account.
 
@@ -48,7 +48,7 @@ ___
 
 ### `Optional` `Readonly` fileName
 
-• **fileName**? : *string*
+• **fileName**? : *undefined | string*
 
 Bank statement file name.
 
@@ -56,19 +56,19 @@ ___
 
 ### `Optional` `Readonly` fromDate
 
-• **fromDate**? : *string*
+• **fromDate**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` openingBalanceCurrency
 
-• **openingBalanceCurrency**? : *number*
+• **openingBalanceCurrency**? : *undefined | number*
 
 Opening balance on the account.
 
@@ -76,7 +76,7 @@ ___
 
 ### `Optional` `Readonly` toDate
 
-• **toDate**? : *string*
+• **toDate**? : *undefined | string*
 
 ___
 
@@ -90,10 +90,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -33,7 +33,7 @@ Find employment by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperEmployment](../interfaces/responsewrapperemployment.md)›*
@@ -56,7 +56,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Employment](../modules/employment.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Employment](../modules/employment.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperEmployment](../interfaces/responsewrapperemployment.md)›*
 
@@ -78,7 +78,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Employment](../modules/employment.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Employment](../modules/employment.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperEmployment](../interfaces/responsewrapperemployment.md)›*
@@ -102,9 +102,9 @@ Find all employments for employee.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`employeeId` | number | - | Element ID |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`employeeId` | undefined &#124; number | - | Element ID |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseEmployment](../interfaces/listresponseemployment.md)›*

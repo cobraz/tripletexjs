@@ -31,7 +31,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProductUnitMaster](../interfaces/responsewrapperproductunitmaster.md)›*
@@ -54,16 +54,16 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`commonCode` | string | - | Common codes |
+`commonCode` | undefined &#124; string | - | Common codes |
 `count` | number | 2100 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isInactive` | boolean | - | Inactive units |
-`name` | string | - | Names |
-`nameShort` | string | - | Short names |
-`peppolName` | string | - | Peppol names |
-`peppolSymbol` | string | - | Peppol symbols |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isInactive` | undefined &#124; false &#124; true | - | Inactive units |
+`name` | undefined &#124; string | - | Names |
+`nameShort` | undefined &#124; string | - | Short names |
+`peppolName` | undefined &#124; string | - | Peppol names |
+`peppolSymbol` | undefined &#124; string | - | Peppol symbols |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProductUnitMaster](../interfaces/listresponseproductunitmaster.md)›*

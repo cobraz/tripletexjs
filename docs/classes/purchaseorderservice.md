@@ -58,7 +58,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrder](../interfaces/responsewrapperpurchaseorder.md)›*
@@ -81,7 +81,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PurchaseOrder](../modules/purchaseorder.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [PurchaseOrder](../modules/purchaseorder.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrder](../interfaces/responsewrapperpurchaseorder.md)›*
 
@@ -103,7 +103,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PurchaseOrder](../modules/purchaseorder.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [PurchaseOrder](../modules/purchaseorder.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrder](../interfaces/responsewrapperpurchaseorder.md)›*
@@ -127,18 +127,18 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`creationDateFrom` | string | - | Format is yyyy-MM-dd (from and incl.). |
-`creationDateTo` | string | - | Format is yyyy-MM-dd (to and incl.). |
-`deliveryDateFrom` | string | - | Format is yyyy-MM-dd (from and incl.). |
-`deliveryDateTo` | string | - | Format is yyyy-MM-dd (to and incl.). |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isClosed` | boolean | - | Equals |
-`number` | string | - | Equals |
-`projectId` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
-`supplierId` | string | - | List of IDs |
+`creationDateFrom` | undefined &#124; string | - | Format is yyyy-MM-dd (from and incl.). |
+`creationDateTo` | undefined &#124; string | - | Format is yyyy-MM-dd (to and incl.). |
+`deliveryDateFrom` | undefined &#124; string | - | Format is yyyy-MM-dd (from and incl.). |
+`deliveryDateTo` | undefined &#124; string | - | Format is yyyy-MM-dd (to and incl.). |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isClosed` | undefined &#124; false &#124; true | - | Equals |
+`number` | undefined &#124; string | - | Equals |
+`projectId` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`supplierId` | undefined &#124; string | - | List of IDs |
 `withDeviationOnly` | boolean | false | Equals |
 
 **Returns:** *Promise‹[ListResponsePurchaseOrder](../interfaces/listresponsepurchaseorder.md)›*
@@ -163,7 +163,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `emailAddress` | string | Email address |
 `id` | number | Element ID |
-`message` | string | Message |
+`message` | undefined &#124; string | Message |
 `subject` | string | Subject |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrder](../interfaces/responsewrapperpurchaseorder.md)›*

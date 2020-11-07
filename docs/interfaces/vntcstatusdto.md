@@ -45,7 +45,7 @@ ___
 
 ### `Optional` `Readonly` PartCount
 
-• **PartCount**? : *number*
+• **PartCount**? : *undefined | number*
 
 ___
 

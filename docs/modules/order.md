@@ -90,7 +90,7 @@ ___
 
 ### `Optional` deliveryComment
 
-• **deliveryComment**? : *string*
+• **deliveryComment**? : *undefined | string*
 
 ___
 
@@ -108,13 +108,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` invoiceComment
 
-• **invoiceComment**? : *string*
+• **invoiceComment**? : *undefined | string*
 
 Comment to be displayed in the invoice based on this order. Can be also found in Invoice.invoiceComment on Invoice objects.
 
@@ -122,7 +122,7 @@ ___
 
 ### `Optional` invoicesDueIn
 
-• **invoicesDueIn**? : *number*
+• **invoicesDueIn**? : *undefined | number*
 
 Number of days/months in which invoices created from this order is due
 
@@ -130,7 +130,7 @@ ___
 
 ### `Optional` isClosed
 
-• **isClosed**? : *boolean*
+• **isClosed**? : *undefined | false | true*
 
 Denotes if this order is closed. A closed order can no longer be invoiced unless it is opened again.
 
@@ -138,13 +138,13 @@ ___
 
 ### `Optional` isPrioritizeAmountsIncludingVat
 
-• **isPrioritizeAmountsIncludingVat**? : *boolean*
+• **isPrioritizeAmountsIncludingVat**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isShowOpenPostsOnInvoices
 
-• **isShowOpenPostsOnInvoices**? : *boolean*
+• **isShowOpenPostsOnInvoices**? : *undefined | false | true*
 
 Show account statement - open posts on invoices created from this order
 
@@ -152,7 +152,7 @@ ___
 
 ### `Optional` isSubscription
 
-• **isSubscription**? : *boolean*
+• **isSubscription**? : *undefined | false | true*
 
 If true, the order is a subscription, which enables periodical invoicing of order lines. First, create an order with isSubscription=true, then approve it for subscription invoicing with the :approveSubscriptionInvoice method.
 
@@ -160,7 +160,7 @@ ___
 
 ### `Optional` isSubscriptionAutoInvoicing
 
-• **isSubscriptionAutoInvoicing**? : *boolean*
+• **isSubscriptionAutoInvoicing**? : *undefined | false | true*
 
 Automatic invoicing. Starts when the subscription is approved
 
@@ -168,7 +168,7 @@ ___
 
 ### `Optional` number
 
-• **number**? : *string*
+• **number**? : *undefined | string*
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 ### `Optional` overdueNoticeEmail
 
-• **overdueNoticeEmail**? : *string*
+• **overdueNoticeEmail**? : *undefined | string*
 
 ___
 
@@ -216,19 +216,19 @@ ___
 
 ### `Optional` receiverEmail
 
-• **receiverEmail**? : *string*
+• **receiverEmail**? : *undefined | string*
 
 ___
 
 ### `Optional` reference
 
-• **reference**? : *string*
+• **reference**? : *undefined | string*
 
 ___
 
 ### `Optional` subscriptionDuration
 
-• **subscriptionDuration**? : *number*
+• **subscriptionDuration**? : *undefined | number*
 
 Number of months/years the subscription shall run
 
@@ -236,7 +236,7 @@ ___
 
 ### `Optional` subscriptionInvoicingTime
 
-• **subscriptionInvoicingTime**? : *number*
+• **subscriptionInvoicingTime**? : *undefined | number*
 
 Number of days/months invoicing in advance/in arrears
 
@@ -244,7 +244,7 @@ ___
 
 ### `Optional` subscriptionPeriodsOnInvoice
 
-• **subscriptionPeriodsOnInvoice**? : *number*
+• **subscriptionPeriodsOnInvoice**? : *undefined | number*
 
 Number of periods on each invoice
 
@@ -252,10 +252,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

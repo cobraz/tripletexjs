@@ -23,7 +23,7 @@
 
 ### `Optional` archiveDate
 
-• **archiveDate**? : *string*
+• **archiveDate**? : *undefined | string*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 ### `Optional` `Readonly` size
 
-• **size**? : *number*
+• **size**? : *undefined | number*
 
 The size of the document in readable format.
 
@@ -65,10 +65,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

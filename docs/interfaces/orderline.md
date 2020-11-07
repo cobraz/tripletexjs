@@ -37,7 +37,7 @@
 
 ### `Optional` `Readonly` amountExcludingVatCurrency
 
-• **amountExcludingVatCurrency**? : *number*
+• **amountExcludingVatCurrency**? : *undefined | number*
 
 Total amount on order line excluding VAT in the order's currency
 
@@ -45,7 +45,7 @@ ___
 
 ### `Optional` `Readonly` amountIncludingVatCurrency
 
-• **amountIncludingVatCurrency**? : *number*
+• **amountIncludingVatCurrency**? : *undefined | number*
 
 Total amount on order line including VAT in the order's currency
 
@@ -59,7 +59,7 @@ ___
 
 ### `Optional` count
 
-• **count**? : *number*
+• **count**? : *undefined | number*
 
 ___
 
@@ -73,13 +73,13 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` discount
 
-• **discount**? : *number*
+• **discount**? : *undefined | number*
 
 Discount given as a percentage (%)
 
@@ -87,7 +87,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -99,13 +99,13 @@ ___
 
 ### `Optional` isSubscription
 
-• **isSubscription**? : *boolean*
+• **isSubscription**? : *undefined | false | true*
 
 ___
 
 ### `Optional` markup
 
-• **markup**? : *number*
+• **markup**? : *undefined | number*
 
 Markup given as a percentage (%)
 
@@ -133,19 +133,19 @@ ___
 
 ### `Optional` subscriptionPeriodEnd
 
-• **subscriptionPeriodEnd**? : *string*
+• **subscriptionPeriodEnd**? : *undefined | string*
 
 ___
 
 ### `Optional` subscriptionPeriodStart
 
-• **subscriptionPeriodStart**? : *string*
+• **subscriptionPeriodStart**? : *undefined | string*
 
 ___
 
 ### `Optional` unitCostCurrency
 
-• **unitCostCurrency**? : *number*
+• **unitCostCurrency**? : *undefined | number*
 
 Unit price purchase (cost) excluding VAT in the order's currency
 
@@ -153,7 +153,7 @@ ___
 
 ### `Optional` unitPriceExcludingVatCurrency
 
-• **unitPriceExcludingVatCurrency**? : *number*
+• **unitPriceExcludingVatCurrency**? : *undefined | number*
 
 Unit price of purchase excluding VAT in the order's currency
 
@@ -161,7 +161,7 @@ ___
 
 ### `Optional` unitPriceIncludingVatCurrency
 
-• **unitPriceIncludingVatCurrency**? : *number*
+• **unitPriceIncludingVatCurrency**? : *undefined | number*
 
 Unit price of purchase including VAT in the order's currency
 
@@ -169,7 +169,7 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -181,4 +181,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

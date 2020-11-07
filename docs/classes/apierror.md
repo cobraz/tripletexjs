@@ -55,25 +55,25 @@ ___
 
 ### `Optional` code
 
-• **code**? : *number*
+• **code**? : *undefined | number*
 
 ___
 
 ### `Optional` developerMessage
 
-• **developerMessage**? : *string*
+• **developerMessage**? : *undefined | string*
 
 ___
 
 ### `Optional` link
 
-• **link**? : *string*
+• **link**? : *undefined | string*
 
 ___
 
 ###  message
 
-• **message**: *string*
+• **message**: *undefined | string*
 
 *Inherited from [ApiError](apierror.md).[message](apierror.md#message)*
 
@@ -89,13 +89,13 @@ ___
 
 ### `Optional` requestId
 
-• **requestId**? : *string*
+• **requestId**? : *undefined | string*
 
 ___
 
 ### `Optional` stack
 
-• **stack**? : *string*
+• **stack**? : *undefined | string*
 
 *Inherited from [ApiError](apierror.md).[stack](apierror.md#optional-stack)*
 
@@ -103,7 +103,7 @@ ___
 
 ### `Readonly` status
 
-• **status**: *number*
+• **status**: *undefined | number*
 
 ___
 

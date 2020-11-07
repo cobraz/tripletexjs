@@ -42,31 +42,31 @@ ___
 
 ### `Optional` amountNOKInclVAT
 
-• **amountNOKInclVAT**? : *number*
+• **amountNOKInclVAT**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` amountNOKInclVATHigh
 
-• **amountNOKInclVATHigh**? : *number*
+• **amountNOKInclVATHigh**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` amountNOKInclVATLow
 
-• **amountNOKInclVATLow**? : *number*
+• **amountNOKInclVATLow**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` amountNOKInclVATMedium
 
-• **amountNOKInclVATMedium**? : *number*
+• **amountNOKInclVATMedium**? : *undefined | number*
 
 ___
 
 ### `Optional` category
 
-• **category**? : *string*
+• **category**? : *undefined | string*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 ### `Optional` comments
 
-• **comments**? : *string*
+• **comments**? : *undefined | string*
 
 ___
 
@@ -96,25 +96,25 @@ ___
 
 ### `Optional` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isChargeable
 
-• **isChargeable**? : *boolean*
+• **isChargeable**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isPaidByEmployee
 
-• **isPaidByEmployee**? : *boolean*
+• **isPaidByEmployee**? : *undefined | false | true*
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 ### `Optional` rate
 
-• **rate**? : *number*
+• **rate**? : *undefined | number*
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

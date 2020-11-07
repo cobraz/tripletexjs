@@ -42,7 +42,7 @@ ___
 
 ### `Optional` accountInBankId
 
-• **accountInBankId**? : *string*
+• **accountInBankId**? : *undefined | string*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 ### `Optional` bban
 
-• **bban**? : *string*
+• **bban**? : *undefined | string*
 
 The BBAN property.
 
@@ -62,7 +62,7 @@ ___
 
 ### `Optional` ccmAgreementId
 
-• **ccmAgreementId**? : *string*
+• **ccmAgreementId**? : *undefined | string*
 
 ___
 
@@ -86,13 +86,13 @@ ___
 
 ### `Optional` dateCreated
 
-• **dateCreated**? : *string*
+• **dateCreated**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 The description property.
 
@@ -100,13 +100,13 @@ ___
 
 ### `Optional` division
 
-• **division**? : *string*
+• **division**? : *undefined | string*
 
 ___
 
 ### `Optional` iban
 
-• **iban**? : *string*
+• **iban**? : *undefined | string*
 
 The IBAN property.
 
@@ -114,25 +114,25 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isActive
 
-• **isActive**? : *boolean*
+• **isActive**? : *undefined | false | true*
 
 ___
 
 ### `Optional` organisationNumber
 
-• **organisationNumber**? : *string*
+• **organisationNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` showAdviceCurrencyMismatch
 
-• **showAdviceCurrencyMismatch**? : *boolean*
+• **showAdviceCurrencyMismatch**? : *undefined | false | true*
 
 The showAdviceCurrencyMismatch property.
 
@@ -146,10 +146,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

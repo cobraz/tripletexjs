@@ -23,4 +23,4 @@ ___
 
 ### `Optional` number
 
-• **number**? : *string*
+• **number**? : *undefined | string*

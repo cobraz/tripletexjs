@@ -35,7 +35,7 @@ ___
 
 ### `Optional` budgetFeeCurrency
 
-• **budgetFeeCurrency**? : *number*
+• **budgetFeeCurrency**? : *undefined | number*
 
 Set budget fee
 
@@ -43,7 +43,7 @@ ___
 
 ### `Optional` budgetHourlyRateCurrency
 
-• **budgetHourlyRateCurrency**? : *number*
+• **budgetHourlyRateCurrency**? : *undefined | number*
 
 Set budget hourly rate
 
@@ -51,7 +51,7 @@ ___
 
 ### `Optional` budgetHours
 
-• **budgetHours**? : *number*
+• **budgetHours**? : *undefined | number*
 
 Set budget hours
 
@@ -65,19 +65,19 @@ ___
 
 ### `Optional` endDate
 
-• **endDate**? : *string*
+• **endDate**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isClosed
 
-• **isClosed**? : *boolean*
+• **isClosed**? : *undefined | false | true*
 
 ___
 
@@ -89,16 +89,16 @@ ___
 
 ### `Optional` startDate
 
-• **startDate**? : *string*
+• **startDate**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

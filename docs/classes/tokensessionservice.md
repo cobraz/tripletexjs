@@ -78,6 +78,6 @@ Find information about the current user.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 
 **Returns:** *Promise‹[ResponseWrapperLoggedInUserInfoDTO](../interfaces/responsewrapperloggedinuserinfodto.md)›*

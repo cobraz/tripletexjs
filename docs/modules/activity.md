@@ -34,31 +34,31 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isChargeable
 
-• **isChargeable**? : *boolean*
+• **isChargeable**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isDisabled
 
-• **isDisabled**? : *boolean*
+• **isDisabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isGeneral
 
-• **isGeneral**? : *boolean*
+• **isGeneral**? : *undefined | false | true*
 
 Manipulate these with ActivityType
 
@@ -66,7 +66,7 @@ ___
 
 ### `Optional` `Readonly` isProjectActivity
 
-• **isProjectActivity**? : *boolean*
+• **isProjectActivity**? : *undefined | false | true*
 
 Manipulate these with ActivityType
 
@@ -74,7 +74,7 @@ ___
 
 ### `Optional` `Readonly` isTask
 
-• **isTask**? : *boolean*
+• **isTask**? : *undefined | false | true*
 
 Manipulate these with ActivityType
 
@@ -82,28 +82,28 @@ ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` number
 
-• **number**? : *string*
+• **number**? : *undefined | string*
 
 ___
 
 ### `Optional` rate
 
-• **rate**? : *number*
+• **rate**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

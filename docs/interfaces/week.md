@@ -27,7 +27,7 @@
 
 ### `Optional` `Readonly` approved
 
-• **approved**? : *boolean*
+• **approved**? : *undefined | false | true*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 ### `Optional` `Readonly` approvedDate
 
-• **approvedDate**? : *string*
+• **approvedDate**? : *undefined | string*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 ### `Optional` `Readonly` completed
 
-• **completed**? : *boolean*
+• **completed**? : *undefined | false | true*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -75,22 +75,22 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` week
 
-• **week**? : *number*
+• **week**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*

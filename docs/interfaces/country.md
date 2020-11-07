@@ -29,13 +29,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isoAlpha2Code
 
-• **isoAlpha2Code**? : *string*
+• **isoAlpha2Code**? : *undefined | string*
 
 The ISO 3166-1 Alpha2 code of the country (2 letters). https://en.wikipedia.org/wiki/ISO_3166-1
 
@@ -43,7 +43,7 @@ ___
 
 ### `Optional` `Readonly` isoAlpha3Code
 
-• **isoAlpha3Code**? : *string*
+• **isoAlpha3Code**? : *undefined | string*
 
 The ISO 3166-1 Alpha3 code of the country (3 letters). https://en.wikipedia.org/wiki/ISO_3166-1
 
@@ -51,7 +51,7 @@ ___
 
 ### `Optional` `Readonly` isoNumericCode
 
-• **isoNumericCode**? : *string*
+• **isoNumericCode**? : *undefined | string*
 
 The ISO 3166-1 numeric code of the country (3 digits). https://en.wikipedia.org/wiki/ISO_3166-1
 
@@ -59,16 +59,16 @@ ___
 
 ### `Optional` `Readonly` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

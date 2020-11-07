@@ -16,4 +16,4 @@
 
 ### `Optional` redirectPath
 
-• **redirectPath**? : *string*
+• **redirectPath**? : *undefined | string*

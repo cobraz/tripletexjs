@@ -18,16 +18,16 @@
 
 ### `Optional` `Readonly` change
 
-• **change**? : *number*
+• **change**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` incomingHourBalance
 
-• **incomingHourBalance**? : *number*
+• **incomingHourBalance**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` outgoingHourBalance
 
-• **outgoingHourBalance**? : *number*
+• **outgoingHourBalance**? : *undefined | number*

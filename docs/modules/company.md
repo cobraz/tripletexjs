@@ -40,25 +40,25 @@ ___
 
 ### `Optional` email
 
-• **email**? : *string*
+• **email**? : *undefined | string*
 
 ___
 
 ### `Optional` endDate
 
-• **endDate**? : *string*
+• **endDate**? : *undefined | string*
 
 ___
 
 ### `Optional` faxNumber
 
-• **faxNumber**? : *string*
+• **faxNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -70,34 +70,34 @@ ___
 
 ### `Optional` organizationNumber
 
-• **organizationNumber**? : *string*
+• **organizationNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumber
 
-• **phoneNumber**? : *string*
+• **phoneNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumberMobile
 
-• **phoneNumberMobile**? : *string*
+• **phoneNumberMobile**? : *undefined | string*
 
 ___
 
 ### `Optional` startDate
 
-• **startDate**? : *string*
+• **startDate**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

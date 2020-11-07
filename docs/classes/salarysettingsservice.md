@@ -31,7 +31,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 
 **Returns:** *Promise‹[ResponseWrapperSalarySettings](../interfaces/responsewrappersalarysettings.md)›*
 
@@ -53,6 +53,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [SalarySettings](../modules/salarysettings.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [SalarySettings](../modules/salarysettings.md) | Partial object describing what should be updated |
 
 **Returns:** *Promise‹[ResponseWrapperSalarySettings](../interfaces/responsewrappersalarysettings.md)›*

@@ -22,7 +22,7 @@
 
 ### `Optional` accountInBankId
 
-• **accountInBankId**? : *string*
+• **accountInBankId**? : *undefined | string*
 
 Customer number in bank
 
@@ -46,7 +46,7 @@ ___
 
 ### `Optional` ccmAgreementId
 
-• **ccmAgreementId**? : *string*
+• **ccmAgreementId**? : *undefined | string*
 
 Customer Id from Bank
 
@@ -54,7 +54,7 @@ ___
 
 ### `Optional` division
 
-• **division**? : *string*
+• **division**? : *undefined | string*
 
 Division (DNB only)
 
@@ -62,7 +62,7 @@ ___
 
 ### `Optional` electronicCreation
 
-• **electronicCreation**? : *boolean*
+• **electronicCreation**? : *undefined | false | true*
 
 Electronic agreement creation initiated.
 
@@ -70,6 +70,6 @@ ___
 
 ### `Optional` organizationNumber
 
-• **organizationNumber**? : *string*
+• **organizationNumber**? : *undefined | string*
 
 Organization number

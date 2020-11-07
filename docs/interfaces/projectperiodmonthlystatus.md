@@ -19,22 +19,22 @@
 
 ### `Optional` `Readonly` costs
 
-• **costs**? : *number*
+• **costs**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` dateFrom
 
-• **dateFrom**? : *string*
+• **dateFrom**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` dateTo
 
-• **dateTo**? : *string*
+• **dateTo**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` income
 
-• **income**? : *number*
+• **income**? : *undefined | number*

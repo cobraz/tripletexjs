@@ -35,7 +35,7 @@
 
 ### `Optional` `Readonly` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 In the company’s currency, typically NOK. Is 0 if value is missing.
 
@@ -43,7 +43,7 @@ ___
 
 ### `Optional` amountCurrency
 
-• **amountCurrency**? : *number*
+• **amountCurrency**? : *undefined | number*
 
 In the specified currency.
 
@@ -51,7 +51,7 @@ ___
 
 ### `Optional` `Readonly` amountExcludingVat
 
-• **amountExcludingVat**? : *number*
+• **amountExcludingVat**? : *undefined | number*
 
 Amount excluding VAT (NOK). Is 0 if value is missing.
 
@@ -59,7 +59,7 @@ ___
 
 ### `Optional` `Readonly` amountExcludingVatCurrency
 
-• **amountExcludingVatCurrency**? : *number*
+• **amountExcludingVatCurrency**? : *undefined | number*
 
 Amount excluding VAT in the specified currency. Is 0 if value is missing.
 
@@ -85,7 +85,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 ### `Optional` invoiceNumber
 
-• **invoiceNumber**? : *string*
+• **invoiceNumber**? : *undefined | string*
 
 Invoice number
 
@@ -111,13 +111,13 @@ ___
 
 ### `Optional` `Readonly` isCreditNote
 
-• **isCreditNote**? : *boolean*
+• **isCreditNote**? : *undefined | false | true*
 
 ___
 
 ### `Optional` kidOrReceiverReference
 
-• **kidOrReceiverReference**? : *string*
+• **kidOrReceiverReference**? : *undefined | string*
 
 KID or message
 
@@ -131,7 +131,7 @@ ___
 
 ### `Optional` `Readonly` originalInvoiceDocumentId
 
-• **originalInvoiceDocumentId**? : *number*
+• **originalInvoiceDocumentId**? : *undefined | number*
 
 ___
 
@@ -151,13 +151,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

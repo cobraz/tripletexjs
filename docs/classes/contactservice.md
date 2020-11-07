@@ -33,7 +33,7 @@ Get contact by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperContact](../interfaces/responsewrappercontact.md)›*
@@ -56,7 +56,7 @@ Create contact.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Contact](../interfaces/contact.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Contact](../interfaces/contact.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperContact](../interfaces/responsewrappercontact.md)›*
 
@@ -78,7 +78,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Contact](../interfaces/contact.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Contact](../interfaces/contact.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperContact](../interfaces/responsewrappercontact.md)›*
@@ -102,13 +102,13 @@ Find contacts corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | string | - | List of IDs |
-`email` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`firstName` | string | - | Containing |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`lastName` | string | - | Containing |
-`sorting` | string | - | Sorting pattern |
+`customerId` | undefined &#124; string | - | List of IDs |
+`email` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`firstName` | undefined &#124; string | - | Containing |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`lastName` | undefined &#124; string | - | Containing |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseContact](../interfaces/listresponsecontact.md)›*

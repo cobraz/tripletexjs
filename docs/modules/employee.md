@@ -51,7 +51,7 @@ ___
 
 ### `Optional` `Readonly` allowInformationRegistration
 
-• **allowInformationRegistration**? : *boolean*
+• **allowInformationRegistration**? : *undefined | false | true*
 
 Determines if salary information can be registered on the user including hours, travel expenses and employee expenses. The user may also be selected as a project member on projects.
 
@@ -59,13 +59,13 @@ ___
 
 ### `Optional` bankAccountNumber
 
-• **bankAccountNumber**? : *string*
+• **bankAccountNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` bic
 
-• **bic**? : *string*
+• **bic**? : *undefined | string*
 
 Bic (swift) field -- pilot program
 
@@ -79,13 +79,13 @@ ___
 
 ### `Optional` comments
 
-• **comments**? : *string*
+• **comments**? : *undefined | string*
 
 ___
 
 ### `Optional` creditorBankCountryId
 
-• **creditorBankCountryId**? : *number*
+• **creditorBankCountryId**? : *undefined | number*
 
 Country of creditor bank field -- pilot program
 
@@ -93,7 +93,7 @@ ___
 
 ### `Optional` dateOfBirth
 
-• **dateOfBirth**? : *string*
+• **dateOfBirth**? : *undefined | string*
 
 ___
 
@@ -105,19 +105,19 @@ ___
 
 ### `Optional` dnumber
 
-• **dnumber**? : *string*
+• **dnumber**? : *undefined | string*
 
 ___
 
 ### `Optional` email
 
-• **email**? : *string*
+• **email**? : *undefined | string*
 
 ___
 
 ### `Optional` employeeNumber
 
-• **employeeNumber**? : *string*
+• **employeeNumber**? : *undefined | string*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 ### `Optional` iban
 
-• **iban**? : *string*
+• **iban**? : *undefined | string*
 
 IBAN field -- pilot program
 
@@ -151,7 +151,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 ### `Optional` `Readonly` isContact
 
-• **isContact**? : *boolean*
+• **isContact**? : *undefined | false | true*
 
 ___
 
@@ -175,19 +175,19 @@ ___
 
 ### `Optional` nationalIdentityNumber
 
-• **nationalIdentityNumber**? : *string*
+• **nationalIdentityNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumberHome
 
-• **phoneNumberHome**? : *string*
+• **phoneNumberHome**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumberMobile
 
-• **phoneNumberMobile**? : *string*
+• **phoneNumberMobile**? : *undefined | string*
 
 ___
 
@@ -201,19 +201,19 @@ ___
 
 ### `Optional` phoneNumberWork
 
-• **phoneNumberWork**? : *string*
+• **phoneNumberWork**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` usesAbroadPayment
 
-• **usesAbroadPayment**? : *boolean*
+• **usesAbroadPayment**? : *undefined | false | true*
 
 UsesAbroadPayment field -- pilot program. Determines if we should use domestic or abroad remittance. To be able to use abroad remittance, one has to: 1: have Autopay 2: have valid combination of the fields Iban, Bic (swift) and Country of creditor bank.
 
@@ -221,4 +221,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -30,13 +30,13 @@ ___
 
 ### `Optional` `Readonly` continent
 
-• **continent**? : *string*
+• **continent**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` countryCode
 
-• **countryCode**? : *string*
+• **countryCode**? : *undefined | string*
 
 The ISO 3166-1 Alpha2 code of the country (2 letters). https://en.wikipedia.org/wiki/ISO_3166-1
 
@@ -44,7 +44,7 @@ ___
 
 ### `Optional` `Readonly` governmentName
 
-• **governmentName**? : *string*
+• **governmentName**? : *undefined | string*
 
 The Government name
 
@@ -52,28 +52,28 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isDisabled
 
-• **isDisabled**? : *boolean*
+• **isDisabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` zoneName
 
-• **zoneName**? : *string*
+• **zoneName**? : *undefined | string*
