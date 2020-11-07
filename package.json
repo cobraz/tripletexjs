@@ -7,6 +7,7 @@
     "generate": "openapi -c node --useOptions -i https://tripletex.no/v2/swagger.json --output src/generated",
     "generate-docs": "typedoc --mode file --readme none --plugin typedoc-plugin-markdown --hideSources --out docs src"
   },
+  "main": "build/index.js",
   "files": [
     "build"
   ],
