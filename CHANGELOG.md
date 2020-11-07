@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0-next.1](https://github.com/Bjerkio/tripletexjs/compare/v3.0.1-next.1...v3.1.0-next.1) (2020-11-07)
+
+
+### Features
+
+* Add generateToken ([7ac9e59](https://github.com/Bjerkio/tripletexjs/commit/7ac9e599de1d29cc0ca56cd3ef0684126c600888)), closes [#24](https://github.com/Bjerkio/tripletexjs/issues/24)
+
 ## [3.0.1-next.1](https://github.com/Bjerkio/tripletexjs/compare/v3.0.0...v3.0.1-next.1) (2020-11-07)
 
 
