@@ -16,4 +16,4 @@
 
 ### `Optional` value
 
-• **value**? : *string*
+• **value**? : *undefined | string*

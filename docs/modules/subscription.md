@@ -24,7 +24,7 @@
 
 ### `Optional` authHeaderName
 
-• **authHeaderName**? : *string*
+• **authHeaderName**? : *undefined | string*
 
 Custom authentication header name
 
@@ -32,7 +32,7 @@ ___
 
 ### `Optional` authHeaderValue
 
-• **authHeaderValue**? : *string*
+• **authHeaderValue**? : *undefined | string*
 
 Custom authentication header value (write only)
 
@@ -54,7 +54,7 @@ ___
 
 ### `Optional` fields
 
-• **fields**? : *string*
+• **fields**? : *undefined | string*
 
 The fields in the object delivered with the notification callback, nested as in other API calls.
 
@@ -62,7 +62,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -76,10 +76,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

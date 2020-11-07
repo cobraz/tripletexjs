@@ -19,22 +19,22 @@
 
 ### `Optional` field
 
-• **field**? : *string*
+• **field**? : *undefined | string*
 
 ___
 
 ### `Optional` message
 
-• **message**? : *string*
+• **message**? : *undefined | string*
 
 ___
 
 ### `Optional` path
 
-• **path**? : *string*
+• **path**? : *undefined | string*
 
 ___
 
 ### `Optional` rootId
 
-• **rootId**? : *number*
+• **rootId**? : *undefined | number*

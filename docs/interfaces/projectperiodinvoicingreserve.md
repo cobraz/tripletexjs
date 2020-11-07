@@ -20,28 +20,28 @@
 
 ### `Optional` `Readonly` invoiceAkontoReserveAmountCurrency
 
-• **invoiceAkontoReserveAmountCurrency**? : *number*
+• **invoiceAkontoReserveAmountCurrency**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` invoiceExtracostsReserveCurrency
 
-• **invoiceExtracostsReserveCurrency**? : *number*
+• **invoiceExtracostsReserveCurrency**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` invoiceFeeReserveCurrency
 
-• **invoiceFeeReserveCurrency**? : *number*
+• **invoiceFeeReserveCurrency**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` invoiceReserveTotalAmountCurrency
 
-• **invoiceReserveTotalAmountCurrency**? : *number*
+• **invoiceReserveTotalAmountCurrency**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` periodOrderLinesIncomeCurrency
 
-• **periodOrderLinesIncomeCurrency**? : *number*
+• **periodOrderLinesIncomeCurrency**? : *undefined | number*

@@ -30,7 +30,7 @@ ___
 
 ### `Optional` fixedRate
 
-• **fixedRate**? : *number*
+• **fixedRate**? : *undefined | number*
 
 Fixed Hourly rates if hourlyRateModel is TYPE_FIXED_HOURLY_RATE.
 
@@ -38,7 +38,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 ### `Optional` showInProjectOrder
 
-• **showInProjectOrder**? : *boolean*
+• **showInProjectOrder**? : *undefined | false | true*
 
 Show on contract confirmation/offers
 
@@ -72,10 +72,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

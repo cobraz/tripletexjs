@@ -19,22 +19,22 @@
 
 ### `Optional` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
 ### `Optional` amountExtraHolidayWeek
 
-• **amountExtraHolidayWeek**? : *number*
+• **amountExtraHolidayWeek**? : *undefined | number*
 
 ___
 
 ### `Optional` basis
 
-• **basis**? : *number*
+• **basis**? : *undefined | number*
 
 ___
 
 ### `Optional` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*

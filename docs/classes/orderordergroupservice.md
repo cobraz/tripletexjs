@@ -56,7 +56,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperOrderGroup](../interfaces/responsewrapperordergroup.md)›*
@@ -79,8 +79,8 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [OrderGroup](../interfaces/ordergroup.md) | JSON representing the new object to be created. Should not have ID and version set. |
-`orderLineIds` | string | List of IDs |
+`body` | undefined &#124; [OrderGroup](../interfaces/ordergroup.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`orderLineIds` | undefined &#124; string | List of IDs |
 
 **Returns:** *Promise‹[ResponseWrapperOrderGroup](../interfaces/responsewrapperordergroup.md)›*
 
@@ -102,8 +102,8 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [OrderGroup](../interfaces/ordergroup.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
-`orderLineIds` | string | - | List of IDs |
+`body` | undefined &#124; [OrderGroup](../interfaces/ordergroup.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
+`orderLineIds` | undefined &#124; string | - | List of IDs |
 `removeExistingOrderLines` | boolean | false | Should existing orderLines be removed from this orderGroup |
 
 **Returns:** *Promise‹[ResponseWrapperOrderGroup](../interfaces/responsewrapperordergroup.md)›*
@@ -127,10 +127,10 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`ids` | string | - | List of IDs |
-`orderIds` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`ids` | undefined &#124; string | - | List of IDs |
+`orderIds` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseOrderGroup](../interfaces/listresponseordergroup.md)›*

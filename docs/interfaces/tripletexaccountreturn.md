@@ -44,4 +44,4 @@ ___
 
 ### `Optional` companyOwnedApiTokenRobotId
 
-• **companyOwnedApiTokenRobotId**? : *number*
+• **companyOwnedApiTokenRobotId**? : *undefined | number*

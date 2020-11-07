@@ -17,10 +17,10 @@
 
 ### `Optional` link
 
-• **link**? : *string*
+• **link**? : *undefined | string*
 
 ___
 
 ### `Optional` type
 
-• **type**? : *string*
+• **type**? : *undefined | string*

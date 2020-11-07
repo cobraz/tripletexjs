@@ -28,13 +28,13 @@
 
 ### `Optional` address
 
-• **address**? : *string*
+• **address**? : *undefined | string*
 
 ___
 
 ### `Optional` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
@@ -46,13 +46,13 @@ ___
 
 ### `Optional` count
 
-• **count**? : *number*
+• **count**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 ### `Optional` rate
 
-• **rate**? : *number*
+• **rate**? : *undefined | number*
 
 ___
 
@@ -88,16 +88,16 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` zone
 
-• **zone**? : *string*
+• **zone**? : *undefined | string*

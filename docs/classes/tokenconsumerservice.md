@@ -30,7 +30,7 @@ Get consumer token by token string.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `token` | string | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperConsumerToken](../interfaces/responsewrapperconsumertoken.md)›*

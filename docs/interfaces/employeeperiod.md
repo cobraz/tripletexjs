@@ -19,22 +19,22 @@
 
 ### `Optional` `Readonly` incomingVacationBalance
 
-• **incomingVacationBalance**? : *number*
+• **incomingVacationBalance**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` outgoingVacationBalance
 
-• **outgoingVacationBalance**? : *number*
+• **outgoingVacationBalance**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` vacationTakenInPeriod
 
-• **vacationTakenInPeriod**? : *number*
+• **vacationTakenInPeriod**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` vacationTakenThisYear
 
-• **vacationTakenThisYear**? : *number*
+• **vacationTakenThisYear**? : *undefined | number*

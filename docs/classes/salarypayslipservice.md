@@ -32,7 +32,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPayslip](../interfaces/responsewrapperpayslip.md)›*
@@ -77,20 +77,20 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`activityId` | string | - | List of IDs |
-`comment` | string | - | Containing |
+`activityId` | undefined &#124; string | - | List of IDs |
+`comment` | undefined &#124; string | - | Containing |
 `count` | number | 1000 | Number of elements to return |
-`employeeId` | string | - | List of IDs |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`monthFrom` | number | - | From and including |
-`monthTo` | number | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
-`voucherDateFrom` | string | - | From and including |
-`voucherDateTo` | string | - | To and excluding |
-`wageTransactionId` | string | - | List of IDs |
-`yearFrom` | number | - | From and including |
-`yearTo` | number | - | To and excluding |
+`employeeId` | undefined &#124; string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`monthFrom` | undefined &#124; number | - | From and including |
+`monthTo` | undefined &#124; number | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`voucherDateFrom` | undefined &#124; string | - | From and including |
+`voucherDateTo` | undefined &#124; string | - | To and excluding |
+`wageTransactionId` | undefined &#124; string | - | List of IDs |
+`yearFrom` | undefined &#124; number | - | From and including |
+`yearTo` | undefined &#124; number | - | To and excluding |
 
 **Returns:** *Promise‹[ListResponsePayslip](../interfaces/listresponsepayslip.md)›*

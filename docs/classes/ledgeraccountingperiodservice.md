@@ -31,7 +31,7 @@ Get accounting period by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperAccountingPeriod](../interfaces/responsewrapperaccountingperiod.md)›*
@@ -55,15 +55,15 @@ Find accounting periods corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1400 | Number of elements to return |
-`endFrom` | string | - | From and including |
-`endTo` | string | - | To and excluding |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`numberFrom` | number | - | From and including |
-`numberTo` | number | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
-`startFrom` | string | - | From and including |
-`startTo` | string | - | To and excluding |
+`endFrom` | undefined &#124; string | - | From and including |
+`endTo` | undefined &#124; string | - | To and excluding |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`numberFrom` | undefined &#124; number | - | From and including |
+`numberTo` | undefined &#124; number | - | To and excluding |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`startFrom` | undefined &#124; string | - | From and including |
+`startTo` | undefined &#124; string | - | To and excluding |
 
 **Returns:** *Promise‹[ListResponseAccountingPeriod](../interfaces/listresponseaccountingperiod.md)›*

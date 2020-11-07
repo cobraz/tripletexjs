@@ -56,7 +56,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperMileageAllowance](../interfaces/responsewrappermileageallowance.md)›*
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [MileageAllowance](../interfaces/mileageallowance.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [MileageAllowance](../interfaces/mileageallowance.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperMileageAllowance](../interfaces/responsewrappermileageallowance.md)›*
 
@@ -101,7 +101,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [MileageAllowance](../interfaces/mileageallowance.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [MileageAllowance](../interfaces/mileageallowance.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperMileageAllowance](../interfaces/responsewrappermileageallowance.md)›*
@@ -124,23 +124,23 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`amountFrom` | string | - | From and including |
-`amountTo` | string | - | To and excluding |
+`amountFrom` | undefined &#124; string | - | From and including |
+`amountTo` | undefined &#124; string | - | To and excluding |
 `count` | number | 1000 | Number of elements to return |
-`dateFrom` | string | - | From and including |
-`dateTo` | string | - | To and excluding |
-`departureLocation` | string | - | Containing |
-`destination` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`isCompanyCar` | boolean | - | Equals |
-`kmFrom` | string | - | From and including |
-`kmTo` | string | - | To and excluding |
-`rateCategoryId` | string | - | Equals |
-`rateFrom` | string | - | From and including |
-`rateTo` | string | - | To and excluding |
-`rateTypeId` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`travelExpenseId` | string | - | Equals |
+`dateFrom` | undefined &#124; string | - | From and including |
+`dateTo` | undefined &#124; string | - | To and excluding |
+`departureLocation` | undefined &#124; string | - | Containing |
+`destination` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`isCompanyCar` | undefined &#124; false &#124; true | - | Equals |
+`kmFrom` | undefined &#124; string | - | From and including |
+`kmTo` | undefined &#124; string | - | To and excluding |
+`rateCategoryId` | undefined &#124; string | - | Equals |
+`rateFrom` | undefined &#124; string | - | From and including |
+`rateTo` | undefined &#124; string | - | To and excluding |
+`rateTypeId` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`travelExpenseId` | undefined &#124; string | - | Equals |
 
 **Returns:** *Promise‹[ListResponseMileageAllowance](../interfaces/listresponsemileageallowance.md)›*

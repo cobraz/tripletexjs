@@ -32,7 +32,7 @@
 
 ### `Optional` `Readonly` approved
 
-• **approved**? : *boolean*
+• **approved**? : *undefined | false | true*
 
 ___
 
@@ -44,13 +44,13 @@ ___
 
 ### `Optional` `Readonly` approvedDate
 
-• **approvedDate**? : *string*
+• **approvedDate**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` approvedUntilDate
 
-• **approvedUntilDate**? : *string*
+• **approvedUntilDate**? : *undefined | string*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 ### `Optional` `Readonly` completed
 
-• **completed**? : *boolean*
+• **completed**? : *undefined | false | true*
 
 ___
 
@@ -86,19 +86,19 @@ ___
 
 ### `Optional` hoursPayout
 
-• **hoursPayout**? : *number*
+• **hoursPayout**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` monthYear
 
-• **monthYear**? : *string*
+• **monthYear**? : *undefined | string*
 
 ___
 
@@ -110,13 +110,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` vacationPayout
 
-• **vacationPayout**? : *number*
+• **vacationPayout**? : *undefined | number*
 
 ___
 
@@ -128,4 +128,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

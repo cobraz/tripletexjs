@@ -85,7 +85,7 @@ Get order by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperOrder](../interfaces/responsewrapperorder.md)›*
@@ -110,8 +110,8 @@ Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `id` | number | - | ID of order to invoice. |
 `invoiceDate` | string | - | The invoice date |
-`paidAmount` | number | - | Paid amount to register prepayment of the invoice, in invoice currency. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. This amount is in the invoice currency. |
-`paymentTypeId` | number | - | Payment type to register prepayment of the invoice. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. The payment type must be related to an account with the same currency as the invoice. |
+`paidAmount` | undefined &#124; number | - | Paid amount to register prepayment of the invoice, in invoice currency. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. This amount is in the invoice currency. |
+`paymentTypeId` | undefined &#124; number | - | Payment type to register prepayment of the invoice. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. The payment type must be related to an account with the same currency as the invoice. |
 `sendToCustomer` | boolean | true | Send invoice to customer |
 
 **Returns:** *Promise‹[ResponseWrapperInvoice](../interfaces/responsewrapperinvoice.md)›*
@@ -157,7 +157,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Order](../modules/order.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Order](../modules/order.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseOrder](../interfaces/listresponseorder.md)›*
 
@@ -179,7 +179,7 @@ Create order.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Order](../modules/order.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Order](../modules/order.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperOrder](../interfaces/responsewrapperorder.md)›*
 
@@ -201,7 +201,7 @@ Update order.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Order](../modules/order.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Order](../modules/order.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperOrder](../interfaces/responsewrapperorder.md)›*
@@ -225,16 +225,16 @@ Find orders corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | string | - | List of IDs |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isClosed` | boolean | - | Equals |
-`isSubscription` | boolean | - | Equals |
-`number` | string | - | Equals |
+`customerId` | undefined &#124; string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isClosed` | undefined &#124; false &#124; true | - | Equals |
+`isSubscription` | undefined &#124; false &#124; true | - | Equals |
+`number` | undefined &#124; string | - | Equals |
 `orderDateFrom` | string | - | From and including |
 `orderDateTo` | string | - | To and excluding |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseOrder](../interfaces/listresponseorder.md)›*
 

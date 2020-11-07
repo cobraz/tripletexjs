@@ -17,10 +17,10 @@
 
 ### `Optional` change
 
-• **change**? : *string*
+• **change**? : *undefined | string*
 
 ___
 
 ### `Optional` customerId
 
-• **customerId**? : *number*
+• **customerId**? : *undefined | number*

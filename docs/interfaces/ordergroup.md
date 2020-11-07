@@ -29,13 +29,13 @@ ___
 
 ### `Optional` comment
 
-• **comment**? : *string*
+• **comment**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 ### `Optional` sortIndex
 
-• **sortIndex**? : *number*
+• **sortIndex**? : *undefined | number*
 
 Minimum 1. Defines the presentation order of the orderGroups. Does not need to be, and is often not continuous.
 
@@ -55,16 +55,16 @@ ___
 
 ### `Optional` title
 
-• **title**? : *string*
+• **title**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

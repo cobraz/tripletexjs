@@ -72,4 +72,4 @@ ___
 
 ### `Optional` `Readonly` responseHeader
 
-• **responseHeader**? : *string*
+• **responseHeader**? : *undefined | string*

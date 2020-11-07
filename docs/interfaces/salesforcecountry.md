@@ -29,40 +29,40 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isoAlpha2Code
 
-• **isoAlpha2Code**? : *string*
+• **isoAlpha2Code**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` isoAlpha3Code
 
-• **isoAlpha3Code**? : *string*
+• **isoAlpha3Code**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` isoNumericCode
 
-• **isoNumericCode**? : *string*
+• **isoNumericCode**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

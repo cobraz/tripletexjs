@@ -26,22 +26,22 @@ ___
 
 ### `Optional` subtype
 
-• **subtype**? : *string*
+• **subtype**? : *undefined | string*
 
 ___
 
 ### `Optional` type
 
-• **type**? : *string*
+• **type**? : *undefined | string*
 
 ___
 
 ### `Optional` wildcardSubtype
 
-• **wildcardSubtype**? : *boolean*
+• **wildcardSubtype**? : *undefined | false | true*
 
 ___
 
 ### `Optional` wildcardType
 
-• **wildcardType**? : *boolean*
+• **wildcardType**? : *undefined | false | true*

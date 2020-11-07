@@ -37,25 +37,25 @@ ___
 
 ### `Optional` endDate
 
-• **endDate**? : *string*
+• **endDate**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isWageDeduction
 
-• **isWageDeduction**? : *boolean*
+• **isWageDeduction**? : *undefined | false | true*
 
 ___
 
 ### `Optional` leaveOfAbsenceId
 
-• **leaveOfAbsenceId**? : *string*
+• **leaveOfAbsenceId**? : *undefined | string*
 
 Existing leave of absence ID used by the current accounting system
 
@@ -75,10 +75,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

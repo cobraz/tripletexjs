@@ -57,7 +57,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [CompanyHoliday](../interfaces/companyholiday.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [CompanyHoliday](../interfaces/companyholiday.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseCompanyHoliday](../interfaces/listresponsecompanyholiday.md)›*
 
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [CompanyHoliday](../interfaces/companyholiday.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [CompanyHoliday](../interfaces/companyholiday.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseCompanyHoliday](../interfaces/listresponsecompanyholiday.md)›*
 
@@ -101,7 +101,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [CompanyHoliday](../interfaces/companyholiday.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [CompanyHoliday](../interfaces/companyholiday.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperCompanyHoliday](../interfaces/responsewrappercompanyholiday.md)›*
 
@@ -123,7 +123,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [CompanyHoliday](../interfaces/companyholiday.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [CompanyHoliday](../interfaces/companyholiday.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCompanyHoliday](../interfaces/responsewrappercompanyholiday.md)›*
@@ -147,8 +147,8 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseCompanyHoliday](../interfaces/listresponsecompanyholiday.md)›*

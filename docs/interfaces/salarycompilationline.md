@@ -19,22 +19,22 @@
 
 ### `Optional` `Readonly` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` taxable
 
-• **taxable**? : *boolean*
+• **taxable**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` taxableDescription
 
-• **taxableDescription**? : *string*
+• **taxableDescription**? : *undefined | string*

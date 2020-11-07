@@ -35,7 +35,7 @@ Find time clock entry by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTimeClock](../interfaces/responsewrappertimeclock.md)›*
@@ -58,8 +58,8 @@ Find a user’s present running time clock.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeId` | number | Employee ID. Defaults to ID of token owner. |
-`fields` | string | Fields filter pattern |
+`employeeId` | undefined &#124; number | Employee ID. Defaults to ID of token owner. |
+`fields` | undefined &#124; string | Fields filter pattern |
 
 **Returns:** *Promise‹[ResponseWrapperTimeClock](../interfaces/responsewrappertimeclock.md)›*
 
@@ -81,7 +81,7 @@ Update time clock by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [TimeClock](../interfaces/timeclock.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [TimeClock](../interfaces/timeclock.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTimeClock](../interfaces/responsewrappertimeclock.md)›*
@@ -104,18 +104,18 @@ Find time clock entries corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`activityId` | string | - | List of IDs |
+`activityId` | undefined &#124; string | - | List of IDs |
 `count` | number | 1000 | Number of elements to return |
-`dateFrom` | string | - | From and including |
-`dateTo` | string | - | To and excluding |
-`employeeId` | string | - | List of IDs |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`hourId` | string | - | List of IDs |
-`id` | string | - | List of IDs |
-`isRunning` | boolean | - | Equals |
-`projectId` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`dateFrom` | undefined &#124; string | - | From and including |
+`dateTo` | undefined &#124; string | - | To and excluding |
+`employeeId` | undefined &#124; string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`hourId` | undefined &#124; string | - | List of IDs |
+`id` | undefined &#124; string | - | List of IDs |
+`isRunning` | undefined &#124; false &#124; true | - | Equals |
+`projectId` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseTimeClock](../interfaces/listresponsetimeclock.md)›*
 
@@ -138,9 +138,9 @@ Start time clock.
 Name | Type | Description |
 ------ | ------ | ------ |
 `activityId` | number | Activity ID |
-`date` | string | Optional. Default is today’s date |
-`employeeId` | number | Employee ID. Defaults to ID of token owner. |
-`projectId` | number | Project ID |
+`date` | undefined &#124; string | Optional. Default is today’s date |
+`employeeId` | undefined &#124; number | Employee ID. Defaults to ID of token owner. |
+`projectId` | undefined &#124; number | Project ID |
 
 **Returns:** *Promise‹[ResponseWrapperTimeClock](../interfaces/responsewrappertimeclock.md)›*
 
@@ -163,6 +163,6 @@ Stop time clock.
 Name | Type | Description |
 ------ | ------ | ------ |
 `id` | number | Element ID |
-`version` | number | Number of current version |
+`version` | undefined &#124; number | Number of current version |
 
 **Returns:** *Promise‹any›*

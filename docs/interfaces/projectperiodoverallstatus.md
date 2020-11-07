@@ -17,10 +17,10 @@
 
 ### `Optional` `Readonly` costs
 
-• **costs**? : *number*
+• **costs**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` income
 
-• **income**? : *number*
+• **income**? : *undefined | number*

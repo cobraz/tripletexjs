@@ -84,7 +84,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperGoodsReceipt](../interfaces/responsewrappergoodsreceipt.md)›*
@@ -129,7 +129,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [GoodsReceipt](../modules/goodsreceipt.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [GoodsReceipt](../modules/goodsreceipt.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseGoodsReceipt](../interfaces/listresponsegoodsreceipt.md)›*
 
@@ -151,7 +151,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [GoodsReceipt](../modules/goodsreceipt.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [GoodsReceipt](../modules/goodsreceipt.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperGoodsReceipt](../interfaces/responsewrappergoodsreceipt.md)›*
 
@@ -173,7 +173,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [GoodsReceipt](../modules/goodsreceipt.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [GoodsReceipt](../modules/goodsreceipt.md) | Partial object describing what should be updated |
 `id` | number | Goods Receipt ID. |
 
 **Returns:** *Promise‹[ResponseWrapperGoodsReceipt](../interfaces/responsewrappergoodsreceipt.md)›*
@@ -197,7 +197,7 @@ ___
 Name | Type | Description |
 ------ | ------ | ------ |
 `id` | number | Purchase Order ID. |
-`inventoryId` | number | ID of inventory. Main inventory is set as default |
+`inventoryId` | undefined &#124; number | ID of inventory. Main inventory is set as default |
 `receivedDate` | string | The approval date for the subscription. |
 
 **Returns:** *Promise‹[ResponseWrapperPurchaseOrder](../interfaces/responsewrapperpurchaseorder.md)›*
@@ -221,7 +221,7 @@ ___
 Name | Type | Description |
 ------ | ------ | ------ |
 `id` | number | Purchase Order ID. |
-`inventoryId` | number | ID of inventory. Main inventory is set as default |
+`inventoryId` | undefined &#124; number | ID of inventory. Main inventory is set as default |
 `registrationDate` | string | yyyy-MM-dd. Defaults to today. |
 
 **Returns:** *Promise‹[ResponseWrapperGoodsReceipt](../interfaces/responsewrappergoodsreceipt.md)›*
@@ -245,12 +245,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`receivedDateFrom` | string | - | Format is yyyy-MM-dd (from and incl.). |
-`receivedDateTo` | string | - | Format is yyyy-MM-dd (to and incl.). |
-`sorting` | string | - | Sorting pattern |
-`status` | "STATUS_OPEN" &#124; "STATUS_CONFIRMED" | - | Equals |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`receivedDateFrom` | undefined &#124; string | - | Format is yyyy-MM-dd (from and incl.). |
+`receivedDateTo` | undefined &#124; string | - | Format is yyyy-MM-dd (to and incl.). |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`status` | undefined &#124; "STATUS_OPEN" &#124; "STATUS_CONFIRMED" | - | Equals |
 `withoutPurchase` | boolean | false | Equals |
 
 **Returns:** *Promise‹[ListResponseGoodsReceipt](../interfaces/listresponsegoodsreceipt.md)›*

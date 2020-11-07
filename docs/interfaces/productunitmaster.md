@@ -31,52 +31,52 @@ ___
 
 ### `Optional` `Readonly` commonCode
 
-• **commonCode**? : *string*
+• **commonCode**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isInactive
 
-• **isInactive**? : *boolean*
+• **isInactive**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` nameShort
 
-• **nameShort**? : *string*
+• **nameShort**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` peppolName
 
-• **peppolName**? : *string*
+• **peppolName**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` peppolSymbol
 
-• **peppolSymbol**? : *string*
+• **peppolSymbol**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -37,13 +37,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` remitNumberOfAcceptors
 
-• **remitNumberOfAcceptors**? : *number*
+• **remitNumberOfAcceptors**? : *undefined | number*
 
 The remit number of acceptors.
 
@@ -51,7 +51,7 @@ ___
 
 ### `Optional` showAdviceCurrencyMismatch
 
-• **showAdviceCurrencyMismatch**? : *boolean*
+• **showAdviceCurrencyMismatch**? : *undefined | false | true*
 
 The showAdviceCurrencyMismatch property.
 
@@ -65,10 +65,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -31,25 +31,25 @@ ___
 
 ### `Optional` comment
 
-• **comment**? : *string*
+• **comment**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` costCurrency
 
-• **costCurrency**? : *number*
+• **costCurrency**? : *undefined | number*
 
 ___
 
 ### `Optional` count
 
-• **count**? : *number*
+• **count**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 ### `Optional` unitCostCurrency
 
-• **unitCostCurrency**? : *number*
+• **unitCostCurrency**? : *undefined | number*
 
 Unit price purchase (cost) excluding VAT in the order's currency
 
@@ -75,10 +75,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -28,13 +28,13 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -46,16 +46,16 @@ ___
 
 ### `Optional` number
 
-• **number**? : *string*
+• **number**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

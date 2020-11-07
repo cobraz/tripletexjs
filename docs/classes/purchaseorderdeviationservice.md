@@ -105,7 +105,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperDeviation](../interfaces/responsewrapperdeviation.md)›*
@@ -128,7 +128,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Deviation](../modules/deviation.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Deviation](../modules/deviation.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseDeviation](../interfaces/listresponsedeviation.md)›*
 
@@ -150,7 +150,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Deviation](../modules/deviation.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [Deviation](../modules/deviation.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseDeviation](../interfaces/listresponsedeviation.md)›*
 
@@ -172,7 +172,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Deviation](../modules/deviation.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Deviation](../modules/deviation.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperDeviation](../interfaces/responsewrapperdeviation.md)›*
 
@@ -194,7 +194,7 @@ Update deviation. Only available for users that have activated the Logistics Plu
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Deviation](../modules/deviation.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Deviation](../modules/deviation.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperDeviation](../interfaces/responsewrapperdeviation.md)›*
@@ -218,10 +218,10 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `purchaseOrderId` | number | - | Equals |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDeviation](../interfaces/listresponsedeviation.md)›*
 

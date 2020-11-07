@@ -45,19 +45,19 @@ ___
 
 ### `Optional` `Readonly` chargeable
 
-• **chargeable**? : *boolean*
+• **chargeable**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` chargeableHours
 
-• **chargeableHours**? : *number*
+• **chargeableHours**? : *undefined | number*
 
 ___
 
 ### `Optional` comment
 
-• **comment**? : *string*
+• **comment**? : *undefined | string*
 
 ___
 
@@ -75,19 +75,19 @@ ___
 
 ### `Optional` `Readonly` hourlyCost
 
-• **hourlyCost**? : *number*
+• **hourlyCost**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` hourlyCostPercentage
 
-• **hourlyCostPercentage**? : *number*
+• **hourlyCostPercentage**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` hourlyRate
 
-• **hourlyRate**? : *number*
+• **hourlyRate**? : *undefined | number*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 ### `Optional` `Readonly` locked
 
-• **locked**? : *boolean*
+• **locked**? : *undefined | false | true*
 
 Indicates if the hour can be changed.
 
@@ -133,10 +133,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

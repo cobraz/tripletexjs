@@ -32,7 +32,7 @@ Get address by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperDeliveryAddress](../interfaces/responsewrapperdeliveryaddress.md)›*
@@ -55,7 +55,7 @@ Update address.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [DeliveryAddress](../interfaces/deliveryaddress.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [DeliveryAddress](../interfaces/deliveryaddress.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperDeliveryAddress](../interfaces/responsewrapperdeliveryaddress.md)›*
@@ -78,15 +78,15 @@ Find addresses corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`addressLine1` | string | - | List of IDs |
-`addressLine2` | string | - | List of IDs |
-`city` | string | - | List of IDs |
+`addressLine1` | undefined &#124; string | - | List of IDs |
+`addressLine2` | undefined &#124; string | - | List of IDs |
+`city` | undefined &#124; string | - | List of IDs |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`name` | string | - | List of IDs |
-`postalCode` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`name` | undefined &#124; string | - | List of IDs |
+`postalCode` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseDeliveryAddress](../interfaces/listresponsedeliveryaddress.md)›*

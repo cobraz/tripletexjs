@@ -28,7 +28,7 @@
 
 ### `Optional` `Readonly` actionDate
 
-• **actionDate**? : *string*
+• **actionDate**? : *undefined | string*
 
 ___
 
@@ -40,13 +40,13 @@ ___
 
 ### `Optional` comment
 
-• **comment**? : *string*
+• **comment**? : *undefined | string*
 
 ___
 
 ### `Optional` commentFromOriginator
 
-• **commentFromOriginator**? : *string*
+• **commentFromOriginator**? : *undefined | string*
 
 ___
 
@@ -64,13 +64,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` organisationLevel
 
-• **organisationLevel**? : *number*
+• **organisationLevel**? : *undefined | number*
 
 ___
 
@@ -82,19 +82,19 @@ ___
 
 ### `Optional` `Readonly` status
 
-• **status**? : *number*
+• **status**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

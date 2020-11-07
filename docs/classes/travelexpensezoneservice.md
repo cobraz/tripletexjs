@@ -31,7 +31,7 @@ Get travel expense zone by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTravelExpenseZone](../interfaces/responsewrappertravelexpensezone.md)›*
@@ -54,12 +54,12 @@ Find travel expense zones corresponding with sent data.
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`code` | string | - | List of IDs |
+`code` | undefined &#124; string | - | List of IDs |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isDisabled` | boolean | - | Equals |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isDisabled` | undefined &#124; false &#124; true | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseTravelExpenseZone](../interfaces/listresponsetravelexpensezone.md)›*

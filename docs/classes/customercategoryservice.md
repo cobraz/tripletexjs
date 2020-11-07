@@ -33,7 +33,7 @@ Find customer/supplier category by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCustomerCategory](../interfaces/responsewrappercustomercategory.md)›*
@@ -56,7 +56,7 @@ Add new customer/supplier category.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [CustomerCategory](../interfaces/customercategory.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [CustomerCategory](../interfaces/customercategory.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperCustomerCategory](../interfaces/responsewrappercustomercategory.md)›*
 
@@ -78,7 +78,7 @@ Update customer/supplier category.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [CustomerCategory](../interfaces/customercategory.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [CustomerCategory](../interfaces/customercategory.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperCustomerCategory](../interfaces/responsewrappercustomercategory.md)›*
@@ -102,13 +102,13 @@ Find customer/supplier categories corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`description` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`name` | string | - | Containing |
-`number` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`type` | string | - | List of IDs |
+`description` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`name` | undefined &#124; string | - | Containing |
+`number` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`type` | undefined &#124; string | - | List of IDs |
 
 **Returns:** *Promise‹[ListResponseCustomerCategory](../interfaces/listresponsecustomercategory.md)›*

@@ -28,34 +28,34 @@ ___
 
 ### `Optional` `Readonly` end
 
-• **end**? : *string*
+• **end**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` start
 
-• **start**? : *string*
+• **start**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*

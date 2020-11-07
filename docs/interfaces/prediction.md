@@ -18,16 +18,16 @@
 
 ### `Optional` confidence
 
-• **confidence**? : *string*
+• **confidence**? : *undefined | string*
 
 ___
 
 ### `Optional` correctedValue
 
-• **correctedValue**? : *string*
+• **correctedValue**? : *undefined | string*
 
 ___
 
 ### `Optional` predictedValue
 
-• **predictedValue**? : *string*
+• **predictedValue**? : *undefined | string*

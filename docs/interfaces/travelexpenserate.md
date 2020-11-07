@@ -25,7 +25,7 @@
 
 ### `Optional` breakfastDeductionRate
 
-• **breakfastDeductionRate**? : *number*
+• **breakfastDeductionRate**? : *undefined | number*
 
 ___
 
@@ -37,25 +37,25 @@ ___
 
 ### `Optional` dinnerDeductionRate
 
-• **dinnerDeductionRate**? : *number*
+• **dinnerDeductionRate**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` lunchDeductionRate
 
-• **lunchDeductionRate**? : *number*
+• **lunchDeductionRate**? : *undefined | number*
 
 ___
 
 ### `Optional` rate
 
-• **rate**? : *number*
+• **rate**? : *undefined | number*
 
 ___
 
@@ -67,13 +67,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

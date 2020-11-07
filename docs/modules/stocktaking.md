@@ -30,7 +30,7 @@ ___
 
 ### `Optional` comment
 
-• **comment**? : *string*
+• **comment**? : *undefined | string*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -56,22 +56,22 @@ ___
 
 ### `Optional` isCompleted
 
-• **isCompleted**? : *boolean*
+• **isCompleted**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` number
 
-• **number**? : *number*
+• **number**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

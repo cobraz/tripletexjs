@@ -32,7 +32,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperVoucherStatus](../interfaces/responsewrappervoucherstatus.md)›*
@@ -55,7 +55,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [VoucherStatus](../modules/voucherstatus.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [VoucherStatus](../modules/voucherstatus.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperVoucherStatus](../interfaces/responsewrappervoucherstatus.md)›*
 
@@ -78,10 +78,10 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`ids` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
-`voucherIds` | string | - | List of IDs |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`ids` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`voucherIds` | undefined &#124; string | - | List of IDs |
 
 **Returns:** *Promise‹[ListResponseVoucherStatus](../interfaces/listresponsevoucherstatus.md)›*

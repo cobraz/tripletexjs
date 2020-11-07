@@ -20,28 +20,28 @@
 
 ### `Optional` `Readonly` approvedButUnchargedHours
 
-• **approvedButUnchargedHours**? : *number*
+• **approvedButUnchargedHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` chargeableHours
 
-• **chargeableHours**? : *number*
+• **chargeableHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` nonApprovedHours
 
-• **nonApprovedHours**? : *number*
+• **nonApprovedHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` nonChargeableHours
 
-• **nonChargeableHours**? : *number*
+• **nonChargeableHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` registeredHours
 
-• **registeredHours**? : *number*
+• **registeredHours**? : *undefined | number*

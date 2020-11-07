@@ -42,19 +42,19 @@ ___
 
 ### `Optional` closedDate
 
-• **closedDate**? : *string*
+• **closedDate**? : *undefined | string*
 
 ___
 
 ### `Optional` closedReason
 
-• **closedReason**? : *number*
+• **closedReason**? : *undefined | number*
 
 ___
 
 ### `Optional` competitor
 
-• **competitor**? : *string*
+• **competitor**? : *undefined | string*
 
 ___
 
@@ -72,13 +72,13 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` finalAdditionalServicesValue
 
-• **finalAdditionalServicesValue**? : *number*
+• **finalAdditionalServicesValue**? : *undefined | number*
 
 Tripletex specific.
 
@@ -86,7 +86,7 @@ ___
 
 ### `Optional` finalIncomeDate
 
-• **finalIncomeDate**? : *string*
+• **finalIncomeDate**? : *undefined | string*
 
 The estimated start date for income on the prospect.
 
@@ -94,7 +94,7 @@ ___
 
 ### `Optional` finalInitialValue
 
-• **finalInitialValue**? : *number*
+• **finalInitialValue**? : *undefined | number*
 
 The estimated startup fee on this prospect.
 
@@ -102,7 +102,7 @@ ___
 
 ### `Optional` finalMonthlyValue
 
-• **finalMonthlyValue**? : *number*
+• **finalMonthlyValue**? : *undefined | number*
 
 The estimated monthly fee on this prospect.
 
@@ -110,19 +110,19 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isClosed
 
-• **isClosed**? : *boolean*
+• **isClosed**? : *undefined | false | true*
 
 ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 ### `Optional` prospectType
 
-• **prospectType**? : *number*
+• **prospectType**? : *undefined | number*
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 ### `Optional` `Readonly` totalValue
 
-• **totalValue**? : *number*
+• **totalValue**? : *undefined | number*
 
 The estimated total fee on this prospect.
 
@@ -164,10 +164,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

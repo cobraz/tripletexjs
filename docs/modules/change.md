@@ -19,22 +19,22 @@
 
 ### `Optional` employeeId
 
-• **employeeId**? : *number*
+• **employeeId**? : *undefined | number*
 
 ___
 
 ### `Optional` periodLocked
 
-• **periodLocked**? : *string*
+• **periodLocked**? : *undefined | string*
 
 ___
 
 ### `Optional` periodReopened
 
-• **periodReopened**? : *string*
+• **periodReopened**? : *undefined | string*
 
 ___
 
 ### `Optional` timestamp
 
-• **timestamp**? : *string*
+• **timestamp**? : *undefined | string*

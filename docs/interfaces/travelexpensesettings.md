@@ -26,13 +26,13 @@
 
 ### `Optional` accommodationNotCompensated
 
-• **accommodationNotCompensated**? : *boolean*
+• **accommodationNotCompensated**? : *undefined | false | true*
 
 ___
 
 ### `Optional` approvalRequired
 
-• **approvalRequired**? : *boolean*
+• **approvalRequired**? : *undefined | false | true*
 
 ___
 
@@ -44,46 +44,46 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` mileageNotCompensated
 
-• **mileageNotCompensated**? : *boolean*
+• **mileageNotCompensated**? : *undefined | false | true*
 
 ___
 
 ### `Optional` perDiemNotCompensated
 
-• **perDiemNotCompensated**? : *boolean*
+• **perDiemNotCompensated**? : *undefined | false | true*
 
 ___
 
 ### `Optional` taxFreeMileageRates
 
-• **taxFreeMileageRates**? : *boolean*
+• **taxFreeMileageRates**? : *undefined | false | true*
 
 ___
 
 ### `Optional` taxFreePerDiemRates
 
-• **taxFreePerDiemRates**? : *boolean*
+• **taxFreePerDiemRates**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` useRates
 
-• **useRates**? : *boolean*
+• **useRates**? : *undefined | false | true*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

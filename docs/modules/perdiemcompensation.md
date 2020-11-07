@@ -32,13 +32,13 @@
 
 ### `Optional` address
 
-• **address**? : *string*
+• **address**? : *undefined | string*
 
 ___
 
 ### `Optional` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
@@ -50,37 +50,37 @@ ___
 
 ### `Optional` count
 
-• **count**? : *number*
+• **count**? : *undefined | number*
 
 ___
 
 ### `Optional` countryCode
 
-• **countryCode**? : *string*
+• **countryCode**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isDeductionForBreakfast
 
-• **isDeductionForBreakfast**? : *boolean*
+• **isDeductionForBreakfast**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isDeductionForDinner
 
-• **isDeductionForDinner**? : *boolean*
+• **isDeductionForDinner**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isDeductionForLunch
 
-• **isDeductionForLunch**? : *boolean*
+• **isDeductionForLunch**? : *undefined | false | true*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 ### `Optional` rate
 
-• **rate**? : *number*
+• **rate**? : *undefined | number*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 ### `Optional` travelExpenseZoneId
 
-• **travelExpenseZoneId**? : *number*
+• **travelExpenseZoneId**? : *undefined | number*
 
 Optional travel expense zone id. If not specified, the value from field zone will be used.
 
@@ -124,10 +124,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

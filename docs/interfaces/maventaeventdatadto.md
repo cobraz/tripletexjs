@@ -30,7 +30,7 @@ ___
 
 ### `Optional` `Readonly` error_message
 
-• **error_message**? : *string*
+• **error_message**? : *undefined | string*
 
 ___
 

@@ -57,7 +57,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProductGroupRelation](../interfaces/responsewrapperproductgrouprelation.md)›*
@@ -102,7 +102,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProductGroupRelation](../interfaces/productgrouprelation.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProductGroupRelation](../interfaces/productgrouprelation.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProductGroupRelation](../interfaces/listresponseproductgrouprelation.md)›*
 
@@ -124,7 +124,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProductGroupRelation](../interfaces/productgrouprelation.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProductGroupRelation](../interfaces/productgrouprelation.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperProductGroupRelation](../interfaces/responsewrapperproductgrouprelation.md)›*
 
@@ -147,11 +147,11 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`productGroupId` | string | - | List of IDs |
-`productId` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`productGroupId` | undefined &#124; string | - | List of IDs |
+`productId` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProductGroupRelation](../interfaces/listresponseproductgrouprelation.md)›*

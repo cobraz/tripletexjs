@@ -28,34 +28,34 @@ ___
 
 ### `Optional` code
 
-• **code**? : *string*
+• **code**? : *undefined | string*
 
 ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` factor
 
-• **factor**? : *number*
+• **factor**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

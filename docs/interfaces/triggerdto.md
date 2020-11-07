@@ -21,34 +21,34 @@
 
 ### `Optional` calendarName
 
-• **calendarName**? : *string*
+• **calendarName**? : *undefined | string*
 
 ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` nextFireTime
 
-• **nextFireTime**? : *string*
+• **nextFireTime**? : *undefined | string*
 
 ___
 
 ### `Optional` previousFireTime
 
-• **previousFireTime**? : *string*
+• **previousFireTime**? : *undefined | string*
 
 ___
 
 ### `Optional` state
 
-• **state**? : *string*
+• **state**? : *undefined | string*

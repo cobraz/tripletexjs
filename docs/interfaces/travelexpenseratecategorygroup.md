@@ -35,19 +35,19 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isForeignTravel
 
-• **isForeignTravel**? : *boolean*
+• **isForeignTravel**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
@@ -59,10 +59,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

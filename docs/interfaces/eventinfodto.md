@@ -19,7 +19,7 @@
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
@@ -31,10 +31,10 @@ ___
 
 ### `Optional` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
 ### `Optional` payloadModel
 
-• **payloadModel**? : *string*
+• **payloadModel**? : *undefined | string*

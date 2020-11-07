@@ -20,28 +20,28 @@
 
 ### `Optional` `Readonly` sumAmount
 
-• **sumAmount**? : *number*
+• **sumAmount**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` sumAmountDue
 
-• **sumAmountDue**? : *number*
+• **sumAmountDue**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` sumAmountDueOutstanding
 
-• **sumAmountDueOutstanding**? : *number*
+• **sumAmountDueOutstanding**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` sumAmountOutstanding
 
-• **sumAmountOutstanding**? : *number*
+• **sumAmountOutstanding**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` sumAmountPaid
 
-• **sumAmountPaid**? : *number*
+• **sumAmountPaid**? : *undefined | number*

@@ -47,13 +47,13 @@ ___
 
 ### `Optional` odpcompanyID
 
-• **odpcompanyID**? : *number*
+• **odpcompanyID**? : *undefined | number*
 
 ___
 
 ### `Optional` odpcustomerID
 
-• **odpcustomerID**? : *number*
+• **odpcustomerID**? : *undefined | number*
 
 ___
 

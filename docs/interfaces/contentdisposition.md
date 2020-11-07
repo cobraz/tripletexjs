@@ -22,19 +22,19 @@
 
 ### `Optional` creationDate
 
-• **creationDate**? : *string*
+• **creationDate**? : *undefined | string*
 
 ___
 
 ### `Optional` fileName
 
-• **fileName**? : *string*
+• **fileName**? : *undefined | string*
 
 ___
 
 ### `Optional` modificationDate
 
-• **modificationDate**? : *string*
+• **modificationDate**? : *undefined | string*
 
 ___
 
@@ -46,16 +46,16 @@ ___
 
 ### `Optional` readDate
 
-• **readDate**? : *string*
+• **readDate**? : *undefined | string*
 
 ___
 
 ### `Optional` size
 
-• **size**? : *number*
+• **size**? : *undefined | number*
 
 ___
 
 ### `Optional` type
 
-• **type**? : *string*
+• **type**? : *undefined | string*

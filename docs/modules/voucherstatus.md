@@ -28,13 +28,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` timestamp
 
-• **timestamp**? : *string*
+• **timestamp**? : *undefined | string*
 
 Time of last update
 
@@ -42,13 +42,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

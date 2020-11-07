@@ -59,7 +59,7 @@ Get account by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperAccount](../interfaces/responsewrapperaccount.md)›*
@@ -104,7 +104,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Account](../modules/account.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Account](../modules/account.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseAccount](../interfaces/listresponseaccount.md)›*
 
@@ -126,7 +126,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Account](../modules/account.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [Account](../modules/account.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseAccount](../interfaces/listresponseaccount.md)›*
 
@@ -148,7 +148,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Account](../modules/account.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Account](../modules/account.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperAccount](../interfaces/responsewrapperaccount.md)›*
 
@@ -170,7 +170,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Account](../modules/account.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Account](../modules/account.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperAccount](../interfaces/responsewrapperaccount.md)›*
@@ -194,13 +194,13 @@ Find accounts corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isApplicableForSupplierInvoice` | boolean | - | Equals |
-`isBankAccount` | boolean | - | Equals |
-`isInactive` | boolean | - | Equals |
-`number` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isApplicableForSupplierInvoice` | undefined &#124; false &#124; true | - | Equals |
+`isBankAccount` | undefined &#124; false &#124; true | - | Equals |
+`isInactive` | undefined &#124; false &#124; true | - | Equals |
+`number` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseAccount](../interfaces/listresponseaccount.md)›*

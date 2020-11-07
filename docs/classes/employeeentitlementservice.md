@@ -35,11 +35,11 @@
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | number | - | Client ID |
-`employeeId` | number | - | Employee ID. Defaults to ID of token owner. |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`customerId` | undefined &#124; number | - | Client ID |
+`employeeId` | undefined &#124; number | - | Employee ID. Defaults to ID of token owner. |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseEntitlement](../interfaces/listresponseentitlement.md)›*
 
@@ -61,7 +61,7 @@ Get entitlement by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperEntitlement](../interfaces/responsewrapperentitlement.md)›*
@@ -134,9 +134,9 @@ Find all entitlements for user.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`employeeId` | number | - | Employee ID. Defaults to ID of token owner. |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`employeeId` | undefined &#124; number | - | Employee ID. Defaults to ID of token owner. |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseEntitlement](../interfaces/listresponseentitlement.md)›*

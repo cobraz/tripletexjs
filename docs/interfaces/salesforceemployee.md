@@ -43,7 +43,7 @@ ___
 
 ### `Optional` `Readonly` allowLogin
 
-• **allowLogin**? : *boolean*
+• **allowLogin**? : *undefined | false | true*
 
 ___
 
@@ -55,73 +55,73 @@ ___
 
 ### `Optional` `Readonly` companyId
 
-• **companyId**? : *number*
+• **companyId**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` customerId
 
-• **customerId**? : *number*
+• **customerId**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` email
 
-• **email**? : *string*
+• **email**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` firstName
 
-• **firstName**? : *string*
+• **firstName**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` isAccountAdministrator
 
-• **isAccountAdministrator**? : *boolean*
+• **isAccountAdministrator**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isDefaultLogin
 
-• **isDefaultLogin**? : *boolean*
+• **isDefaultLogin**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isExternal
 
-• **isExternal**? : *boolean*
+• **isExternal**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isTripletexCertified
 
-• **isTripletexCertified**? : *boolean*
+• **isTripletexCertified**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isUserAdministrator
 
-• **isUserAdministrator**? : *boolean*
+• **isUserAdministrator**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` lastName
 
-• **lastName**? : *string*
+• **lastName**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` loginEndDate
 
-• **loginEndDate**? : *string*
+• **loginEndDate**? : *undefined | string*
 
 Login end date
 
@@ -129,40 +129,40 @@ ___
 
 ### `Optional` `Readonly` phoneNumberHome
 
-• **phoneNumberHome**? : *string*
+• **phoneNumberHome**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` phoneNumberMobile
 
-• **phoneNumberMobile**? : *string*
+• **phoneNumberMobile**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` phoneNumberSmsCertified
 
-• **phoneNumberSmsCertified**? : *string*
+• **phoneNumberSmsCertified**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` phoneNumberWork
 
-• **phoneNumberWork**? : *string*
+• **phoneNumberWork**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` userId
 
-• **userId**? : *number*
+• **userId**? : *undefined | number*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -18,16 +18,16 @@
 
 ### `Optional` distance
 
-• **distance**? : *number*
+• **distance**? : *undefined | number*
 
 ___
 
 ### `Optional` sumTollNOK
 
-• **sumTollNOK**? : *number*
+• **sumTollNOK**? : *undefined | number*
 
 ___
 
 ### `Optional` travelTimeInMinutes
 
-• **travelTimeInMinutes**? : *number*
+• **travelTimeInMinutes**? : *undefined | number*

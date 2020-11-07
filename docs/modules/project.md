@@ -70,7 +70,7 @@ ___
 
 ### `Optional` `Readonly` contributionMarginPercent
 
-• **contributionMarginPercent**? : *number*
+• **contributionMarginPercent**? : *undefined | number*
 
 ___
 
@@ -102,13 +102,13 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` discountPercentage
 
-• **discountPercentage**? : *number*
+• **discountPercentage**? : *undefined | number*
 
 Project discount percentage.
 
@@ -116,25 +116,25 @@ ___
 
 ### `Optional` `Readonly` displayName
 
-• **displayName**? : *string*
+• **displayName**? : *undefined | string*
 
 ___
 
 ### `Optional` endDate
 
-• **endDate**? : *string*
+• **endDate**? : *undefined | string*
 
 ___
 
 ### `Optional` externalAccountsNumber
 
-• **externalAccountsNumber**? : *string*
+• **externalAccountsNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` fixedprice
 
-• **fixedprice**? : *number*
+• **fixedprice**? : *undefined | number*
 
 Fixed price amount, in the project's currency.
 
@@ -142,7 +142,7 @@ ___
 
 ### `Optional` forParticipantsOnly
 
-• **forParticipantsOnly**? : *boolean*
+• **forParticipantsOnly**? : *undefined | false | true*
 
 Set to true if only project participants can register information on the project
 
@@ -150,7 +150,7 @@ ___
 
 ### `Optional` generalProjectActivitiesPerProjectOnly
 
-• **generalProjectActivitiesPerProjectOnly**? : *boolean*
+• **generalProjectActivitiesPerProjectOnly**? : *undefined | false | true*
 
 Set to true if a general project activity must be linked to project to allow time tracking.
 
@@ -158,13 +158,13 @@ ___
 
 ### `Optional` `Readonly` hierarchyNameAndNumber
 
-• **hierarchyNameAndNumber**? : *string*
+• **hierarchyNameAndNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -178,13 +178,13 @@ ___
 
 ### `Optional` isClosed
 
-• **isClosed**? : *boolean*
+• **isClosed**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isFixedPrice
 
-• **isFixedPrice**? : *boolean*
+• **isFixedPrice**? : *undefined | false | true*
 
 Project is fixed price if set to true, hourly rate if set to false.
 
@@ -198,13 +198,13 @@ ___
 
 ### `Optional` `Readonly` isOffer
 
-• **isOffer**? : *boolean*
+• **isOffer**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isPriceCeiling
 
-• **isPriceCeiling**? : *boolean*
+• **isPriceCeiling**? : *undefined | false | true*
 
 Set to true if an hourly rate project has a price ceiling.
 
@@ -212,7 +212,7 @@ ___
 
 ### `Optional` isReadyForInvoicing
 
-• **isReadyForInvoicing**? : *boolean*
+• **isReadyForInvoicing**? : *undefined | false | true*
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 ### `Optional` markUpFeesEarned
 
-• **markUpFeesEarned**? : *number*
+• **markUpFeesEarned**? : *undefined | number*
 
 Set mark-up (%) for fees earned.
 
@@ -232,7 +232,7 @@ ___
 
 ### `Optional` markUpOrderLines
 
-• **markUpOrderLines**? : *number*
+• **markUpOrderLines**? : *undefined | number*
 
 Set mark-up (%) for order lines.
 
@@ -246,19 +246,19 @@ ___
 
 ### `Optional` number
 
-• **number**? : *string*
+• **number**? : *undefined | string*
 
 ___
 
 ### `Optional` `Readonly` numberOfProjectParticipants
 
-• **numberOfProjectParticipants**? : *number*
+• **numberOfProjectParticipants**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` numberOfSubProjects
 
-• **numberOfSubProjects**? : *number*
+• **numberOfSubProjects**? : *undefined | number*
 
 ___
 
@@ -286,7 +286,7 @@ ___
 
 ### `Optional` priceCeilingAmount
 
-• **priceCeilingAmount**? : *number*
+• **priceCeilingAmount**? : *undefined | number*
 
 Price ceiling amount, in the project's currency.
 
@@ -328,7 +328,7 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
@@ -342,4 +342,4 @@ ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

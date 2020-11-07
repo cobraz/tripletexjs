@@ -41,13 +41,13 @@ ___
 
 ### `Optional` `Readonly` approvable
 
-• **approvable**? : *boolean*
+• **approvable**? : *undefined | false | true*
 
 ___
 
 ### `Optional` bankAccountClosingBalanceCurrency
 
-• **bankAccountClosingBalanceCurrency**? : *number*
+• **bankAccountClosingBalanceCurrency**? : *undefined | number*
 
 ___
 
@@ -71,19 +71,19 @@ ___
 
 ### `Optional` `Readonly` closedDate
 
-• **closedDate**? : *string*
+• **closedDate**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isClosed
 
-• **isClosed**? : *boolean*
+• **isClosed**? : *undefined | false | true*
 
 ___
 
@@ -97,13 +97,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

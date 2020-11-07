@@ -35,10 +35,10 @@ approve month(s).  If id is provided the other args are ignored
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`approvedUntilDate` | string | yyyy-MM-dd. Defaults to today.. Defaults to end of month |
-`employeeIds` | string | List of IDs. Defaults to ID of token owner. |
-`id` | number | Element ID |
-`monthYear` | string | 2020-01 |
+`approvedUntilDate` | undefined &#124; string | yyyy-MM-dd. Defaults to today.. Defaults to end of month |
+`employeeIds` | undefined &#124; string | List of IDs. Defaults to ID of token owner. |
+`id` | undefined &#124; number | Element ID |
+`monthYear` | undefined &#124; string | 2020-01 |
 
 **Returns:** *Promise‹[ListResponseMonthlyStatus](../interfaces/listresponsemonthlystatus.md)›*
 
@@ -62,10 +62,10 @@ Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
 `employeeIds` | string | - | List of IDs. Defaults to ID of token owner. |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `monthYear` | string | - | 2020-01 |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseMonthlyStatus](../interfaces/listresponsemonthlystatus.md)›*
 
@@ -87,9 +87,9 @@ complete month(s).  If id is provided the other args are ignored
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeIds` | string | List of IDs. Defaults to ID of token owner. |
-`id` | number | Element ID |
-`monthYear` | string | 2020-01 |
+`employeeIds` | undefined &#124; string | List of IDs. Defaults to ID of token owner. |
+`id` | undefined &#124; number | Element ID |
+`monthYear` | undefined &#124; string | 2020-01 |
 
 **Returns:** *Promise‹[ListResponseMonthlyStatus](../interfaces/listresponsemonthlystatus.md)›*
 
@@ -111,7 +111,7 @@ Find monthly status entry by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperMonthlyStatus](../interfaces/responsewrappermonthlystatus.md)›*
@@ -134,9 +134,9 @@ reopen month(s).  If id is provided the other args are ignored
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeIds` | string | List of IDs. Defaults to ID of token owner. |
-`id` | number | Element ID |
-`monthYear` | string | 2020-01 |
+`employeeIds` | undefined &#124; string | List of IDs. Defaults to ID of token owner. |
+`id` | undefined &#124; number | Element ID |
+`monthYear` | undefined &#124; string | 2020-01 |
 
 **Returns:** *Promise‹[ListResponseMonthlyStatus](../interfaces/listresponsemonthlystatus.md)›*
 
@@ -158,8 +158,8 @@ unapprove month(s).  If id is provided the other args are ignored
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`employeeIds` | string | List of IDs. Defaults to ID of token owner. |
-`id` | number | Element ID |
-`monthYear` | string | 2020-01 |
+`employeeIds` | undefined &#124; string | List of IDs. Defaults to ID of token owner. |
+`id` | undefined &#124; number | Element ID |
+`monthYear` | undefined &#124; string | 2020-01 |
 
 **Returns:** *Promise‹[ListResponseMonthlyStatus](../interfaces/listresponsemonthlystatus.md)›*

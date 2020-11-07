@@ -32,7 +32,7 @@
 Name | Type | Description |
 ------ | ------ | ------ |
 `eventType` | string | Event type, from /event endpoint |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 
 **Returns:** *Promise‹[ResponseWrapperEventInfoDTO](../interfaces/responsewrappereventinfodto.md)›*
 
@@ -54,6 +54,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 
 **Returns:** *Promise‹[ResponseWrapperMapStringEventInfoDescription](../interfaces/responsewrappermapstringeventinfodescription.md)›*

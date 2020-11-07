@@ -30,7 +30,7 @@
 
 ### `Optional` annualSalary
 
-• **annualSalary**? : *number*
+• **annualSalary**? : *undefined | number*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 ### `Optional` date
 
-• **date**? : *string*
+• **date**? : *undefined | string*
 
 ___
 
@@ -54,13 +54,13 @@ ___
 
 ### `Optional` hourlyWage
 
-• **hourlyWage**? : *number*
+• **hourlyWage**? : *undefined | number*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
@@ -92,16 +92,16 @@ ___
 
 ### `Optional` shiftDurationHours
 
-• **shiftDurationHours**? : *number*
+• **shiftDurationHours**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

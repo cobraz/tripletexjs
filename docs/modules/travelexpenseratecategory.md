@@ -30,7 +30,7 @@
 
 ### `Optional` ameldingWageCode
 
-• **ameldingWageCode**? : *number*
+• **ameldingWageCode**? : *undefined | number*
 
 ___
 
@@ -48,49 +48,49 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isRequiresOvernightAccommodation
 
-• **isRequiresOvernightAccommodation**? : *boolean*
+• **isRequiresOvernightAccommodation**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isRequiresZone
 
-• **isRequiresZone**? : *boolean*
+• **isRequiresZone**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isValidAccommodation
 
-• **isValidAccommodation**? : *boolean*
+• **isValidAccommodation**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isValidDayTrip
 
-• **isValidDayTrip**? : *boolean*
+• **isValidDayTrip**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isValidDomestic
 
-• **isValidDomestic**? : *boolean*
+• **isValidDomestic**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isValidForeignTravel
 
-• **isValidForeignTravel**? : *boolean*
+• **isValidForeignTravel**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` name
 
-• **name**? : *string*
+• **name**? : *undefined | string*
 
 ___
 
@@ -102,16 +102,16 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
 ### `Optional` wageCodeNumber
 
-• **wageCodeNumber**? : *string*
+• **wageCodeNumber**? : *undefined | string*

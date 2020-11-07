@@ -56,7 +56,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPerDiemCompensation](../interfaces/responsewrapperperdiemcompensation.md)›*
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PerDiemCompensation](../modules/perdiemcompensation.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [PerDiemCompensation](../modules/perdiemcompensation.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperPerDiemCompensation](../interfaces/responsewrapperperdiemcompensation.md)›*
 
@@ -101,7 +101,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [PerDiemCompensation](../modules/perdiemcompensation.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [PerDiemCompensation](../modules/perdiemcompensation.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperPerDiemCompensation](../interfaces/responsewrapperperdiemcompensation.md)›*
@@ -124,24 +124,24 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`address` | string | - | Containing |
-`amountFrom` | string | - | From and including |
-`amountTo` | string | - | To and excluding |
+`address` | undefined &#124; string | - | Containing |
+`amountFrom` | undefined &#124; string | - | From and including |
+`amountTo` | undefined &#124; string | - | To and excluding |
 `count` | number | 1000 | Number of elements to return |
-`countFrom` | number | - | From and including |
-`countTo` | number | - | To and excluding |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`isDeductionForBreakfast` | boolean | - | Equals |
-`isDinnerDeduction` | boolean | - | Equals |
-`isLunchDeduction` | boolean | - | Equals |
-`location` | string | - | Containing |
-`overnightAccommodation` | "NONE" &#124; "HOTEL" &#124; "BOARDING_HOUSE_WITHOUT_COOKING" &#124; "BOARDING_HOUSE_WITH_COOKING" | - | Equals |
-`rateCategoryId` | string | - | Equals |
-`rateFrom` | string | - | From and including |
-`rateTo` | string | - | To and excluding |
-`rateTypeId` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`travelExpenseId` | string | - | Equals |
+`countFrom` | undefined &#124; number | - | From and including |
+`countTo` | undefined &#124; number | - | To and excluding |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`isDeductionForBreakfast` | undefined &#124; false &#124; true | - | Equals |
+`isDinnerDeduction` | undefined &#124; false &#124; true | - | Equals |
+`isLunchDeduction` | undefined &#124; false &#124; true | - | Equals |
+`location` | undefined &#124; string | - | Containing |
+`overnightAccommodation` | undefined &#124; "NONE" &#124; "HOTEL" &#124; "BOARDING_HOUSE_WITHOUT_COOKING" &#124; "BOARDING_HOUSE_WITH_COOKING" | - | Equals |
+`rateCategoryId` | undefined &#124; string | - | Equals |
+`rateFrom` | undefined &#124; string | - | From and including |
+`rateTo` | undefined &#124; string | - | To and excluding |
+`rateTypeId` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`travelExpenseId` | undefined &#124; string | - | Equals |
 
 **Returns:** *Promise‹[ListResponsePerDiemCompensation](../interfaces/listresponseperdiemcompensation.md)›*

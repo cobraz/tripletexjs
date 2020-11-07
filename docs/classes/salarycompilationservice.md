@@ -32,8 +32,8 @@
 Name | Type | Description |
 ------ | ------ | ------ |
 `employeeId` | number | Element ID |
-`fields` | string | Fields filter pattern |
-`year` | number | Must be between 1900-2100. Defaults to previous year. |
+`fields` | undefined &#124; string | Fields filter pattern |
+`year` | undefined &#124; number | Must be between 1900-2100. Defaults to previous year. |
 
 **Returns:** *Promise‹[ResponseWrapperSalaryCompilation](../interfaces/responsewrappersalarycompilation.md)›*
 
@@ -56,6 +56,6 @@ ___
 Name | Type | Description |
 ------ | ------ | ------ |
 `employeeId` | number | Element ID |
-`year` | number | Must be between 1900-2100. Defaults to previous year. |
+`year` | undefined &#124; number | Must be between 1900-2100. Defaults to previous year. |
 
 **Returns:** *Promise‹string›*

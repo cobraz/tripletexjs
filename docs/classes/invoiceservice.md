@@ -38,8 +38,8 @@ Creates a new Invoice representing a credit memo that nullifies the given invoic
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`comment` | string | Comment |
-`creditNoteEmail` | string | The credit note will be sent electronically if this field is filled out |
+`comment` | undefined &#124; string | Comment |
+`creditNoteEmail` | undefined &#124; string | The credit note will be sent electronically if this field is filled out |
 `date` | string | Credit note date |
 `id` | number | Invoice id |
 
@@ -68,7 +68,7 @@ Name | Type | Default | Description |
 `id` | number | - | Element ID |
 `includeCharge` | boolean | false | Equals |
 `includeInterest` | boolean | false | Equals |
-`smsNumber` | string | - | SMS number (must be a valid Norwegian telephone number) |
+`smsNumber` | undefined &#124; string | - | SMS number (must be a valid Norwegian telephone number) |
 `type` | "SOFT_REMINDER" &#124; "REMINDER" &#124; "NOTICE_OF_DEBT_COLLECTION" &#124; "DEBT_COLLECTION" | - | type |
 
 **Returns:** *Promise‹any›*
@@ -91,7 +91,7 @@ Get invoice by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperInvoice](../interfaces/responsewrapperinvoice.md)›*
@@ -114,7 +114,7 @@ ___
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [Invoice](../modules/invoice.md)[] | - | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Invoice](../modules/invoice.md)[] | - | JSON representing a list of new object to be created. Should not have ID and version set. |
 `sendToCustomer` | boolean | true | Equals |
 
 **Returns:** *Promise‹[ListResponseInvoice](../interfaces/listresponseinvoice.md)›*
@@ -139,7 +139,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `id` | number | Invoice id |
 `paidAmount` | number | Amount paid by customer in the company currency, typically NOK. |
-`paidAmountCurrency` | number | Amount paid by customer in the invoice currency. Optional, but required for invoices in alternate currencies. |
+`paidAmountCurrency` | undefined &#124; number | Amount paid by customer in the invoice currency. Optional, but required for invoices in alternate currencies. |
 `paymentDate` | string | Payment date |
 `paymentTypeId` | number | PaymentType id |
 
@@ -185,9 +185,9 @@ Create invoice. Related Order and OrderLines can be created first, or included a
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`body` | [Invoice](../modules/invoice.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
-`paidAmount` | number | - | Paid amount to register prepayment of the invoice, in invoice currency. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. |
-`paymentTypeId` | number | - | Payment type to register prepayment of the invoice. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. |
+`body` | undefined &#124; [Invoice](../modules/invoice.md) | - | JSON representing the new object to be created. Should not have ID and version set. |
+`paidAmount` | undefined &#124; number | - | Paid amount to register prepayment of the invoice, in invoice currency. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. |
+`paymentTypeId` | undefined &#124; number | - | Payment type to register prepayment of the invoice. paymentTypeId and paidAmount are optional, but both must be provided if the invoice has already been paid. |
 `sendToCustomer` | boolean | true | Equals |
 
 **Returns:** *Promise‹[ResponseWrapperInvoice](../interfaces/responsewrapperinvoice.md)›*
@@ -211,16 +211,16 @@ Find invoices corresponding with sent data. Includes charged outgoing invoices o
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | string | - | Equals |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
+`customerId` | undefined &#124; string | - | Equals |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
 `invoiceDateFrom` | string | - | From and including |
 `invoiceDateTo` | string | - | To and excluding |
-`invoiceNumber` | string | - | Equals |
-`kid` | string | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`voucherId` | string | - | Equals |
+`invoiceNumber` | undefined &#124; string | - | Equals |
+`kid` | undefined &#124; string | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`voucherId` | undefined &#124; string | - | Equals |
 
 **Returns:** *Promise‹[ListResponseInvoice](../interfaces/listresponseinvoice.md)›*
 
@@ -243,7 +243,7 @@ Send invoice by ID and sendType. Optionally override email recipient.
 Name | Type | Description |
 ------ | ------ | ------ |
 `id` | number | Element ID |
-`overrideEmailAddress` | string | Will override email address if sendType = EMAIL |
+`overrideEmailAddress` | undefined &#124; string | Will override email address if sendType = EMAIL |
 `sendType` | "EMAIL" &#124; "EHF" &#124; "EFAKTURA" &#124; "VIPPS" &#124; "PAPER" | SendType |
 
 **Returns:** *Promise‹any›*

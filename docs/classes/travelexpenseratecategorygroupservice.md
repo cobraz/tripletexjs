@@ -31,7 +31,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperTravelExpenseRateCategoryGroup](../interfaces/responsewrappertravelexpenseratecategorygroup.md)›*
@@ -55,12 +55,12 @@ ___
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`dateFrom` | string | - | From and including |
-`dateTo` | string | - | To and excluding |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`isForeignTravel` | boolean | - | Equals |
-`name` | string | - | Containing |
-`sorting` | string | - | Sorting pattern |
+`dateFrom` | undefined &#124; string | - | From and including |
+`dateTo` | undefined &#124; string | - | To and excluding |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`isForeignTravel` | undefined &#124; false &#124; true | - | Equals |
+`name` | undefined &#124; string | - | Containing |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseTravelExpenseRateCategoryGroup](../interfaces/listresponsetravelexpenseratecategorygroup.md)›*

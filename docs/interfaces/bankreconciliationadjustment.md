@@ -21,7 +21,7 @@
 
 ### `Optional` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 ### `Optional` postingDate
 
-• **postingDate**? : *string*
+• **postingDate**? : *undefined | string*
 
 ___
 

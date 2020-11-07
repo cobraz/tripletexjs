@@ -90,7 +90,7 @@ ___
 
 ### `Optional` customerNumber
 
-• **customerNumber**? : *number*
+• **customerNumber**? : *undefined | number*
 
 ___
 
@@ -102,31 +102,31 @@ ___
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` email
 
-• **email**? : *string*
+• **email**? : *undefined | string*
 
 ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` invoiceEmail
 
-• **invoiceEmail**? : *string*
+• **invoiceEmail**? : *undefined | string*
 
 ___
 
 ### `Optional` invoicesDueIn
 
-• **invoicesDueIn**? : *number*
+• **invoicesDueIn**? : *undefined | number*
 
 Number of days/months in which invoices created from this customer is due
 
@@ -134,25 +134,25 @@ ___
 
 ### `Optional` `Readonly` isCustomer
 
-• **isCustomer**? : *boolean*
+• **isCustomer**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isInactive
 
-• **isInactive**? : *boolean*
+• **isInactive**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isPrivateIndividual
 
-• **isPrivateIndividual**? : *boolean*
+• **isPrivateIndividual**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isSupplier
 
-• **isSupplier**? : *boolean*
+• **isSupplier**? : *undefined | false | true*
 
 Defines if the customer is also a supplier.
 
@@ -166,13 +166,13 @@ ___
 
 ### `Optional` organizationNumber
 
-• **organizationNumber**? : *string*
+• **organizationNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` overdueNoticeEmail
 
-• **overdueNoticeEmail**? : *string*
+• **overdueNoticeEmail**? : *undefined | string*
 
 The email address of the customer where the noticing emails are sent in case of an overdue
 
@@ -180,13 +180,13 @@ ___
 
 ### `Optional` phoneNumber
 
-• **phoneNumber**? : *string*
+• **phoneNumber**? : *undefined | string*
 
 ___
 
 ### `Optional` phoneNumberMobile
 
-• **phoneNumberMobile**? : *string*
+• **phoneNumberMobile**? : *undefined | string*
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 ### `Optional` singleCustomerInvoice
 
-• **singleCustomerInvoice**? : *boolean*
+• **singleCustomerInvoice**? : *undefined | false | true*
 
 Enables various orders on one customer invoice.
 
@@ -212,16 +212,16 @@ ___
 
 ### `Optional` supplierNumber
 
-• **supplierNumber**? : *number*
+• **supplierNumber**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

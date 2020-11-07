@@ -34,7 +34,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectParticipant](../interfaces/responsewrapperprojectparticipant.md)›*
@@ -79,7 +79,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectParticipant](../interfaces/projectparticipant.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectParticipant](../interfaces/projectparticipant.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProjectParticipant](../interfaces/listresponseprojectparticipant.md)›*
 
@@ -101,7 +101,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectParticipant](../interfaces/projectparticipant.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectParticipant](../interfaces/projectparticipant.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperProjectParticipant](../interfaces/responsewrapperprojectparticipant.md)›*
 
@@ -123,7 +123,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectParticipant](../interfaces/projectparticipant.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [ProjectParticipant](../interfaces/projectparticipant.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectParticipant](../interfaces/responsewrapperprojectparticipant.md)›*

@@ -30,11 +30,11 @@
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
-`code` | string | - | Containing |
+`code` | undefined &#124; string | - | Containing |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`nameNo` | string | - | Containing |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`nameNo` | undefined &#124; string | - | Containing |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseOccupationCode](../interfaces/listresponseoccupationcode.md)›*

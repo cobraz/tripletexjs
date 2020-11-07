@@ -32,7 +32,7 @@
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperObject](../interfaces/responsewrapperobject.md)›*
@@ -55,7 +55,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperBankTransaction](../interfaces/responsewrapperbanktransaction.md)›*
@@ -80,8 +80,8 @@ Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `bankStatementId` | number | - | Bank statement ID |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseBankTransaction](../interfaces/listresponsebanktransaction.md)›*

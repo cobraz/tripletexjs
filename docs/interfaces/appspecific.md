@@ -42,160 +42,160 @@
 
 ### `Optional` approveTravelExpenseEnabled
 
-• **approveTravelExpenseEnabled**? : *boolean*
+• **approveTravelExpenseEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` archiveReceptionEnabled
 
-• **archiveReceptionEnabled**? : *boolean*
+• **archiveReceptionEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` documentArchiveEnabled
 
-• **documentArchiveEnabled**? : *boolean*
+• **documentArchiveEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` electronicVouchersEnabled
 
-• **electronicVouchersEnabled**? : *boolean*
+• **electronicVouchersEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` employeeEnabled
 
-• **employeeEnabled**? : *boolean*
+• **employeeEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` hourBalanceEnabledForEmployee
 
-• **hourBalanceEnabledForEmployee**? : *boolean*
+• **hourBalanceEnabledForEmployee**? : *undefined | false | true*
 
 ___
 
 ### `Optional` hourRegistrationEnabled
 
-• **hourRegistrationEnabled**? : *boolean*
+• **hourRegistrationEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` payrollAccountingEnabled
 
-• **payrollAccountingEnabled**? : *boolean*
+• **payrollAccountingEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` projectEnabled
 
-• **projectEnabled**? : *boolean*
+• **projectEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` taxFreeDietRatesEnabled
 
-• **taxFreeDietRatesEnabled**? : *boolean*
+• **taxFreeDietRatesEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` taxFreeMileageRatesEnabled
 
-• **taxFreeMileageRatesEnabled**? : *boolean*
+• **taxFreeMileageRatesEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` travelDietIgnorePostingEnabled
 
-• **travelDietIgnorePostingEnabled**? : *boolean*
+• **travelDietIgnorePostingEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` travelExpenseEnabled
 
-• **travelExpenseEnabled**? : *boolean*
+• **travelExpenseEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` travelExpenseRatesEnabled
 
-• **travelExpenseRatesEnabled**? : *boolean*
+• **travelExpenseRatesEnabled**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAllowedToRegisterHours
 
-• **userIsAllowedToRegisterHours**? : *boolean*
+• **userIsAllowedToRegisterHours**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthCreateOrder
 
-• **userIsAuthCreateOrder**? : *boolean*
+• **userIsAuthCreateOrder**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthEmployeeInfo
 
-• **userIsAuthEmployeeInfo**? : *boolean*
+• **userIsAuthEmployeeInfo**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthInvoicing
 
-• **userIsAuthInvoicing**? : *boolean*
+• **userIsAuthInvoicing**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthMySalary
 
-• **userIsAuthMySalary**? : *boolean*
+• **userIsAuthMySalary**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthProjectInfo
 
-• **userIsAuthProjectInfo**? : *boolean*
+• **userIsAuthProjectInfo**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthRemitApprove
 
-• **userIsAuthRemitApprove**? : *boolean*
+• **userIsAuthRemitApprove**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthTravelAndExpenseApprove
 
-• **userIsAuthTravelAndExpenseApprove**? : *boolean*
+• **userIsAuthTravelAndExpenseApprove**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthVoucherApprove
 
-• **userIsAuthVoucherApprove**? : *boolean*
+• **userIsAuthVoucherApprove**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsAuthWageMenu
 
-• **userIsAuthWageMenu**? : *boolean*
+• **userIsAuthWageMenu**? : *undefined | false | true*
 
 ___
 
 ### `Optional` userIsPayslipOnly
 
-• **userIsPayslipOnly**? : *boolean*
+• **userIsPayslipOnly**? : *undefined | false | true*
 
 ___
 
 ### `Optional` vacationBalanceEnabledForEmployee
 
-• **vacationBalanceEnabledForEmployee**? : *boolean*
+• **vacationBalanceEnabledForEmployee**? : *undefined | false | true*
 
 ___
 
 ### `Optional` vatOnForCompany
 
-• **vatOnForCompany**? : *boolean*
+• **vatOnForCompany**? : *undefined | false | true*

@@ -36,7 +36,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `dateFrom` | string | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | Format is yyyy-MM-dd (to and excl.). |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectPeriodHourlyReport](../interfaces/responsewrapperprojectperiodhourlyreport.md)›*
@@ -61,7 +61,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `dateFrom` | string | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | Format is yyyy-MM-dd (to and excl.). |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectPeriodInvoiced](../interfaces/responsewrapperprojectperiodinvoiced.md)›*
@@ -86,7 +86,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `dateFrom` | string | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | Format is yyyy-MM-dd (to and excl.). |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectPeriodInvoicingReserve](../interfaces/responsewrapperprojectperiodinvoicingreserve.md)›*
@@ -112,10 +112,10 @@ Name | Type | Default | Description |
 `count` | number | 1000 | Number of elements to return |
 `dateFrom` | string | - | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | - | Format is yyyy-MM-dd (to and excl.). |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
 `id` | number | - | Element ID |
-`sorting` | string | - | Sorting pattern |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProjectPeriodMonthlyStatus](../interfaces/listresponseprojectperiodmonthlystatus.md)›*
 
@@ -139,7 +139,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `dateFrom` | string | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | Format is yyyy-MM-dd (to and excl.). |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectPeriodOverallStatus](../interfaces/responsewrapperprojectperiodoverallstatus.md)›*

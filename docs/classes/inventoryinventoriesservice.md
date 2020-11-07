@@ -33,9 +33,9 @@ Name | Type | Default | Description |
 `count` | number | 1000 | Number of elements to return |
 `dateFrom` | string | - | Format is yyyy-MM-dd (from and incl.). |
 `dateTo` | string | - | Format is yyyy-MM-dd (to and incl.). |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`productId` | number | - | Element ID |
-`sorting` | string | - | Sorting pattern |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`productId` | undefined &#124; number | - | Element ID |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseInventories](../interfaces/listresponseinventories.md)›*

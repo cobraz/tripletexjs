@@ -17,10 +17,10 @@
 
 ### `Optional` description
 
-• **description**? : *string*
+• **description**? : *undefined | string*
 
 ___
 
 ### `Optional` payloadModel
 
-• **payloadModel**? : *string*
+• **payloadModel**? : *undefined | string*

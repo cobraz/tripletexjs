@@ -59,7 +59,7 @@ Find project hourly rate by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectHourlyRate](../interfaces/responsewrapperprojecthourlyrate.md)›*
@@ -104,7 +104,7 @@ Create multiple project hourly rates.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectHourlyRate](../modules/projecthourlyrate.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectHourlyRate](../modules/projecthourlyrate.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProjectHourlyRate](../interfaces/listresponseprojecthourlyrate.md)›*
 
@@ -126,7 +126,7 @@ Update multiple project hourly rates.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectHourlyRate](../modules/projecthourlyrate.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [ProjectHourlyRate](../modules/projecthourlyrate.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProjectHourlyRate](../interfaces/listresponseprojecthourlyrate.md)›*
 
@@ -148,7 +148,7 @@ Create a project hourly rate.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectHourlyRate](../modules/projecthourlyrate.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [ProjectHourlyRate](../modules/projecthourlyrate.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperProjectHourlyRate](../interfaces/responsewrapperprojecthourlyrate.md)›*
 
@@ -170,7 +170,7 @@ Update a project hourly rate.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [ProjectHourlyRate](../modules/projecthourlyrate.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [ProjectHourlyRate](../modules/projecthourlyrate.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProjectHourlyRate](../interfaces/responsewrapperprojecthourlyrate.md)›*
@@ -194,14 +194,14 @@ Find project hourly rates corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`projectId` | string | - | List of IDs |
-`showInProjectOrder` | boolean | - | Equals |
-`sorting` | string | - | Sorting pattern |
-`startDateFrom` | string | - | From and including |
-`startDateTo` | string | - | To and excluding |
-`type` | "TYPE_PREDEFINED_HOURLY_RATES" &#124; "TYPE_PROJECT_SPECIFIC_HOURLY_RATES" &#124; "TYPE_FIXED_HOURLY_RATE" | - | Equals |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`projectId` | undefined &#124; string | - | List of IDs |
+`showInProjectOrder` | undefined &#124; false &#124; true | - | Equals |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`startDateFrom` | undefined &#124; string | - | From and including |
+`startDateTo` | undefined &#124; string | - | To and excluding |
+`type` | undefined &#124; "TYPE_PREDEFINED_HOURLY_RATES" &#124; "TYPE_PROJECT_SPECIFIC_HOURLY_RATES" &#124; "TYPE_FIXED_HOURLY_RATE" | - | Equals |
 
 **Returns:** *Promise‹[ListResponseProjectHourlyRate](../interfaces/listresponseprojecthourlyrate.md)›*

@@ -3,8 +3,8 @@
 /* eslint-disable */
 
 export interface PG2CallbackDTO {
-    odpcustomerID?: number;
     odpcompanyID?: number;
+    odpcustomerID?: number;
     pgRequestId: string;
     tenantId: string;
     ODPCustomerID: number;

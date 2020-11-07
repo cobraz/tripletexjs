@@ -27,7 +27,7 @@ ___
 
 ### `Optional` `Readonly` employee
 
-• **employee**? : *number*
+• **employee**? : *undefined | number*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 ### `Optional` `Readonly` vacationPayBasis
 
-• **vacationPayBasis**? : *number*
+• **vacationPayBasis**? : *undefined | number*
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 ### `Optional` `Readonly` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*

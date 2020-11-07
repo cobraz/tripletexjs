@@ -19,22 +19,22 @@
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` requesteeEmployeeId
 
-• **requesteeEmployeeId**? : *number*
+• **requesteeEmployeeId**? : *undefined | number*
 
 ___
 
 ### `Optional` requesteeName
 
-• **requesteeName**? : *string*
+• **requesteeName**? : *undefined | string*
 
 ___
 
 ### `Optional` roleId
 
-• **roleId**? : *number*
+• **roleId**? : *undefined | number*

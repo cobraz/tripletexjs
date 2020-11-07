@@ -21,19 +21,19 @@
 
 ### `Optional` count
 
-• **count**? : *number*
+• **count**? : *undefined | number*
 
 ___
 
 ### `Optional` from
 
-• **from**? : *number*
+• **from**? : *undefined | number*
 
 ___
 
 ### `Optional` fullResultSize
 
-• **fullResultSize**? : *number*
+• **fullResultSize**? : *undefined | number*
 
 [DEPRECATED] Indicates whether there are more values available. Note: The value is not exact
 
@@ -41,7 +41,7 @@ ___
 
 ### `Optional` sumAllHours
 
-• **sumAllHours**? : *number*
+• **sumAllHours**? : *undefined | number*
 
 ___
 
@@ -53,6 +53,6 @@ ___
 
 ### `Optional` versionDigest
 
-• **versionDigest**? : *string*
+• **versionDigest**? : *undefined | string*
 
 Used to know if the paginated list has changed.

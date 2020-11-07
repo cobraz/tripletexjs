@@ -48,7 +48,7 @@
 
 ### `Optional` `Readonly` amount
 
-• **amount**? : *number*
+• **amount**? : *undefined | number*
 
 In the company’s currency, typically NOK.
 
@@ -56,7 +56,7 @@ ___
 
 ### `Optional` `Readonly` amountCurrency
 
-• **amountCurrency**? : *number*
+• **amountCurrency**? : *undefined | number*
 
 In the specified currency.
 
@@ -64,7 +64,7 @@ ___
 
 ### `Optional` `Readonly` amountExcludingVat
 
-• **amountExcludingVat**? : *number*
+• **amountExcludingVat**? : *undefined | number*
 
 Amount excluding VAT (NOK).
 
@@ -72,7 +72,7 @@ ___
 
 ### `Optional` `Readonly` amountExcludingVatCurrency
 
-• **amountExcludingVatCurrency**? : *number*
+• **amountExcludingVatCurrency**? : *undefined | number*
 
 Amount excluding VAT in the specified currency.
 
@@ -80,7 +80,7 @@ ___
 
 ### `Optional` `Readonly` amountOutstanding
 
-• **amountOutstanding**? : *number*
+• **amountOutstanding**? : *undefined | number*
 
 The amount outstanding based on the history collection, excluding reminders and any existing remits, in the invoice currency.
 
@@ -88,7 +88,7 @@ ___
 
 ### `Optional` `Readonly` amountOutstandingTotal
 
-• **amountOutstandingTotal**? : *number*
+• **amountOutstandingTotal**? : *undefined | number*
 
 The amount outstanding based on the history collection and including the last reminder and any existing remits. This is the total invoice balance including reminders and remittances, in the invoice currency.
 
@@ -96,7 +96,7 @@ ___
 
 ### `Optional` `Readonly` amountRoundoff
 
-• **amountRoundoff**? : *number*
+• **amountRoundoff**? : *undefined | number*
 
 Amount of round off to nearest integer.
 
@@ -104,7 +104,7 @@ ___
 
 ### `Optional` `Readonly` amountRoundoffCurrency
 
-• **amountRoundoffCurrency**? : *number*
+• **amountRoundoffCurrency**? : *undefined | number*
 
 Amount of round off to nearest integer in the specified currency.
 
@@ -118,7 +118,7 @@ ___
 
 ### `Optional` comment
 
-• **comment**? : *string*
+• **comment**? : *undefined | string*
 
 Comment text for the specific invoice.
 
@@ -140,7 +140,7 @@ ___
 
 ### `Optional` `Readonly` deliveryDate
 
-• **deliveryDate**? : *string*
+• **deliveryDate**? : *undefined | string*
 
 The delivery date.
 
@@ -148,13 +148,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` invoiceComment
 
-• **invoiceComment**? : *string*
+• **invoiceComment**? : *undefined | string*
 
 Comment text for the invoice. This was specified on the order as invoiceComment.
 
@@ -174,7 +174,7 @@ ___
 
 ### `Optional` invoiceNumber
 
-• **invoiceNumber**? : *number*
+• **invoiceNumber**? : *undefined | number*
 
 If value is set to 0, the invoice number will be generated.
 
@@ -182,7 +182,7 @@ ___
 
 ### `Optional` invoiceRemarks
 
-• **invoiceRemarks**? : *string*
+• **invoiceRemarks**? : *undefined | string*
 
 Invoice remarks - automatically stops reminder/notice of debt collection if specified.
 
@@ -190,25 +190,25 @@ ___
 
 ### `Optional` `Readonly` isApproved
 
-• **isApproved**? : *boolean*
+• **isApproved**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isCharged
 
-• **isCharged**? : *boolean*
+• **isCharged**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` isCreditNote
 
-• **isCreditNote**? : *boolean*
+• **isCreditNote**? : *undefined | false | true*
 
 ___
 
 ### `Optional` kid
 
-• **kid**? : *string*
+• **kid**? : *undefined | string*
 
 KID - Kundeidentifikasjonsnummer.
 
@@ -224,7 +224,7 @@ ___
 
 ### `Optional` paidAmount
 
-• **paidAmount**? : *number*
+• **paidAmount**? : *undefined | number*
 
 [BETA] Optional. Used to specify the prepaid amount of the invoice. The paid amount can be specified here, or as a parameter to the /invoice API endpoint.
 
@@ -232,7 +232,7 @@ ___
 
 ### `Optional` paymentTypeId
 
-• **paymentTypeId**? : *number*
+• **paymentTypeId**? : *undefined | number*
 
 [BETA] Optional. Used to specify payment type for prepaid invoices. Payment type can be specified here, or as a parameter to the /invoice API endpoint.
 
@@ -264,7 +264,7 @@ ___
 
 ### `Optional` `Readonly` sumRemits
 
-• **sumRemits**? : *number*
+• **sumRemits**? : *undefined | number*
 
 The sum of all open remittances of the invoice. Remittances are reimbursement payments back to the customer and are therefore relevant to the bookkeeping of the invoice in the accounts.
 
@@ -272,13 +272,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 

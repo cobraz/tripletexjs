@@ -61,7 +61,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Project](../modules/project.md)[] | JSON representing objects to delete. Should have ID and version set. |
+`body` | undefined &#124; [Project](../modules/project.md)[] | JSON representing objects to delete. Should have ID and version set. |
 
 **Returns:** *Promise‹any›*
 
@@ -84,11 +84,11 @@ Find projects applicable for time sheet registration on a specific day.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`date` | string | - | yyyy-MM-dd. Defaults to today. |
-`employeeId` | number | - | Employee ID. Defaults to ID of token owner. |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`sorting` | string | - | Sorting pattern |
+`date` | undefined &#124; string | - | yyyy-MM-dd. Defaults to today. |
+`employeeId` | undefined &#124; number | - | Employee ID. Defaults to ID of token owner. |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`sorting` | undefined &#124; string | - | Sorting pattern |
 
 **Returns:** *Promise‹[ListResponseProject](../interfaces/listresponseproject.md)›*
 
@@ -110,7 +110,7 @@ Find project by ID.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`fields` | string | Fields filter pattern |
+`fields` | undefined &#124; string | Fields filter pattern |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProject](../interfaces/responsewrapperproject.md)›*
@@ -155,7 +155,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Project](../modules/project.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Project](../modules/project.md)[] | JSON representing a list of new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProject](../interfaces/listresponseproject.md)›*
 
@@ -177,7 +177,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Project](../modules/project.md)[] | JSON representing updates to object. Should have ID and version set. |
+`body` | undefined &#124; [Project](../modules/project.md)[] | JSON representing updates to object. Should have ID and version set. |
 
 **Returns:** *Promise‹[ListResponseProject](../interfaces/listresponseproject.md)›*
 
@@ -199,7 +199,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Project](../modules/project.md) | JSON representing the new object to be created. Should not have ID and version set. |
+`body` | undefined &#124; [Project](../modules/project.md) | JSON representing the new object to be created. Should not have ID and version set. |
 
 **Returns:** *Promise‹[ResponseWrapperProject](../interfaces/responsewrapperproject.md)›*
 
@@ -221,7 +221,7 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`body` | [Project](../modules/project.md) | Partial object describing what should be updated |
+`body` | undefined &#124; [Project](../modules/project.md) | Partial object describing what should be updated |
 `id` | number | Element ID |
 
 **Returns:** *Promise‹[ResponseWrapperProject](../interfaces/responsewrapperproject.md)›*
@@ -245,22 +245,22 @@ Find projects corresponding with sent data.
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `count` | number | 1000 | Number of elements to return |
-`customerId` | string | - | Equals |
-`departmentId` | string | - | List of IDs |
-`employeeInProjectId` | string | - | List of IDs |
-`endDateFrom` | string | - | From and including |
-`endDateTo` | string | - | To and excluding |
-`externalAccountsNumber` | string | - | Containing |
-`fields` | string | - | Fields filter pattern |
-`from` | number | - | From index |
-`id` | string | - | List of IDs |
-`isClosed` | boolean | - | Equals |
-`isOffer` | boolean | - | Equals |
-`name` | string | - | Containing |
-`number` | string | - | Equals |
-`projectManagerId` | string | - | List of IDs |
-`sorting` | string | - | Sorting pattern |
-`startDateFrom` | string | - | From and including |
-`startDateTo` | string | - | To and excluding |
+`customerId` | undefined &#124; string | - | Equals |
+`departmentId` | undefined &#124; string | - | List of IDs |
+`employeeInProjectId` | undefined &#124; string | - | List of IDs |
+`endDateFrom` | undefined &#124; string | - | From and including |
+`endDateTo` | undefined &#124; string | - | To and excluding |
+`externalAccountsNumber` | undefined &#124; string | - | Containing |
+`fields` | undefined &#124; string | - | Fields filter pattern |
+`from` | undefined &#124; number | - | From index |
+`id` | undefined &#124; string | - | List of IDs |
+`isClosed` | undefined &#124; false &#124; true | - | Equals |
+`isOffer` | undefined &#124; false &#124; true | - | Equals |
+`name` | undefined &#124; string | - | Containing |
+`number` | undefined &#124; string | - | Equals |
+`projectManagerId` | undefined &#124; string | - | List of IDs |
+`sorting` | undefined &#124; string | - | Sorting pattern |
+`startDateFrom` | undefined &#124; string | - | From and including |
+`startDateTo` | undefined &#124; string | - | To and excluding |
 
 **Returns:** *Promise‹[ListResponseProject](../interfaces/listresponseproject.md)›*

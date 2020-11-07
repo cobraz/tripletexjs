@@ -34,19 +34,19 @@ ___
 
 ### `Optional` customerCompanyId
 
-• **customerCompanyId**? : *number*
+• **customerCompanyId**? : *undefined | number*
 
 ___
 
 ### `Optional` customerId
 
-• **customerId**? : *number*
+• **customerId**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` endDate
 
-• **endDate**? : *string*
+• **endDate**? : *undefined | string*
 
 Tripletex account end Date
 
@@ -54,37 +54,37 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isAccountant
 
-• **isAccountant**? : *boolean*
+• **isAccountant**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isAuditor
 
-• **isAuditor**? : *boolean*
+• **isAuditor**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isReseller
 
-• **isReseller**? : *boolean*
+• **isReseller**? : *undefined | false | true*
 
 ___
 
 ### `Optional` isSuspended
 
-• **isSuspended**? : *boolean*
+• **isSuspended**? : *undefined | false | true*
 
 ___
 
 ### `Optional` `Readonly` registerDate
 
-• **registerDate**? : *string*
+• **registerDate**? : *undefined | string*
 
 Tripletex account register Date
 
@@ -92,7 +92,7 @@ ___
 
 ### `Optional` `Readonly` startDate
 
-• **startDate**? : *string*
+• **startDate**? : *undefined | string*
 
 Tripletex account start Date
 
@@ -100,10 +100,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

@@ -17,7 +17,7 @@
 
 ### `Optional` `Readonly` available
 
-• **available**? : *boolean*
+• **available**? : *undefined | false | true*
 
 Is the delete operation available for this Voucher?
 

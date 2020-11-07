@@ -47,13 +47,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` isBruttoWageDeduction
 
-• **isBruttoWageDeduction**? : *boolean*
+• **isBruttoWageDeduction**? : *undefined | false | true*
 
 true if it should be a deduction from the wage. The module PROVISIONSALARY is required to both view and change this setting
 
@@ -61,7 +61,7 @@ ___
 
 ### `Optional` isInactive
 
-• **isInactive**? : *boolean*
+• **isInactive**? : *undefined | false | true*
 
 true if the payment type should be hidden from available payment types
 
@@ -69,7 +69,7 @@ ___
 
 ### `Optional` requiresSeparateVoucher
 
-• **requiresSeparateVoucher**? : *boolean*
+• **requiresSeparateVoucher**? : *undefined | false | true*
 
 true if a separate voucher is required
 
@@ -77,7 +77,7 @@ ___
 
 ### `Optional` sequence
 
-• **sequence**? : *number*
+• **sequence**? : *undefined | number*
 
 determines in which order the types should be listed. No 1 is listed first
 
@@ -85,7 +85,7 @@ ___
 
 ### `Optional` showIncomingInvoice
 
-• **showIncomingInvoice**? : *boolean*
+• **showIncomingInvoice**? : *undefined | false | true*
 
 true if the payment type should be available in supplier invoices
 
@@ -93,7 +93,7 @@ ___
 
 ### `Optional` showVatReturns
 
-• **showVatReturns**? : *boolean*
+• **showVatReturns**? : *undefined | false | true*
 
 true if the payment type should be available in vat returns
 
@@ -101,7 +101,7 @@ ___
 
 ### `Optional` showWagePayment
 
-• **showWagePayment**? : *boolean*
+• **showWagePayment**? : *undefined | false | true*
 
 true if the payment type should be available in wage payments. The wage module is required to both view and change this setting
 
@@ -109,7 +109,7 @@ ___
 
 ### `Optional` showWagePeriodTransaction
 
-• **showWagePeriodTransaction**? : *boolean*
+• **showWagePeriodTransaction**? : *undefined | false | true*
 
 true if the payment type should be available in period transactionsThe wage module is required to both view and change this setting
 
@@ -117,10 +117,10 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*

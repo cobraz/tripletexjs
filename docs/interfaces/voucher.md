@@ -72,13 +72,13 @@ ___
 
 ### `Optional` id
 
-• **id**? : *number*
+• **id**? : *undefined | number*
 
 ___
 
 ### `Optional` `Readonly` number
 
-• **number**? : *number*
+• **number**? : *undefined | number*
 
 System generated number that cannot be changed.
 
@@ -98,7 +98,7 @@ ___
 
 ### `Optional` `Readonly` tempNumber
 
-• **tempNumber**? : *number*
+• **tempNumber**? : *undefined | number*
 
 Temporary voucher number.
 
@@ -106,13 +106,13 @@ ___
 
 ### `Optional` `Readonly` url
 
-• **url**? : *string*
+• **url**? : *undefined | string*
 
 ___
 
 ### `Optional` version
 
-• **version**? : *number*
+• **version**? : *undefined | number*
 
 ___
 
@@ -126,6 +126,6 @@ ___
 
 ### `Optional` `Readonly` year
 
-• **year**? : *number*
+• **year**? : *undefined | number*
 
 System generated number that cannot be changed.
