@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0-next.2](https://github.com/Bjerkio/tripletexjs/compare/v3.1.0-next.1...v3.1.0-next.2) (2020-11-07)
+
+
+### Bug Fixes
+
+* Add missing export ([82a3d5b](https://github.com/Bjerkio/tripletexjs/commit/82a3d5b6f5ec557122fad6177b66998b47d11960))
+
 # [3.1.0-next.1](https://github.com/Bjerkio/tripletexjs/compare/v3.0.1-next.1...v3.1.0-next.1) (2020-11-07)
 
 
