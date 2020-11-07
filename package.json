@@ -1,6 +1,6 @@
 {
   "name": "tripletexjs",
-  "version": "3.0.0",
+  "version": "3.0.1-next.1",
   "description": "Typescript / Javascript SDK for Tripletex 2.0 API",
   "scripts": {
     "build": "tsc",
