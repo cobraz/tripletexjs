@@ -1,2 +1,2 @@
 export * from './generated';
-export * from './utils/invariant';
+export * from './utils/generateToken';
