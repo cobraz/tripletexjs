@@ -5,6 +5,7 @@
 import * as FormData from 'form-data';
 import fetch, { BodyInit, Headers, RequestInit, Response } from 'node-fetch';
 import { types } from 'util';
+import { invariant } from '../../utils/invariant';
 
 import { ApiError } from './ApiError';
 import type { ApiRequestOptions } from './ApiRequestOptions';
@@ -73,8 +74,10 @@ async function getToken(): Promise<string> {
     (typeof OpenAPI.USERNAME === 'function' ? await OpenAPI.USERNAME() : OpenAPI.USERNAME) || '0';
 
   if (typeof token !== 'string') {
+    invariant(token.token, 'Not able to set token');
     token = token.token
   }
+
   return token && `Basic ${btoa(`${username}:${token}`)}`;
 }
 

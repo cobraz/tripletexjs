@@ -38,7 +38,7 @@ export async function generateToken({
     ...tokenSessionArgs,
   });
 
-  invariant(session.value.token, 'Not able to get token');
+  invariant(session.value, 'Not able to get token');
 
   OpenAPI.TOKEN = session.value;
 }
