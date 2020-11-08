@@ -9,7 +9,7 @@
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "skipLibCheck": true
   },
   "include": [

@@ -2,7 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */ 
 
-import * as FormData from 'form-data';
+import FormData from 'form-data';
 import fetch, { BodyInit, Headers, RequestInit, Response } from 'node-fetch';
 import { types } from 'util';
 import { invariant } from '../../utils/invariant';
@@ -48,7 +48,7 @@ function getQueryString(params: Record<string, any>): string {
 }
 
 function getUrl(options: ApiRequestOptions): string {
-  const path = options.path.replace(/[:]/g, '_');
+  const path = options.path; // .replace(/[:]/g, '_');
   const url = `${OpenAPI.BASE}${path}`;
 
   if (options.query) {
@@ -78,7 +78,7 @@ async function getToken(): Promise<string> {
     token = token.token
   }
 
-  return token && `Basic ${btoa(`${username}:${token}`)}`;
+  return token && `Basic ${Buffer.from(`${username}:${token}`).toString('base64')}`;
 }
 
 async function getHeaders(options: ApiRequestOptions): Promise<Headers> {
@@ -91,7 +91,7 @@ async function getHeaders(options: ApiRequestOptions): Promise<Headers> {
   if (isDefined(authHeader) && authHeader !== '') {
     headers.append('Authorization', authHeader);
   }
-
+  
   if (options.body) {
     if (isBinary(options.body)) {
       headers.append('Content-Type', 'application/octet-stream');
