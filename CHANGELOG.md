@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0-next.4](https://github.com/Bjerkio/tripletexjs/compare/v3.1.0-next.3...v3.1.0-next.4) (2020-11-08)
+
+
+### Bug Fixes
+
+* Token issue ([ba4eddf](https://github.com/Bjerkio/tripletexjs/commit/ba4eddf4aa81da2609759d5eb91ece4f0e688bb7))
+
 # [3.1.0-next.3](https://github.com/Bjerkio/tripletexjs/compare/v3.1.0-next.2...v3.1.0-next.3) (2020-11-07)
 
 
